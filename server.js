@@ -13,10 +13,8 @@ app.use(express.json());
 
 
 
-// Import routes and give the server access to them.
-var routes = require("./controllers/controller.js");
-
-app.use(routes);
+require("./routes/api-routes")(app);
+require("./routes/html-routes")(app);
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
