@@ -1,29 +1,25 @@
-const express = require('express')
-const app = express()
-const port = 3000
-const axios = require('axios');
- 
-// Make a request for a user with a given ID
-axios.get('http://strainapi.evanbusse.com/UyDNtOb/strains/search/name/Zoom Pie')
-  .then(function (response) {
-    // handle success
-    var arr = response.data.race;
-    console.log(arr);
-  })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
-  .finally(function () {
-    // always executed
-  });
+var express = require("express");
+
+var PORT = process.env.PORT || 8080;
+
+var app = express();
+
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static("public"));
+
+// Parse application body as JSON
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 
 
-app.get('/', (req, res) => res.send('Welcome to Make REST API Calls In Express!'))
+// Import routes and give the server access to them.
+var routes = require("./controllers/controller.js");
 
-app.listen(port, () => console.log(`App listening on port ${port}!`))
+app.use(routes);
 
-
-
-
+// Start our server so that it can begin listening to client requests.
+app.listen(PORT, function() {
+  // Log (server-side) when our server has started
+  console.log("Server listening on: http://localhost:" + PORT);
+});
