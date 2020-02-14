@@ -1,9 +1,9 @@
-var mysql = require('mysql');
+/*var mysql = require('mysql');
 var express = require('express');
 var session = require('express-session');
 var bodyParser = require('body-parser');
 var path = require('path');
-
+const lg = {};
 var app = express();
 app.use(session({
 	secret: 'secret',
@@ -46,4 +46,4 @@ app.get('/home', function(request, response) {
 	response.end();
 });
 
-module.exports = db;
+module.exports = lg;*/
