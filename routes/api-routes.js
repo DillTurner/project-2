@@ -23,3 +23,10 @@ module.exports = function(app) {
 })
   
 }
+
+
+strainapi.evanbusse.com/UyDNtOb/strains/search/race/indica
+
+strainapi.evanbusse.com/UyDNtOb/strains/search/race/sativa
+
+strainapi.evanbusse.com/UyDNtOb/strains/search/race/hybrid
