@@ -5,12 +5,13 @@
       <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
       <link rel = "stylesheet"
          href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
       <script type = "text/javascript"
          src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
       <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
       </script>             
-      <script src="./css/index.css"></script>
+      <script src="index.css"></script>
    </head>
 
    
@@ -18,30 +19,20 @@
    <body>
       <nav class="grey">
          <div class="nav-wrapper" style="margin-top: 55px;">
-           <a href="index.html" class="brand-logo"><img class="responsive-image" src="./assets/images/janelogo.png" id="navlogo" style="width: 200px; margin-left:20px; margin-top:-55px;"/></a>
-           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           <a href="index.html" class="brand-logo"><img class="responsive-image" src="images/janelogo.png" id="navlogo" style="width: 200px; margin-left:20px; margin-top:-55px;"/></a>
            <ul id="nav-mobile" class="right hide-on-med-and-down">
-             <li><a href="#">Strains</a></li>
              <li><a href="indica.html">Indica</a></li>
              <li><a href="hybrid.html">Hybrid</a></li>
              <li><a href="sativa.html">Sativa</a></li>
              <li><a href="#">Search</a></li>
+             <li><a href="#">Profile</a></li>
              <li><a href="#">Login</a></li>
-            </ul>
+           </ul>
          </div>
-      </nav>
-      <ul class="sidenav" id="mobile-demo">
-         <li><a href="#">Strains</a></li>
-         <li><a href="Indica.html">Sass</a></li>
-         <li><a href="Hybrid.html">Components</a></li>
-         <li><a href="Sativa.html">Javascript</a></li>
-         <li><a href="Home.html">Mobile</a></li>
-         <li><a href="#">Search</a></li>
-         <li><a href="#">Login</a></li>
-       </ul>
+       </nav>
        
       <div class="card-panel white">
-         <h2 style="text-align: center;">Welcome to Jane's Essentials!</h2>
+         <h2 style="text-align: center; font-weight: bolder;">Welcome to Jane's Essentials!</h2>
          <p>This web application will allow users to search through cannabis strains and have quick access to key information to help 
             them make an informed choice on what type of marijuana they would like to purchase beforehand.Users will be able to search
             through all of the 2000+ strains and decide which is best for their own needs. Our strain pages 
@@ -55,7 +46,7 @@
             <div class = "col s12 m4">
                <div class = "card grey lighten-1">
                   <div class = "card-content">
-                     <span id="ind" class = "card-title" style="text-align: center;"><h3>INDICA</h3></span>
+                     <span class = "card-title" style="text-align: center;"><h3 style="font-weight: bold;">INDICA</h3></span>
                      <p>Indica strains are perfect for relaxing with a movie or as a nightcap before bed. Indicas often offer the highest THC content by percentage.</p>
                   </div>
                   
@@ -70,7 +61,7 @@
             <div class = "col s12 m4">
                <div class = "card grey lighten-1">
                   <div class = "card-content">      
-                     <span class = "card-title" style="text-align: center;"><h3>HYBRID</h3></span>
+                     <span class = "card-title" style="text-align: center;"><h3 style="font-weight: bold;">HYBRID </h3></span>
             
                      <p>Hybrid weed combines some of the most favorable characteristics of both strains, 
                         it typically offers a balance between the sativas and indicas.</p>
@@ -88,7 +79,7 @@
             <div class = "col s12 m4">
                <div class = "card grey lighten-1">
                   <div class = "card-content">    
-                     <span class = "card-title" style="text-align: center;"><h3>SATIVA</h3></span>
+                     <span class = "card-title" style="text-align: center;"><h3 style="font-weight: bold;">SATIVA</h3></span>
               
                      <p>Sativas are said to provide invigorating, uplifting cerebral effects that pair well with physical activity, social gatherings, and creative projects.</p>
                   </div>
@@ -106,8 +97,8 @@
          
 
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="./js/index.js"></script>
+
+      <script src="index.js"></script>
    </body>
 
    <footer class="grey" style="height: 50px;">
