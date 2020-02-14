@@ -3,16 +3,16 @@ var db = require("../models");
 
 module.exports = function(app) {
 
-  app.get("/api/all", function(req, res) {
+  /*app.get("/api/all", function(req, res) {
 
     db.jane.findAll().then(function(data){
       res.json(data);
     })
     //request data from external api
     
-  });
-  app.get("/api/indica",function(req,res){
-    axios.get('http://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica')
+  });*/
+  app.get("/api/all",function(req,res){
+    axios.get('http://strainapi.evanbusse.com/UyDNtOb/strains/search/all')
     .then(function (response) {
 
      res.json(response.data);
@@ -23,4 +23,3 @@ module.exports = function(app) {
 })
   
 }
-
