@@ -5,9 +5,10 @@ $(document).ready(function(){
 
     //api function call for all strains
     $.get("https://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica", function(data) {
-        
-      var title = data[0].name
-      title.appendTo($('#titleIndica'));
+          
+        var title = data[0].name;
+        var IndicaTitle = $('#titleIndica');
+        title.appendTo(IndicaTitle);
 
         console.log(data);
       });

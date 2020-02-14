@@ -12,7 +12,7 @@ module.exports = function(app) {
     
   });*/
   // call for all strains
-  app.get("/api/all",function(req,res){
+ /* app.get("/api/all",function(req,res){
     axios.get('http://strainapi.evanbusse.com/UyDNtOb/strains/search/all')
     .then(function (response) {
     
@@ -21,10 +21,10 @@ module.exports = function(app) {
       .catch((error)=>{
         console.log(error)
       });
-})
-/*
+})*/
+
   app.get("/api/indica",function(req,res){
-    axios.get('strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica')
+    axios.get('https://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica')
     .then(function (response) {
       console.log(response);
      res.json(response);
@@ -33,7 +33,7 @@ module.exports = function(app) {
         console.log(error)
       });
     })
-*/
+
  /* app.get("/api/sativa",function(req,res){
     axios.get('strainapi.evanbusse.com/UyDNtOb/strains/search/race/Sativa')
     .then(function (response) {
