@@ -4,9 +4,9 @@ $(document).ready(function(){
 
 
     //api function call for all strains
-    $.get("/api/indica", function(data) {
-        var response = stringify(data);
-        console.log(response);
+    $.get("https://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica", function(data) {
+        
+        console.log(data);
       });
       $.get("/api/all", function(data) {
         console.log(data);
