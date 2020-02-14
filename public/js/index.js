@@ -8,7 +8,7 @@ $(document).ready(function(){
         var response = stringify(data);
         console.log(response);
       });
-      $.get("/api/sativa", function(data) {
+      $.get("/api/all", function(data) {
         console.log(data);
       });
       $.get("/api/hybrid", function(data) {
