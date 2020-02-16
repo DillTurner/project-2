@@ -1,0 +1,5477 @@
+[
+    {
+    "id": 1,
+    "name": "Afpak",
+    "race": "hybrid"
+    },
+    {
+    "id": 3,
+    "name": "Afternoon Delight",
+    "race": "hybrid"
+    },
+    {
+    "id": 4,
+    "name": "Afwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 5,
+    "name": "Agent Orange",
+    "race": "hybrid"
+    },
+    {
+    "id": 6,
+    "name": "Agent Tangie",
+    "race": "hybrid"
+    },
+    {
+    "id": 7,
+    "name": "Al's Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 9,
+    "name": "Alaska Thunder Grape",
+    "race": "hybrid"
+    },
+    {
+    "id": 12,
+    "name": "Albert Walker",
+    "race": "hybrid"
+    },
+    {
+    "id": 13,
+    "name": "Alchemy",
+    "race": "hybrid"
+    },
+    {
+    "id": 14,
+    "name": "Alf",
+    "race": "hybrid"
+    },
+    {
+    "id": 16,
+    "name": "Alien Abduction",
+    "race": "hybrid"
+    },
+    {
+    "id": 17,
+    "name": "Alien Apparition",
+    "race": "hybrid"
+    },
+    {
+    "id": 18,
+    "name": "Alien Asshat",
+    "race": "hybrid"
+    },
+    {
+    "id": 22,
+    "name": "Alien Hallucination",
+    "race": "hybrid"
+    },
+    {
+    "id": 23,
+    "name": "Alien Inferno",
+    "race": "hybrid"
+    },
+    {
+    "id": 25,
+    "name": "Alien OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 26,
+    "name": "Alien Reunion",
+    "race": "hybrid"
+    },
+    {
+    "id": 28,
+    "name": "Alien Rock Candy",
+    "race": "hybrid"
+    },
+    {
+    "id": 29,
+    "name": "Alien Sour Apple",
+    "race": "hybrid"
+    },
+    {
+    "id": 36,
+    "name": "Aloha Limone",
+    "race": "hybrid"
+    },
+    {
+    "id": 37,
+    "name": "Alohaberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 41,
+    "name": "Alpha OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 42,
+    "name": "Alpine Blue",
+    "race": "hybrid"
+    },
+    {
+    "id": 44,
+    "name": "Ambrosia",
+    "race": "hybrid"
+    },
+    {
+    "id": 45,
+    "name": "American Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 48,
+    "name": "Amethyst",
+    "race": "hybrid"
+    },
+    {
+    "id": 49,
+    "name": "Amethyst Bud",
+    "race": "hybrid"
+    },
+    {
+    "id": 57,
+    "name": "Animal Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 59,
+    "name": "Ape Shit",
+    "race": "hybrid"
+    },
+    {
+    "id": 60,
+    "name": "Apollo 11",
+    "race": "hybrid"
+    },
+    {
+    "id": 61,
+    "name": "Apollo 13",
+    "race": "hybrid"
+    },
+    {
+    "id": 62,
+    "name": "Appalachia",
+    "race": "hybrid"
+    },
+    {
+    "id": 64,
+    "name": "Apple Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 65,
+    "name": "Apple Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 68,
+    "name": "Arctic Sun",
+    "race": "hybrid"
+    },
+    {
+    "id": 69,
+    "name": "ArcticBlue",
+    "race": "hybrid"
+    },
+    {
+    "id": 70,
+    "name": "Area 51",
+    "race": "hybrid"
+    },
+    {
+    "id": 74,
+    "name": "Armageddon",
+    "race": "hybrid"
+    },
+    {
+    "id": 75,
+    "name": "Armagnac",
+    "race": "hybrid"
+    },
+    {
+    "id": 76,
+    "name": "Ash",
+    "race": "hybrid"
+    },
+    {
+    "id": 78,
+    "name": "Aspen OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 81,
+    "name": "Atmosphere",
+    "race": "hybrid"
+    },
+    {
+    "id": 82,
+    "name": "Atomic Goat",
+    "race": "hybrid"
+    },
+    {
+    "id": 83,
+    "name": "Atomic Northern Lights",
+    "race": "hybrid"
+    },
+    {
+    "id": 87,
+    "name": "Avalon",
+    "race": "hybrid"
+    },
+    {
+    "id": 88,
+    "name": "Avi",
+    "race": "hybrid"
+    },
+    {
+    "id": 89,
+    "name": "Avi-Dekel",
+    "race": "hybrid"
+    },
+    {
+    "id": 90,
+    "name": "Azure Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 92,
+    "name": "B-Witched",
+    "race": "hybrid"
+    },
+    {
+    "id": 94,
+    "name": "B4",
+    "race": "hybrid"
+    },
+    {
+    "id": 95,
+    "name": "BC Big Bud",
+    "race": "hybrid"
+    },
+    {
+    "id": 96,
+    "name": "BC Roadkill",
+    "race": "hybrid"
+    },
+    {
+    "id": 98,
+    "name": "BOG Bubble",
+    "race": "hybrid"
+    },
+    {
+    "id": 99,
+    "name": "BSC",
+    "race": "hybrid"
+    },
+    {
+    "id": 101,
+    "name": "Balmoral",
+    "race": "hybrid"
+    },
+    {
+    "id": 103,
+    "name": "Banana Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 104,
+    "name": "Banana Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 105,
+    "name": "Banana OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 106,
+    "name": "Banana Peel",
+    "race": "hybrid"
+    },
+    {
+    "id": 107,
+    "name": "Bananas",
+    "race": "hybrid"
+    },
+    {
+    "id": 108,
+    "name": "Bandana",
+    "race": "hybrid"
+    },
+    {
+    "id": 109,
+    "name": "Bango",
+    "race": "hybrid"
+    },
+    {
+    "id": 111,
+    "name": "Batgirl",
+    "race": "hybrid"
+    },
+    {
+    "id": 116,
+    "name": "Beastmode OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 117,
+    "name": "Bedford Glue",
+    "race": "hybrid"
+    },
+    {
+    "id": 121,
+    "name": "Belladonna",
+    "race": "hybrid"
+    },
+    {
+    "id": 123,
+    "name": "Berry Bomb",
+    "race": "hybrid"
+    },
+    {
+    "id": 125,
+    "name": "Berry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 127,
+    "name": "Bert's Cookie Dough",
+    "race": "hybrid"
+    },
+    {
+    "id": 129,
+    "name": "Bettie Page",
+    "race": "hybrid"
+    },
+    {
+    "id": 131,
+    "name": "Bhang 707 Headband",
+    "race": "hybrid"
+    },
+    {
+    "id": 132,
+    "name": "Bhang AK-47",
+    "race": "hybrid"
+    },
+    {
+    "id": 136,
+    "name": "Bhang Alien OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 139,
+    "name": "Bhang Banana Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 140,
+    "name": "Bhang Banana Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 144,
+    "name": "Bhang Blue Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 146,
+    "name": "Bhang Bubble Gum",
+    "race": "hybrid"
+    },
+    {
+    "id": 147,
+    "name": "Bhang Cali Orange",
+    "race": "hybrid"
+    },
+    {
+    "id": 149,
+    "name": "Bhang Charlie Sheen",
+    "race": "hybrid"
+    },
+    {
+    "id": 150,
+    "name": "Bhang Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 151,
+    "name": "Bhang ChemDawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 153,
+    "name": "Bhang Cherry Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 162,
+    "name": "Bhang Dutch Treat",
+    "race": "hybrid"
+    },
+    {
+    "id": 163,
+    "name": "Bhang Earth OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 164,
+    "name": "Bhang Fire OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 165,
+    "name": "Bhang Ghost OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 166,
+    "name": "Bhang Girl Scout Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 174,
+    "name": "Bhang Headband",
+    "race": "hybrid"
+    },
+    {
+    "id": 175,
+    "name": "Bhang Holy Grail",
+    "race": "hybrid"
+    },
+    {
+    "id": 178,
+    "name": "Bhang J-1",
+    "race": "hybrid"
+    },
+    {
+    "id": 179,
+    "name": "Bhang Jack Frost",
+    "race": "hybrid"
+    },
+    {
+    "id": 181,
+    "name": "Bhang Juicy Fruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 188,
+    "name": "Bhang Lemon Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 190,
+    "name": "Bhang Lemon Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 199,
+    "name": "Bhang OG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 202,
+    "name": "Bhang Perfecto Hybrid",
+    "race": "hybrid"
+    },
+    {
+    "id": 205,
+    "name": "Bhang Pineapple Express",
+    "race": "hybrid"
+    },
+    {
+    "id": 206,
+    "name": "Bhang Pineapple Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 210,
+    "name": "Bhang Purple AK-47",
+    "race": "hybrid"
+    },
+    {
+    "id": 211,
+    "name": "Bhang Purple Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 217,
+    "name": "Bhang SAGE",
+    "race": "hybrid"
+    },
+    {
+    "id": 221,
+    "name": "Bhang Skunk #1",
+    "race": "hybrid"
+    },
+    {
+    "id": 222,
+    "name": "Bhang Skywalker OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 224,
+    "name": "Bhang Sour OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 231,
+    "name": "Bhang Tahoe OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 233,
+    "name": "Bhang Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 236,
+    "name": "Bhang White Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 237,
+    "name": "Bhang White Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 238,
+    "name": "Bhang WidowMaker",
+    "race": "hybrid"
+    },
+    {
+    "id": 239,
+    "name": "Bhang XJ-13",
+    "race": "hybrid"
+    },
+    {
+    "id": 241,
+    "name": "Bianca",
+    "race": "hybrid"
+    },
+    {
+    "id": 242,
+    "name": "Biddy Early",
+    "race": "hybrid"
+    },
+    {
+    "id": 243,
+    "name": "Big Band",
+    "race": "hybrid"
+    },
+    {
+    "id": 246,
+    "name": "Big Buddha Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 247,
+    "name": "Big Holy Nina",
+    "race": "hybrid"
+    },
+    {
+    "id": 248,
+    "name": "Big Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 250,
+    "name": "Big Skunk Korean",
+    "race": "hybrid"
+    },
+    {
+    "id": 251,
+    "name": "Big Sky OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 252,
+    "name": "Big Smooth",
+    "race": "hybrid"
+    },
+    {
+    "id": 256,
+    "name": "Biker Le’Blanc",
+    "race": "hybrid"
+    },
+    {
+    "id": 257,
+    "name": "Bio-Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 258,
+    "name": "Bio-Jesus",
+    "race": "hybrid"
+    },
+    {
+    "id": 261,
+    "name": "Birthday Cake Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 264,
+    "name": "Black Betty",
+    "race": "hybrid"
+    },
+    {
+    "id": 266,
+    "name": "Black Cherry Cheesecake",
+    "race": "hybrid"
+    },
+    {
+    "id": 268,
+    "name": "Black Cherry Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 269,
+    "name": "Black Cherry Soda",
+    "race": "hybrid"
+    },
+    {
+    "id": 270,
+    "name": "Black Dahlia",
+    "race": "hybrid"
+    },
+    {
+    "id": 274,
+    "name": "Black Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 276,
+    "name": "Black Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 279,
+    "name": "Black Magic",
+    "race": "hybrid"
+    },
+    {
+    "id": 283,
+    "name": "Black Tuna",
+    "race": "hybrid"
+    },
+    {
+    "id": 284,
+    "name": "Black Velvet",
+    "race": "hybrid"
+    },
+    {
+    "id": 285,
+    "name": "Black Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 286,
+    "name": "Blackberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 288,
+    "name": "Blackberry Chem OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 291,
+    "name": "Blackberry Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 292,
+    "name": "Blackberry Fire",
+    "race": "hybrid"
+    },
+    {
+    "id": 297,
+    "name": "Blackberry Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 299,
+    "name": "Blackberry Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 303,
+    "name": "Blissful Wizard",
+    "race": "hybrid"
+    },
+    {
+    "id": 304,
+    "name": "Blob OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 305,
+    "name": "Blockhead",
+    "race": "hybrid"
+    },
+    {
+    "id": 307,
+    "name": "Bloodhound",
+    "race": "hybrid"
+    },
+    {
+    "id": 308,
+    "name": "Blowfish",
+    "race": "hybrid"
+    },
+    {
+    "id": 315,
+    "name": "Blue Boy",
+    "race": "hybrid"
+    },
+    {
+    "id": 317,
+    "name": "Blue Champagne",
+    "race": "hybrid"
+    },
+    {
+    "id": 319,
+    "name": "Blue Cinex",
+    "race": "hybrid"
+    },
+    {
+    "id": 320,
+    "name": "Blue Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 321,
+    "name": "Blue Crack",
+    "race": "hybrid"
+    },
+    {
+    "id": 323,
+    "name": "Blue Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 325,
+    "name": "Blue Dragon",
+    "race": "hybrid"
+    },
+    {
+    "id": 326,
+    "name": "Blue Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 328,
+    "name": "Blue Frost",
+    "race": "hybrid"
+    },
+    {
+    "id": 329,
+    "name": "Blue Galaxy",
+    "race": "hybrid"
+    },
+    {
+    "id": 331,
+    "name": "Blue Goo",
+    "race": "hybrid"
+    },
+    {
+    "id": 332,
+    "name": "Blue Hash",
+    "race": "hybrid"
+    },
+    {
+    "id": 333,
+    "name": "Blue Hawaiian",
+    "race": "hybrid"
+    },
+    {
+    "id": 334,
+    "name": "Blue Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 335,
+    "name": "Blue Heron",
+    "race": "hybrid"
+    },
+    {
+    "id": 336,
+    "name": "Blue Ivy",
+    "race": "hybrid"
+    },
+    {
+    "id": 337,
+    "name": "Blue Jay Way",
+    "race": "hybrid"
+    },
+    {
+    "id": 338,
+    "name": "Blue Kiss",
+    "race": "hybrid"
+    },
+    {
+    "id": 341,
+    "name": "Blue Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 344,
+    "name": "Blue Magoo",
+    "race": "hybrid"
+    },
+    {
+    "id": 346,
+    "name": "Blue Moon Rocks",
+    "race": "hybrid"
+    },
+    {
+    "id": 350,
+    "name": "Blue Nightmare",
+    "race": "hybrid"
+    },
+    {
+    "id": 351,
+    "name": "Blue Nina",
+    "race": "hybrid"
+    },
+    {
+    "id": 352,
+    "name": "Blue OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 354,
+    "name": "Blue Persuasion",
+    "race": "hybrid"
+    },
+    {
+    "id": 356,
+    "name": "Blue Rhino",
+    "race": "hybrid"
+    },
+    {
+    "id": 358,
+    "name": "Blue Sky",
+    "race": "hybrid"
+    },
+    {
+    "id": 360,
+    "name": "Blue Thai",
+    "race": "hybrid"
+    },
+    {
+    "id": 361,
+    "name": "Blue Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 362,
+    "name": "Blue Trane",
+    "race": "hybrid"
+    },
+    {
+    "id": 363,
+    "name": "Blue Treat",
+    "race": "hybrid"
+    },
+    {
+    "id": 364,
+    "name": "Blue Velvet",
+    "race": "hybrid"
+    },
+    {
+    "id": 365,
+    "name": "Blue Venom",
+    "race": "hybrid"
+    },
+    {
+    "id": 366,
+    "name": "Blue Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 367,
+    "name": "Blue Wonder",
+    "race": "hybrid"
+    },
+    {
+    "id": 368,
+    "name": "Blue Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 371,
+    "name": "Blueberry AK",
+    "race": "hybrid"
+    },
+    {
+    "id": 373,
+    "name": "Blueberry Cheesecake",
+    "race": "hybrid"
+    },
+    {
+    "id": 374,
+    "name": "Blueberry Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 376,
+    "name": "Blueberry Essence",
+    "race": "hybrid"
+    },
+    {
+    "id": 377,
+    "name": "Blueberry Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 378,
+    "name": "Blueberry Headband",
+    "race": "hybrid"
+    },
+    {
+    "id": 379,
+    "name": "Blueberry Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 381,
+    "name": "Blueberry Lambsbread",
+    "race": "hybrid"
+    },
+    {
+    "id": 382,
+    "name": "Blueberry Muffins",
+    "race": "hybrid"
+    },
+    {
+    "id": 383,
+    "name": "Blueberry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 384,
+    "name": "Blueberry Pancakes",
+    "race": "hybrid"
+    },
+    {
+    "id": 385,
+    "name": "Blueberry Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 386,
+    "name": "Blueberry Silvertip",
+    "race": "hybrid"
+    },
+    {
+    "id": 389,
+    "name": "Blueberry Yum Yum",
+    "race": "hybrid"
+    },
+    {
+    "id": 390,
+    "name": "Blues",
+    "race": "hybrid"
+    },
+    {
+    "id": 391,
+    "name": "Blukashima",
+    "race": "hybrid"
+    },
+    {
+    "id": 392,
+    "name": "Bluniverse",
+    "race": "hybrid"
+    },
+    {
+    "id": 393,
+    "name": "Blurple",
+    "race": "hybrid"
+    },
+    {
+    "id": 394,
+    "name": "Blush",
+    "race": "hybrid"
+    },
+    {
+    "id": 396,
+    "name": "Bogart",
+    "race": "hybrid"
+    },
+    {
+    "id": 397,
+    "name": "Boggle Gum",
+    "race": "hybrid"
+    },
+    {
+    "id": 398,
+    "name": "Booger",
+    "race": "hybrid"
+    },
+    {
+    "id": 399,
+    "name": "Boombaye",
+    "race": "hybrid"
+    },
+    {
+    "id": 400,
+    "name": "Bootlegger",
+    "race": "hybrid"
+    },
+    {
+    "id": 401,
+    "name": "Bordello",
+    "race": "hybrid"
+    },
+    {
+    "id": 402,
+    "name": "Boss Hogg",
+    "race": "hybrid"
+    },
+    {
+    "id": 403,
+    "name": "Boysenberry ",
+    "race": "hybrid"
+    },
+    {
+    "id": 406,
+    "name": "Brainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 410,
+    "name": "Brian Berry Cough",
+    "race": "hybrid"
+    },
+    {
+    "id": 411,
+    "name": "Broke Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 413,
+    "name": "Brooklyn Mango",
+    "race": "hybrid"
+    },
+    {
+    "id": 414,
+    "name": "Bruce Banner",
+    "race": "hybrid"
+    },
+    {
+    "id": 415,
+    "name": "Bruce Banner #3",
+    "race": "hybrid"
+    },
+    {
+    "id": 417,
+    "name": "Bubba Fresh",
+    "race": "hybrid"
+    },
+    {
+    "id": 420,
+    "name": "Bubba Tom Hayes",
+    "race": "hybrid"
+    },
+    {
+    "id": 421,
+    "name": "Bubba x Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 425,
+    "name": "Bubble Gum",
+    "race": "hybrid"
+    },
+    {
+    "id": 426,
+    "name": "Bubbleberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 428,
+    "name": "Bubblegun",
+    "race": "hybrid"
+    },
+    {
+    "id": 429,
+    "name": "Bubblicious",
+    "race": "hybrid"
+    },
+    {
+    "id": 433,
+    "name": "Buddha's Hand",
+    "race": "hybrid"
+    },
+    {
+    "id": 436,
+    "name": "Bugatti OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 438,
+    "name": "Burmese Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 442,
+    "name": "C3",
+    "race": "hybrid"
+    },
+    {
+    "id": 443,
+    "name": "C3PO",
+    "race": "hybrid"
+    },
+    {
+    "id": 444,
+    "name": "C4",
+    "race": "hybrid"
+    },
+    {
+    "id": 446,
+    "name": "CBD Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 452,
+    "name": "Cabbage Patch",
+    "race": "hybrid"
+    },
+    {
+    "id": 454,
+    "name": "Cactus Cooler",
+    "race": "hybrid"
+    },
+    {
+    "id": 456,
+    "name": "Cali Gold",
+    "race": "hybrid"
+    },
+    {
+    "id": 457,
+    "name": "Cali Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 458,
+    "name": "Cali Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 461,
+    "name": "California Orange",
+    "race": "hybrid"
+    },
+    {
+    "id": 462,
+    "name": "California Sour",
+    "race": "hybrid"
+    },
+    {
+    "id": 468,
+    "name": "Canna-Tsu",
+    "race": "hybrid"
+    },
+    {
+    "id": 470,
+    "name": "Cannadential",
+    "race": "hybrid"
+    },
+    {
+    "id": 472,
+    "name": "Cannalope Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 473,
+    "name": "Cannatonic",
+    "race": "hybrid"
+    },
+    {
+    "id": 475,
+    "name": "Capleton",
+    "race": "hybrid"
+    },
+    {
+    "id": 476,
+    "name": "Captain America OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 477,
+    "name": "Captain's Cake",
+    "race": "hybrid"
+    },
+    {
+    "id": 478,
+    "name": "Caramel Candy Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 480,
+    "name": "Caramelicious",
+    "race": "hybrid"
+    },
+    {
+    "id": 483,
+    "name": "Carl Sagan",
+    "race": "hybrid"
+    },
+    {
+    "id": 487,
+    "name": "Cashus Clay",
+    "race": "hybrid"
+    },
+    {
+    "id": 490,
+    "name": "Cataract Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 492,
+    "name": "Cello Sweet OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 495,
+    "name": "Chairman Chem Sou",
+    "race": "hybrid"
+    },
+    {
+    "id": 496,
+    "name": "Champagne Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 497,
+    "name": "Charlie Sheen",
+    "race": "hybrid"
+    },
+    {
+    "id": 499,
+    "name": "Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 500,
+    "name": "Cheese Candy",
+    "race": "hybrid"
+    },
+    {
+    "id": 501,
+    "name": "Cheese Quake",
+    "race": "hybrid"
+    },
+    {
+    "id": 502,
+    "name": "Cheeseburger",
+    "race": "hybrid"
+    },
+    {
+    "id": 503,
+    "name": "Cheesewreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 504,
+    "name": "Chem Crush",
+    "race": "hybrid"
+    },
+    {
+    "id": 506,
+    "name": "Chem Jong Ill",
+    "race": "hybrid"
+    },
+    {
+    "id": 508,
+    "name": "Chem Valley Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 510,
+    "name": "ChemWreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 511,
+    "name": "Chemdawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 512,
+    "name": "Chemdawg #4 x Alien OG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 513,
+    "name": "Chemdawg 4",
+    "race": "hybrid"
+    },
+    {
+    "id": 514,
+    "name": "Chemdawg 91",
+    "race": "hybrid"
+    },
+    {
+    "id": 515,
+    "name": "Chemdawg Sour Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 516,
+    "name": "Chemmy Jones",
+    "race": "hybrid"
+    },
+    {
+    "id": 517,
+    "name": "Chemnesia",
+    "race": "hybrid"
+    },
+    {
+    "id": 519,
+    "name": "CherWillie",
+    "race": "hybrid"
+    },
+    {
+    "id": 520,
+    "name": "Chernobyl",
+    "race": "hybrid"
+    },
+    {
+    "id": 522,
+    "name": "Cherry AK-47",
+    "race": "hybrid"
+    },
+    {
+    "id": 523,
+    "name": "Cherry Bomb",
+    "race": "hybrid"
+    },
+    {
+    "id": 524,
+    "name": "Cherry Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 525,
+    "name": "Cherry Cream Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 526,
+    "name": "Cherry Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 527,
+    "name": "Cherry Durban Poison",
+    "race": "hybrid"
+    },
+    {
+    "id": 528,
+    "name": "Cherry Grapefruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 530,
+    "name": "Cherry Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 531,
+    "name": "Cherry Limeade",
+    "race": "hybrid"
+    },
+    {
+    "id": 532,
+    "name": "Cherry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 533,
+    "name": "Cherry Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 534,
+    "name": "Cherry Pie Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 535,
+    "name": "Cherry Sauce",
+    "race": "hybrid"
+    },
+    {
+    "id": 536,
+    "name": "Cherry Sherbet",
+    "race": "hybrid"
+    },
+    {
+    "id": 537,
+    "name": "Cherry Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 538,
+    "name": "Cherry Thunder Fuck",
+    "race": "hybrid"
+    },
+    {
+    "id": 539,
+    "name": "Chiesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 541,
+    "name": "Chiquita Banana",
+    "race": "hybrid"
+    },
+    {
+    "id": 542,
+    "name": "Chloe",
+    "race": "hybrid"
+    },
+    {
+    "id": 543,
+    "name": "Chocoholic",
+    "race": "hybrid"
+    },
+    {
+    "id": 546,
+    "name": "Chocolate Drop",
+    "race": "hybrid"
+    },
+    {
+    "id": 548,
+    "name": "Chocolate Hashberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 554,
+    "name": "Chocolate Tonic",
+    "race": "hybrid"
+    },
+    {
+    "id": 556,
+    "name": "Chocolope Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 557,
+    "name": "Chong Star",
+    "race": "hybrid"
+    },
+    {
+    "id": 558,
+    "name": "Chronic",
+    "race": "hybrid"
+    },
+    {
+    "id": 560,
+    "name": "Chucky's Bride",
+    "race": "hybrid"
+    },
+    {
+    "id": 561,
+    "name": "Chunky Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 562,
+    "name": "Chupacabra",
+    "race": "hybrid"
+    },
+    {
+    "id": 564,
+    "name": "Cinderella 99",
+    "race": "hybrid"
+    },
+    {
+    "id": 565,
+    "name": "Cinderella's Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 566,
+    "name": "Cindy White",
+    "race": "hybrid"
+    },
+    {
+    "id": 569,
+    "name": "Citrix",
+    "race": "hybrid"
+    },
+    {
+    "id": 570,
+    "name": "Citrus Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 572,
+    "name": "Citrus Sap",
+    "race": "hybrid"
+    },
+    {
+    "id": 573,
+    "name": "Citrus Sunshine Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 575,
+    "name": "Clementine Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 576,
+    "name": "Clockwork Orange",
+    "race": "hybrid"
+    },
+    {
+    "id": 577,
+    "name": "Cloud 9",
+    "race": "hybrid"
+    },
+    {
+    "id": 579,
+    "name": "Cluster Bomb",
+    "race": "hybrid"
+    },
+    {
+    "id": 580,
+    "name": "Cold Creek Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 584,
+    "name": "Colorado Chem",
+    "race": "hybrid"
+    },
+    {
+    "id": 587,
+    "name": "Concord Grape Blockhead",
+    "race": "hybrid"
+    },
+    {
+    "id": 589,
+    "name": "Confidential Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 590,
+    "name": "Connie Chung",
+    "race": "hybrid"
+    },
+    {
+    "id": 592,
+    "name": "Cookie Breath",
+    "race": "hybrid"
+    },
+    {
+    "id": 593,
+    "name": "Cookie Dough",
+    "race": "hybrid"
+    },
+    {
+    "id": 594,
+    "name": "Cookie Jar",
+    "race": "hybrid"
+    },
+    {
+    "id": 596,
+    "name": "Cookie Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 598,
+    "name": "Cookies and Cream",
+    "race": "hybrid"
+    },
+    {
+    "id": 599,
+    "name": "Cookies and Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 604,
+    "name": "Cotton Candy Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 605,
+    "name": "Cotton Purple Chem",
+    "race": "hybrid"
+    },
+    {
+    "id": 607,
+    "name": "Crater Lake",
+    "race": "hybrid"
+    },
+    {
+    "id": 608,
+    "name": "Crazy Miss Hyde",
+    "race": "hybrid"
+    },
+    {
+    "id": 610,
+    "name": "Crimea Blue",
+    "race": "hybrid"
+    },
+    {
+    "id": 611,
+    "name": "Critical 47",
+    "race": "hybrid"
+    },
+    {
+    "id": 612,
+    "name": "Critical Bilbo",
+    "race": "hybrid"
+    },
+    {
+    "id": 613,
+    "name": "Critical Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 614,
+    "name": "Critical Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 616,
+    "name": "Critical Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 620,
+    "name": "Critical Plus",
+    "race": "hybrid"
+    },
+    {
+    "id": 623,
+    "name": "Critical Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 624,
+    "name": "Critical Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 625,
+    "name": "Critters Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 626,
+    "name": "Cronuts",
+    "race": "hybrid"
+    },
+    {
+    "id": 631,
+    "name": "Crunch Berry Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 632,
+    "name": "Crypt",
+    "race": "hybrid"
+    },
+    {
+    "id": 634,
+    "name": "Crystal Gayle",
+    "race": "hybrid"
+    },
+    {
+    "id": 639,
+    "name": "DJ Smoke",
+    "race": "hybrid"
+    },
+    {
+    "id": 640,
+    "name": "Dairy Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 643,
+    "name": "Damnesia",
+    "race": "hybrid"
+    },
+    {
+    "id": 645,
+    "name": "Dancehall",
+    "race": "hybrid"
+    },
+    {
+    "id": 647,
+    "name": "Dank Sinatra",
+    "race": "hybrid"
+    },
+    {
+    "id": 649,
+    "name": "Dark Blue Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 654,
+    "name": "Dawg's Waltz",
+    "race": "hybrid"
+    },
+    {
+    "id": 655,
+    "name": "Dawgfather OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 656,
+    "name": "Day Tripper",
+    "race": "hybrid"
+    },
+    {
+    "id": 657,
+    "name": "Deadhead OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 662,
+    "name": "Deep Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 668,
+    "name": "Desert Star",
+    "race": "hybrid"
+    },
+    {
+    "id": 674,
+    "name": "Diamond Socks",
+    "race": "hybrid"
+    },
+    {
+    "id": 675,
+    "name": "Diamond Valley Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 676,
+    "name": "Diesel Duff",
+    "race": "hybrid"
+    },
+    {
+    "id": 677,
+    "name": "Dieseltonic",
+    "race": "hybrid"
+    },
+    {
+    "id": 679,
+    "name": "Dinachem",
+    "race": "hybrid"
+    },
+    {
+    "id": 682,
+    "name": "Dirty Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 683,
+    "name": "Disney Blue",
+    "race": "hybrid"
+    },
+    {
+    "id": 684,
+    "name": "Dizzy OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 686,
+    "name": "Do-Over OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 689,
+    "name": "Dog Shit",
+    "race": "hybrid"
+    },
+    {
+    "id": 690,
+    "name": "Dogwalker OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 693,
+    "name": "Don Shula",
+    "race": "hybrid"
+    },
+    {
+    "id": 694,
+    "name": "Donegal",
+    "race": "hybrid"
+    },
+    {
+    "id": 695,
+    "name": "Donna OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 696,
+    "name": "Doobiebird Daydream",
+    "race": "hybrid"
+    },
+    {
+    "id": 698,
+    "name": "Dopium",
+    "race": "hybrid"
+    },
+    {
+    "id": 700,
+    "name": "Double Barrel OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 702,
+    "name": "Double Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 703,
+    "name": "Double Dutch",
+    "race": "hybrid"
+    },
+    {
+    "id": 707,
+    "name": "Double Tangie Banana",
+    "race": "hybrid"
+    },
+    {
+    "id": 709,
+    "name": "Dr. Bubbles",
+    "race": "hybrid"
+    },
+    {
+    "id": 710,
+    "name": "Dr. Feelgood",
+    "race": "hybrid"
+    },
+    {
+    "id": 713,
+    "name": "Dr. Who",
+    "race": "hybrid"
+    },
+    {
+    "id": 714,
+    "name": "Dragon OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 715,
+    "name": "Dragon's Breath",
+    "race": "hybrid"
+    },
+    {
+    "id": 716,
+    "name": "Dreadlock",
+    "race": "hybrid"
+    },
+    {
+    "id": 719,
+    "name": "Dream Lotus",
+    "race": "hybrid"
+    },
+    {
+    "id": 720,
+    "name": "Dream Police",
+    "race": "hybrid"
+    },
+    {
+    "id": 721,
+    "name": "Dream Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 722,
+    "name": "Dream Star",
+    "race": "hybrid"
+    },
+    {
+    "id": 723,
+    "name": "Dreamer’s Glass",
+    "race": "hybrid"
+    },
+    {
+    "id": 725,
+    "name": "Duke Nukem",
+    "race": "hybrid"
+    },
+    {
+    "id": 726,
+    "name": "Durban Berry",
+    "race": "hybrid"
+    },
+    {
+    "id": 727,
+    "name": "Durban Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 731,
+    "name": "Dutch Crunch",
+    "race": "hybrid"
+    },
+    {
+    "id": 736,
+    "name": "Dutch Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 737,
+    "name": "Dutch Thunder Fuck",
+    "race": "hybrid"
+    },
+    {
+    "id": 738,
+    "name": "Dutch Treat",
+    "race": "hybrid"
+    },
+    {
+    "id": 739,
+    "name": "Dutch Treat Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 740,
+    "name": "Dutchberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 743,
+    "name": "Early Miss",
+    "race": "hybrid"
+    },
+    {
+    "id": 745,
+    "name": "Early Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 746,
+    "name": "Earth OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 747,
+    "name": "Earthquake",
+    "race": "hybrid"
+    },
+    {
+    "id": 748,
+    "name": "Earthshaker OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 752,
+    "name": "Easy Bud",
+    "race": "hybrid"
+    },
+    {
+    "id": 753,
+    "name": "Easy Peezy",
+    "race": "hybrid"
+    },
+    {
+    "id": 754,
+    "name": "Ebola #7",
+    "race": "hybrid"
+    },
+    {
+    "id": 755,
+    "name": "Ecto Cooler",
+    "race": "hybrid"
+    },
+    {
+    "id": 756,
+    "name": "Ed Rosenthal Super Bud",
+    "race": "hybrid"
+    },
+    {
+    "id": 760,
+    "name": "El Niño",
+    "race": "hybrid"
+    },
+    {
+    "id": 761,
+    "name": "El-Na",
+    "race": "hybrid"
+    },
+    {
+    "id": 762,
+    "name": "Elderberry Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 764,
+    "name": "Electric Kool Aid",
+    "race": "hybrid"
+    },
+    {
+    "id": 768,
+    "name": "Elvis",
+    "race": "hybrid"
+    },
+    {
+    "id": 771,
+    "name": "Emperor Cookie Dough",
+    "race": "hybrid"
+    },
+    {
+    "id": 779,
+    "name": "Eugene Cream",
+    "race": "hybrid"
+    },
+    {
+    "id": 780,
+    "name": "Euphoria Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 782,
+    "name": "Ewok",
+    "race": "hybrid"
+    },
+    {
+    "id": 783,
+    "name": "Exodus Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 788,
+    "name": "False Teeth",
+    "race": "hybrid"
+    },
+    {
+    "id": 789,
+    "name": "Fast Eddy",
+    "race": "hybrid"
+    },
+    {
+    "id": 790,
+    "name": "Fat Axl",
+    "race": "hybrid"
+    },
+    {
+    "id": 791,
+    "name": "Fat Nelson",
+    "race": "hybrid"
+    },
+    {
+    "id": 795,
+    "name": "Fire Alien Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 797,
+    "name": "Fire OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 800,
+    "name": "Flo",
+    "race": "hybrid"
+    },
+    {
+    "id": 803,
+    "name": "Flo Walker",
+    "race": "hybrid"
+    },
+    {
+    "id": 805,
+    "name": "Flowers For Algernon",
+    "race": "hybrid"
+    },
+    {
+    "id": 806,
+    "name": "Fortune Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 807,
+    "name": "Four Cups",
+    "race": "hybrid"
+    },
+    {
+    "id": 808,
+    "name": "Four Star General",
+    "race": "hybrid"
+    },
+    {
+    "id": 810,
+    "name": "Frank's Gift",
+    "race": "hybrid"
+    },
+    {
+    "id": 815,
+    "name": "Frisian Dew",
+    "race": "hybrid"
+    },
+    {
+    "id": 816,
+    "name": "Frisian Duck",
+    "race": "hybrid"
+    },
+    {
+    "id": 818,
+    "name": "Frosted Freak",
+    "race": "hybrid"
+    },
+    {
+    "id": 820,
+    "name": "Fruit Loops",
+    "race": "hybrid"
+    },
+    {
+    "id": 822,
+    "name": "Fruit Spirit",
+    "race": "hybrid"
+    },
+    {
+    "id": 824,
+    "name": "Fruity Pebbles",
+    "race": "hybrid"
+    },
+    {
+    "id": 825,
+    "name": "Fruity Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 829,
+    "name": "Funfetti",
+    "race": "hybrid"
+    },
+    {
+    "id": 831,
+    "name": "Future",
+    "race": "hybrid"
+    },
+    {
+    "id": 833,
+    "name": "G Stik \"Orange\"",
+    "race": "hybrid"
+    },
+    {
+    "id": 836,
+    "name": "G Stik \"Verde\"",
+    "race": "hybrid"
+    },
+    {
+    "id": 839,
+    "name": "G.O.A.T.",
+    "race": "hybrid"
+    },
+    {
+    "id": 841,
+    "name": "G13 Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 842,
+    "name": "G13 Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 843,
+    "name": "G13 Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 844,
+    "name": "GI001",
+    "race": "hybrid"
+    },
+    {
+    "id": 845,
+    "name": "GRiZ Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 846,
+    "name": "GTO",
+    "race": "hybrid"
+    },
+    {
+    "id": 848,
+    "name": "Game Changer",
+    "race": "hybrid"
+    },
+    {
+    "id": 850,
+    "name": "Ganesh Berry",
+    "race": "hybrid"
+    },
+    {
+    "id": 852,
+    "name": "Gatekeeper OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 853,
+    "name": "Gelato",
+    "race": "hybrid"
+    },
+    {
+    "id": 854,
+    "name": "Gemstone",
+    "race": "hybrid"
+    },
+    {
+    "id": 855,
+    "name": "Georgia Pine",
+    "race": "hybrid"
+    },
+    {
+    "id": 856,
+    "name": "Ghost Bubba",
+    "race": "hybrid"
+    },
+    {
+    "id": 857,
+    "name": "Ghost OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 862,
+    "name": "Ginger Ale",
+    "race": "hybrid"
+    },
+    {
+    "id": 863,
+    "name": "Girl Scout Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 864,
+    "name": "Glad Max",
+    "race": "hybrid"
+    },
+    {
+    "id": 865,
+    "name": "Glass Apple",
+    "race": "hybrid"
+    },
+    {
+    "id": 866,
+    "name": "Glass Slipper",
+    "race": "hybrid"
+    },
+    {
+    "id": 867,
+    "name": "Glue Tech",
+    "race": "hybrid"
+    },
+    {
+    "id": 868,
+    "name": "Go Time",
+    "race": "hybrid"
+    },
+    {
+    "id": 873,
+    "name": "God's Green Crack",
+    "race": "hybrid"
+    },
+    {
+    "id": 878,
+    "name": "Godzilla Glue",
+    "race": "hybrid"
+    },
+    {
+    "id": 882,
+    "name": "Goji Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 883,
+    "name": "Goji OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 886,
+    "name": "Golden Gage",
+    "race": "hybrid"
+    },
+    {
+    "id": 887,
+    "name": "Golden Goat",
+    "race": "hybrid"
+    },
+    {
+    "id": 888,
+    "name": "Golden Lemon",
+    "race": "hybrid"
+    },
+    {
+    "id": 889,
+    "name": "Golden Nugget",
+    "race": "hybrid"
+    },
+    {
+    "id": 890,
+    "name": "Golden Panda",
+    "race": "hybrid"
+    },
+    {
+    "id": 891,
+    "name": "Golden Pineapple",
+    "race": "hybrid"
+    },
+    {
+    "id": 892,
+    "name": "Golden Ticket",
+    "race": "hybrid"
+    },
+    {
+    "id": 896,
+    "name": "Good Medicine",
+    "race": "hybrid"
+    },
+    {
+    "id": 898,
+    "name": "Gorilla Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 899,
+    "name": "Gorilla Glue #1",
+    "race": "hybrid"
+    },
+    {
+    "id": 900,
+    "name": "Gorilla Glue #4",
+    "race": "hybrid"
+    },
+    {
+    "id": 901,
+    "name": "Gorilla Glue #5",
+    "race": "hybrid"
+    },
+    {
+    "id": 906,
+    "name": "Grand Hustle",
+    "race": "hybrid"
+    },
+    {
+    "id": 908,
+    "name": "Grandma’s Batch",
+    "race": "hybrid"
+    },
+    {
+    "id": 912,
+    "name": "Grape Calyx",
+    "race": "hybrid"
+    },
+    {
+    "id": 914,
+    "name": "Grape Crush",
+    "race": "hybrid"
+    },
+    {
+    "id": 916,
+    "name": "Grape God",
+    "race": "hybrid"
+    },
+    {
+    "id": 919,
+    "name": "Grape Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 922,
+    "name": "Grape Stomper",
+    "race": "hybrid"
+    },
+    {
+    "id": 925,
+    "name": "Grapefruit Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 927,
+    "name": "Grapefruit Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 929,
+    "name": "Grease Monkey",
+    "race": "hybrid"
+    },
+    {
+    "id": 931,
+    "name": "Green Avenger",
+    "race": "hybrid"
+    },
+    {
+    "id": 933,
+    "name": "Green Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 936,
+    "name": "Green Door Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 938,
+    "name": "Green Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 940,
+    "name": "Green Goddess",
+    "race": "hybrid"
+    },
+    {
+    "id": 942,
+    "name": "Green Hornet",
+    "race": "hybrid"
+    },
+    {
+    "id": 947,
+    "name": "Green Monster",
+    "race": "hybrid"
+    },
+    {
+    "id": 950,
+    "name": "Green Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 951,
+    "name": "Green Ribbon",
+    "race": "hybrid"
+    },
+    {
+    "id": 952,
+    "name": "Gremlin",
+    "race": "hybrid"
+    },
+    {
+    "id": 953,
+    "name": "Grilled Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 958,
+    "name": "Guava Chem",
+    "race": "hybrid"
+    },
+    {
+    "id": 959,
+    "name": "Guava Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 960,
+    "name": "Gucci OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 963,
+    "name": "Gummy Bears",
+    "race": "hybrid"
+    },
+    {
+    "id": 964,
+    "name": "Gupta Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 965,
+    "name": "Gupta Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 966,
+    "name": "Guptilla",
+    "race": "hybrid"
+    },
+    {
+    "id": 969,
+    "name": "Haleigh’s Hope",
+    "race": "hybrid"
+    },
+    {
+    "id": 971,
+    "name": "Haole",
+    "race": "hybrid"
+    },
+    {
+    "id": 973,
+    "name": "Haoma Mist",
+    "race": "hybrid"
+    },
+    {
+    "id": 975,
+    "name": "Harle-Tsu",
+    "race": "hybrid"
+    },
+    {
+    "id": 980,
+    "name": "Harmony",
+    "race": "hybrid"
+    },
+    {
+    "id": 981,
+    "name": "Harry Potter",
+    "race": "hybrid"
+    },
+    {
+    "id": 987,
+    "name": "Hawaiian Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 991,
+    "name": "Hawaiian Fire",
+    "race": "hybrid"
+    },
+    {
+    "id": 997,
+    "name": "Hawaiian Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 999,
+    "name": "Hawaiian Sunrise",
+    "race": "hybrid"
+    },
+    {
+    "id": 1000,
+    "name": "Hawaiian Thunder Fuck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1004,
+    "name": "Haze Heaven",
+    "race": "hybrid"
+    },
+    {
+    "id": 1007,
+    "name": "Head Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 1008,
+    "name": "Head Trip",
+    "race": "hybrid"
+    },
+    {
+    "id": 1009,
+    "name": "Headband",
+    "race": "hybrid"
+    },
+    {
+    "id": 1010,
+    "name": "Headbanger",
+    "race": "hybrid"
+    },
+    {
+    "id": 1011,
+    "name": "Heaven Scent",
+    "race": "hybrid"
+    },
+    {
+    "id": 1012,
+    "name": "Heavy Duty Fruity",
+    "race": "hybrid"
+    },
+    {
+    "id": 1014,
+    "name": "Hell Raiser OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1015,
+    "name": "Hell's Angel OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1016,
+    "name": "Hellfire OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1017,
+    "name": "Hemlock",
+    "race": "hybrid"
+    },
+    {
+    "id": 1019,
+    "name": "Hercules",
+    "race": "hybrid"
+    },
+    {
+    "id": 1021,
+    "name": "Hibiscus Sunrise",
+    "race": "hybrid"
+    },
+    {
+    "id": 1023,
+    "name": "Highwayman",
+    "race": "hybrid"
+    },
+    {
+    "id": 1025,
+    "name": "Himalayan Gold",
+    "race": "hybrid"
+    },
+    {
+    "id": 1029,
+    "name": "Hippie Crippler",
+    "race": "hybrid"
+    },
+    {
+    "id": 1030,
+    "name": "Hoarfrost",
+    "race": "hybrid"
+    },
+    {
+    "id": 1031,
+    "name": "Hobbit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1034,
+    "name": "Hollywood OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1035,
+    "name": "Holy Ghost",
+    "race": "hybrid"
+    },
+    {
+    "id": 1036,
+    "name": "Holy Grail Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1037,
+    "name": "Honey Bananas",
+    "race": "hybrid"
+    },
+    {
+    "id": 1039,
+    "name": "Honey Rock",
+    "race": "hybrid"
+    },
+    {
+    "id": 1040,
+    "name": "Hong Kong",
+    "race": "hybrid"
+    },
+    {
+    "id": 1042,
+    "name": "Huckleberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1043,
+    "name": "Huckleberry Hound",
+    "race": "hybrid"
+    },
+    {
+    "id": 1045,
+    "name": "Humboldt",
+    "race": "hybrid"
+    },
+    {
+    "id": 1048,
+    "name": "Hurkle",
+    "race": "hybrid"
+    },
+    {
+    "id": 1050,
+    "name": "Hustler Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1051,
+    "name": "ICED Grapefruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1053,
+    "name": "IG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1054,
+    "name": "Ice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1055,
+    "name": "Ice Cream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1056,
+    "name": "Ice Princess",
+    "race": "hybrid"
+    },
+    {
+    "id": 1057,
+    "name": "Ice Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 1058,
+    "name": "Ice Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1065,
+    "name": "Industrial Plant",
+    "race": "hybrid"
+    },
+    {
+    "id": 1067,
+    "name": "Intergalactic",
+    "race": "hybrid"
+    },
+    {
+    "id": 1068,
+    "name": "Irene OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1070,
+    "name": "Iron Triangle",
+    "race": "hybrid"
+    },
+    {
+    "id": 1074,
+    "name": "J's Famous Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1076,
+    "name": "J1",
+    "race": "hybrid"
+    },
+    {
+    "id": 1078,
+    "name": "Jack 47",
+    "race": "hybrid"
+    },
+    {
+    "id": 1081,
+    "name": "Jack Flash",
+    "race": "hybrid"
+    },
+    {
+    "id": 1082,
+    "name": "Jack Frost",
+    "race": "hybrid"
+    },
+    {
+    "id": 1083,
+    "name": "Jack Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1085,
+    "name": "Jack Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1088,
+    "name": "Jack Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1092,
+    "name": "Jack's Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1094,
+    "name": "Jacked-Up",
+    "race": "hybrid"
+    },
+    {
+    "id": 1096,
+    "name": "Jah Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1102,
+    "name": "Jamba Juice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1103,
+    "name": "Jane Doe",
+    "race": "hybrid"
+    },
+    {
+    "id": 1104,
+    "name": "Jasmine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1106,
+    "name": "Jazz",
+    "race": "hybrid"
+    },
+    {
+    "id": 1107,
+    "name": "Jean Guy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1111,
+    "name": "Jenny Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1113,
+    "name": "Jesus",
+    "race": "hybrid"
+    },
+    {
+    "id": 1115,
+    "name": "Jet Fuel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1116,
+    "name": "Jilly Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1117,
+    "name": "Jillybean",
+    "race": "hybrid"
+    },
+    {
+    "id": 1118,
+    "name": "Jimi Hendrix",
+    "race": "hybrid"
+    },
+    {
+    "id": 1121,
+    "name": "Jolly Rancher",
+    "race": "hybrid"
+    },
+    {
+    "id": 1124,
+    "name": "Juicy Fruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1125,
+    "name": "Juicy Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 1126,
+    "name": "Juliet",
+    "race": "hybrid"
+    },
+    {
+    "id": 1127,
+    "name": "Julius Caesar",
+    "race": "hybrid"
+    },
+    {
+    "id": 1128,
+    "name": "Jungle Juice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1131,
+    "name": "K1",
+    "race": "hybrid"
+    },
+    {
+    "id": 1132,
+    "name": "K2",
+    "race": "hybrid"
+    },
+    {
+    "id": 1133,
+    "name": "KC 33",
+    "race": "hybrid"
+    },
+    {
+    "id": 1135,
+    "name": "KT Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1138,
+    "name": "Kaia Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1139,
+    "name": "Kalalau Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1140,
+    "name": "Kalashnikova",
+    "race": "hybrid"
+    },
+    {
+    "id": 1141,
+    "name": "Kaleidos Dope",
+    "race": "hybrid"
+    },
+    {
+    "id": 1144,
+    "name": "Kali Dog",
+    "race": "hybrid"
+    },
+    {
+    "id": 1147,
+    "name": "Kandy Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1148,
+    "name": "Kaptn’s Grand Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1149,
+    "name": "Karma Bitch",
+    "race": "hybrid"
+    },
+    {
+    "id": 1154,
+    "name": "Ken's Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1156,
+    "name": "Key Lime Pie",
+    "race": "hybrid"
+    },
+    {
+    "id": 1157,
+    "name": "Khalifa Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1158,
+    "name": "Khola",
+    "race": "hybrid"
+    },
+    {
+    "id": 1160,
+    "name": "Kid N' Kookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1162,
+    "name": "Kill Bill",
+    "race": "hybrid"
+    },
+    {
+    "id": 1163,
+    "name": "Killer Grape",
+    "race": "hybrid"
+    },
+    {
+    "id": 1164,
+    "name": "Killer Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 1166,
+    "name": "Kimbo Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1167,
+    "name": "King Cake",
+    "race": "hybrid"
+    },
+    {
+    "id": 1168,
+    "name": "King Kong",
+    "race": "hybrid"
+    },
+    {
+    "id": 1172,
+    "name": "Kiss",
+    "race": "hybrid"
+    },
+    {
+    "id": 1176,
+    "name": "Kong",
+    "race": "hybrid"
+    },
+    {
+    "id": 1179,
+    "name": "Kosher Tangie",
+    "race": "hybrid"
+    },
+    {
+    "id": 1180,
+    "name": "Krakatoa",
+    "race": "hybrid"
+    },
+    {
+    "id": 1184,
+    "name": "Kuato",
+    "race": "hybrid"
+    },
+    {
+    "id": 1185,
+    "name": "Kuchi",
+    "race": "hybrid"
+    },
+    {
+    "id": 1186,
+    "name": "Kurple Fantasy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1187,
+    "name": "Kush Cleaner",
+    "race": "hybrid"
+    },
+    {
+    "id": 1188,
+    "name": "Kush Rise",
+    "race": "hybrid"
+    },
+    {
+    "id": 1190,
+    "name": "Kushage",
+    "race": "hybrid"
+    },
+    {
+    "id": 1191,
+    "name": "Kushashima",
+    "race": "hybrid"
+    },
+    {
+    "id": 1193,
+    "name": "L'Eagle Eagle",
+    "race": "hybrid"
+    },
+    {
+    "id": 1194,
+    "name": "L.A. Sunshine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1196,
+    "name": "LA Chocolat",
+    "race": "hybrid"
+    },
+    {
+    "id": 1198,
+    "name": "LA Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 1199,
+    "name": "LA Kookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1200,
+    "name": "LA Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1203,
+    "name": "LA Woman",
+    "race": "hybrid"
+    },
+    {
+    "id": 1204,
+    "name": "LAPD",
+    "race": "hybrid"
+    },
+    {
+    "id": 1205,
+    "name": "LSD",
+    "race": "hybrid"
+    },
+    {
+    "id": 1206,
+    "name": "LVPK",
+    "race": "hybrid"
+    },
+    {
+    "id": 1208,
+    "name": "Lady Liberty",
+    "race": "hybrid"
+    },
+    {
+    "id": 1209,
+    "name": "Ladyburn 1974",
+    "race": "hybrid"
+    },
+    {
+    "id": 1210,
+    "name": "Lake of Fire",
+    "race": "hybrid"
+    },
+    {
+    "id": 1212,
+    "name": "Lambo OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1213,
+    "name": "Lamborghini",
+    "race": "hybrid"
+    },
+    {
+    "id": 1214,
+    "name": "Larry Bird Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1215,
+    "name": "Larry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1221,
+    "name": "Lavender Jones",
+    "race": "hybrid"
+    },
+    {
+    "id": 1222,
+    "name": "Lazy Train",
+    "race": "hybrid"
+    },
+    {
+    "id": 1223,
+    "name": "Le Silver Royale",
+    "race": "hybrid"
+    },
+    {
+    "id": 1226,
+    "name": "Legalized OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1229,
+    "name": "Lem Chem",
+    "race": "hybrid"
+    },
+    {
+    "id": 1230,
+    "name": "Lemon Alien Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1231,
+    "name": "Lemon Bananas",
+    "race": "hybrid"
+    },
+    {
+    "id": 1234,
+    "name": "Lemon Daddy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1235,
+    "name": "Lemon Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1236,
+    "name": "Lemon Drop",
+    "race": "hybrid"
+    },
+    {
+    "id": 1237,
+    "name": "Lemon Fire",
+    "race": "hybrid"
+    },
+    {
+    "id": 1241,
+    "name": "Lemon Jeffery",
+    "race": "hybrid"
+    },
+    {
+    "id": 1242,
+    "name": "Lemon Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1243,
+    "name": "Lemon Larry Lavender",
+    "race": "hybrid"
+    },
+    {
+    "id": 1244,
+    "name": "Lemon Marmalade",
+    "race": "hybrid"
+    },
+    {
+    "id": 1246,
+    "name": "Lemon OG Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1247,
+    "name": "Lemon OG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1250,
+    "name": "Lemon Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1252,
+    "name": "Lemon Walker OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1253,
+    "name": "Lemon Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1254,
+    "name": "Lemonberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1255,
+    "name": "Lemonder",
+    "race": "hybrid"
+    },
+    {
+    "id": 1256,
+    "name": "Lemonhead OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1258,
+    "name": "Lethal Purple",
+    "race": "hybrid"
+    },
+    {
+    "id": 1259,
+    "name": "Liberty Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1260,
+    "name": "Lifesaver",
+    "race": "hybrid"
+    },
+    {
+    "id": 1262,
+    "name": "Lime Green Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1269,
+    "name": "Little Devil",
+    "race": "hybrid"
+    },
+    {
+    "id": 1270,
+    "name": "Little Dragon",
+    "race": "hybrid"
+    },
+    {
+    "id": 1271,
+    "name": "Locktite",
+    "race": "hybrid"
+    },
+    {
+    "id": 1273,
+    "name": "Lodi Dodi",
+    "race": "hybrid"
+    },
+    {
+    "id": 1274,
+    "name": "Logic Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1275,
+    "name": "Longbottom Leaf",
+    "race": "hybrid"
+    },
+    {
+    "id": 1276,
+    "name": "Lost Coast OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1277,
+    "name": "Loud Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1278,
+    "name": "Loud Scout",
+    "race": "hybrid"
+    },
+    {
+    "id": 1281,
+    "name": "Lowryder",
+    "race": "hybrid"
+    },
+    {
+    "id": 1282,
+    "name": "Loyalty",
+    "race": "hybrid"
+    },
+    {
+    "id": 1283,
+    "name": "Luca Brasi",
+    "race": "hybrid"
+    },
+    {
+    "id": 1284,
+    "name": "Luca Brasi x Sour Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1286,
+    "name": "Lucid Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1287,
+    "name": "Lucky Charms",
+    "race": "hybrid"
+    },
+    {
+    "id": 1288,
+    "name": "Lucy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1290,
+    "name": "MILF",
+    "race": "hybrid"
+    },
+    {
+    "id": 1292,
+    "name": "Mad Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1296,
+    "name": "Madman OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1299,
+    "name": "Magic Jordan",
+    "race": "hybrid"
+    },
+    {
+    "id": 1300,
+    "name": "Magnum",
+    "race": "hybrid"
+    },
+    {
+    "id": 1302,
+    "name": "Mai Tai Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1303,
+    "name": "Majestic 12",
+    "race": "hybrid"
+    },
+    {
+    "id": 1307,
+    "name": "Mammoth",
+    "race": "hybrid"
+    },
+    {
+    "id": 1308,
+    "name": "Mandala #1",
+    "race": "hybrid"
+    },
+    {
+    "id": 1312,
+    "name": "Mango Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1313,
+    "name": "Mango Tango",
+    "race": "hybrid"
+    },
+    {
+    "id": 1315,
+    "name": "Manitoba Poison",
+    "race": "hybrid"
+    },
+    {
+    "id": 1317,
+    "name": "Maramota #10",
+    "race": "hybrid"
+    },
+    {
+    "id": 1318,
+    "name": "Marcosus Marshmellow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1319,
+    "name": "Margaret Cho-G",
+    "race": "hybrid"
+    },
+    {
+    "id": 1320,
+    "name": "Marionberry Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1321,
+    "name": "Marley's Collie",
+    "race": "hybrid"
+    },
+    {
+    "id": 1323,
+    "name": "Martian Candy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1324,
+    "name": "Martian Mean Green",
+    "race": "hybrid"
+    },
+    {
+    "id": 1329,
+    "name": "Master Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1330,
+    "name": "Master Yoda",
+    "race": "hybrid"
+    },
+    {
+    "id": 1334,
+    "name": "Mau-Mau",
+    "race": "hybrid"
+    },
+    {
+    "id": 1336,
+    "name": "Maui Berry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1337,
+    "name": "Maui Bubble Gift",
+    "race": "hybrid"
+    },
+    {
+    "id": 1339,
+    "name": "Maui Haole",
+    "race": "hybrid"
+    },
+    {
+    "id": 1340,
+    "name": "Maui Mango Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1341,
+    "name": "Maui Pineapple Chunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1345,
+    "name": "Mean Misty",
+    "race": "hybrid"
+    },
+    {
+    "id": 1347,
+    "name": "Medibud",
+    "race": "hybrid"
+    },
+    {
+    "id": 1348,
+    "name": "Medicine Man",
+    "race": "hybrid"
+    },
+    {
+    "id": 1349,
+    "name": "Medicine Woman",
+    "race": "hybrid"
+    },
+    {
+    "id": 1350,
+    "name": "Medusa",
+    "race": "hybrid"
+    },
+    {
+    "id": 1351,
+    "name": "Mega Jackpot",
+    "race": "hybrid"
+    },
+    {
+    "id": 1354,
+    "name": "Melon Gum",
+    "race": "hybrid"
+    },
+    {
+    "id": 1357,
+    "name": "Mendocino Purps",
+    "race": "hybrid"
+    },
+    {
+    "id": 1362,
+    "name": "Michael Phelps OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1364,
+    "name": "Middlefork",
+    "race": "hybrid"
+    },
+    {
+    "id": 1366,
+    "name": "Midnight",
+    "race": "hybrid"
+    },
+    {
+    "id": 1368,
+    "name": "Millennium",
+    "race": "hybrid"
+    },
+    {
+    "id": 1369,
+    "name": "Mint Chocolate Chip",
+    "race": "hybrid"
+    },
+    {
+    "id": 1370,
+    "name": "Mission Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1372,
+    "name": "Misty Morning",
+    "race": "hybrid"
+    },
+    {
+    "id": 1373,
+    "name": "Mob Boss",
+    "race": "hybrid"
+    },
+    {
+    "id": 1378,
+    "name": "Monkey Paw",
+    "race": "hybrid"
+    },
+    {
+    "id": 1381,
+    "name": "Monster OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1382,
+    "name": "Montana Silvertip",
+    "race": "hybrid"
+    },
+    {
+    "id": 1383,
+    "name": "Moon Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1386,
+    "name": "Moonwalker Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1388,
+    "name": "Morning Star",
+    "race": "hybrid"
+    },
+    {
+    "id": 1394,
+    "name": "Mother's Milk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1396,
+    "name": "Mother’s Helper",
+    "race": "hybrid"
+    },
+    {
+    "id": 1397,
+    "name": "Mountain Girl",
+    "race": "hybrid"
+    },
+    {
+    "id": 1399,
+    "name": "Mr. Tusk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1400,
+    "name": "Ms. Universe",
+    "race": "hybrid"
+    },
+    {
+    "id": 1402,
+    "name": "Mt. Hood Magic",
+    "race": "hybrid"
+    },
+    {
+    "id": 1403,
+    "name": "Mt. Rainier",
+    "race": "hybrid"
+    },
+    {
+    "id": 1407,
+    "name": "NY Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 1408,
+    "name": "NY-47",
+    "race": "hybrid"
+    },
+    {
+    "id": 1409,
+    "name": "NYC Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1412,
+    "name": "Nebula",
+    "race": "hybrid"
+    },
+    {
+    "id": 1413,
+    "name": "Nebula II CBD",
+    "race": "hybrid"
+    },
+    {
+    "id": 1416,
+    "name": "Nepalese Jam",
+    "race": "hybrid"
+    },
+    {
+    "id": 1428,
+    "name": "Nightmare Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1430,
+    "name": "Ninja Fruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1436,
+    "name": "Northern Cross",
+    "race": "hybrid"
+    },
+    {
+    "id": 1440,
+    "name": "Northern Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1447,
+    "name": "OCA’s Cloud 9",
+    "race": "hybrid"
+    },
+    {
+    "id": 1449,
+    "name": "OG #18",
+    "race": "hybrid"
+    },
+    {
+    "id": 1450,
+    "name": "OG Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 1451,
+    "name": "OG Chem",
+    "race": "hybrid"
+    },
+    {
+    "id": 1452,
+    "name": "OG Diesel Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1454,
+    "name": "OG Glue Sniffer",
+    "race": "hybrid"
+    },
+    {
+    "id": 1455,
+    "name": "OG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1458,
+    "name": "OG Poison",
+    "race": "hybrid"
+    },
+    {
+    "id": 1459,
+    "name": "OG Ringo",
+    "race": "hybrid"
+    },
+    {
+    "id": 1460,
+    "name": "OG Shark",
+    "race": "hybrid"
+    },
+    {
+    "id": 1461,
+    "name": "OG Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1462,
+    "name": "OG Strawberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1463,
+    "name": "OG Tonic",
+    "race": "hybrid"
+    },
+    {
+    "id": 1464,
+    "name": "OG Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1466,
+    "name": "OGiesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1468,
+    "name": "Odyssey",
+    "race": "hybrid"
+    },
+    {
+    "id": 1469,
+    "name": "Ogre",
+    "race": "hybrid"
+    },
+    {
+    "id": 1471,
+    "name": "Old Lyme Connecticut OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1473,
+    "name": "Old School OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1474,
+    "name": "Old Toby",
+    "race": "hybrid"
+    },
+    {
+    "id": 1475,
+    "name": "Omega",
+    "race": "hybrid"
+    },
+    {
+    "id": 1476,
+    "name": "Omega Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1477,
+    "name": "One to One",
+    "race": "hybrid"
+    },
+    {
+    "id": 1479,
+    "name": "Opium",
+    "race": "hybrid"
+    },
+    {
+    "id": 1480,
+    "name": "Or",
+    "race": "hybrid"
+    },
+    {
+    "id": 1482,
+    "name": "Orange Blossom",
+    "race": "hybrid"
+    },
+    {
+    "id": 1483,
+    "name": "Orange Bud",
+    "race": "hybrid"
+    },
+    {
+    "id": 1484,
+    "name": "Orange Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1485,
+    "name": "Orange Creamsicle",
+    "race": "hybrid"
+    },
+    {
+    "id": 1486,
+    "name": "Orange Crush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1487,
+    "name": "Orange Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1488,
+    "name": "Orange Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1490,
+    "name": "Orange Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1491,
+    "name": "Orange Hill Special",
+    "race": "hybrid"
+    },
+    {
+    "id": 1492,
+    "name": "Orange Juice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1495,
+    "name": "Orange Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1496,
+    "name": "Orange Turbo",
+    "race": "hybrid"
+    },
+    {
+    "id": 1497,
+    "name": "Orange Velvet",
+    "race": "hybrid"
+    },
+    {
+    "id": 1500,
+    "name": "Oregon Pineapple",
+    "race": "hybrid"
+    },
+    {
+    "id": 1502,
+    "name": "Organic Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1504,
+    "name": "Oteil’s Egyptian Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1508,
+    "name": "P-91",
+    "race": "hybrid"
+    },
+    {
+    "id": 1517,
+    "name": "Panda OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1523,
+    "name": "Patti Cake",
+    "race": "hybrid"
+    },
+    {
+    "id": 1524,
+    "name": "Peaches and Cream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1525,
+    "name": "Pearl Scout Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1526,
+    "name": "Pele's Fire OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1528,
+    "name": "Peppermint Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1529,
+    "name": "Permafrost",
+    "race": "hybrid"
+    },
+    {
+    "id": 1533,
+    "name": "Peyton Manning",
+    "race": "hybrid"
+    },
+    {
+    "id": 1536,
+    "name": "Phantom Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1539,
+    "name": "Pie Face OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1540,
+    "name": "Pine Cone",
+    "race": "hybrid"
+    },
+    {
+    "id": 1541,
+    "name": "Pine Queen Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1543,
+    "name": "Pineapple",
+    "race": "hybrid"
+    },
+    {
+    "id": 1544,
+    "name": "Pineapple Chunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1545,
+    "name": "Pineapple Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1546,
+    "name": "Pineapple Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1547,
+    "name": "Pineapple Dog Shit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1548,
+    "name": "Pineapple Express",
+    "race": "hybrid"
+    },
+    {
+    "id": 1552,
+    "name": "Pineapple Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1555,
+    "name": "Pineapple Purple Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1557,
+    "name": "Pineapple Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1560,
+    "name": "Pineapple Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1564,
+    "name": "Pink Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1566,
+    "name": "Pink Hawaiian",
+    "race": "hybrid"
+    },
+    {
+    "id": 1567,
+    "name": "Pink Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1568,
+    "name": "Pink Lemonade",
+    "race": "hybrid"
+    },
+    {
+    "id": 1569,
+    "name": "Pink Mango",
+    "race": "hybrid"
+    },
+    {
+    "id": 1570,
+    "name": "Pink Panther",
+    "race": "hybrid"
+    },
+    {
+    "id": 1571,
+    "name": "Pink Pez",
+    "race": "hybrid"
+    },
+    {
+    "id": 1572,
+    "name": "Pink Starburst",
+    "race": "hybrid"
+    },
+    {
+    "id": 1577,
+    "name": "Platinum Girl Scout Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1578,
+    "name": "Platinum Huckleberry Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1582,
+    "name": "Platinum Wreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1588,
+    "name": "Pop Rox",
+    "race": "hybrid"
+    },
+    {
+    "id": 1594,
+    "name": "Predator Pink",
+    "race": "hybrid"
+    },
+    {
+    "id": 1597,
+    "name": "Princess’s Tiara",
+    "race": "hybrid"
+    },
+    {
+    "id": 1598,
+    "name": "Professor Chaos",
+    "race": "hybrid"
+    },
+    {
+    "id": 1599,
+    "name": "Project Blue Book",
+    "race": "hybrid"
+    },
+    {
+    "id": 1603,
+    "name": "Puna Budder",
+    "race": "hybrid"
+    },
+    {
+    "id": 1608,
+    "name": "Pure Power Plant",
+    "race": "hybrid"
+    },
+    {
+    "id": 1609,
+    "name": "Purple AK-47",
+    "race": "hybrid"
+    },
+    {
+    "id": 1611,
+    "name": "Purple Alien OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1612,
+    "name": "Purple Arrow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1613,
+    "name": "Purple Aurora",
+    "race": "hybrid"
+    },
+    {
+    "id": 1622,
+    "name": "Purple Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 1626,
+    "name": "Purple Crack",
+    "race": "hybrid"
+    },
+    {
+    "id": 1628,
+    "name": "Purple Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1629,
+    "name": "Purple Dog Shit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1631,
+    "name": "Purple Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1633,
+    "name": "Purple Goat",
+    "race": "hybrid"
+    },
+    {
+    "id": 1635,
+    "name": "Purple Gorilla",
+    "race": "hybrid"
+    },
+    {
+    "id": 1636,
+    "name": "Purple Hashplant",
+    "race": "hybrid"
+    },
+    {
+    "id": 1638,
+    "name": "Purple Headband",
+    "race": "hybrid"
+    },
+    {
+    "id": 1640,
+    "name": "Purple Ice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1641,
+    "name": "Purple Jack",
+    "race": "hybrid"
+    },
+    {
+    "id": 1646,
+    "name": "Purple Maui",
+    "race": "hybrid"
+    },
+    {
+    "id": 1651,
+    "name": "Purple Pantera",
+    "race": "hybrid"
+    },
+    {
+    "id": 1653,
+    "name": "Purple Paralysis",
+    "race": "hybrid"
+    },
+    {
+    "id": 1658,
+    "name": "Purple Princess",
+    "race": "hybrid"
+    },
+    {
+    "id": 1660,
+    "name": "Purple Rhino",
+    "race": "hybrid"
+    },
+    {
+    "id": 1661,
+    "name": "Purple Sage ",
+    "race": "hybrid"
+    },
+    {
+    "id": 1662,
+    "name": "Purple Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1663,
+    "name": "Purple Sour Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1667,
+    "name": "Purple Tears",
+    "race": "hybrid"
+    },
+    {
+    "id": 1669,
+    "name": "Purple Tide",
+    "race": "hybrid"
+    },
+    {
+    "id": 1671,
+    "name": "Purple Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 1673,
+    "name": "Purple Voodoo",
+    "race": "hybrid"
+    },
+    {
+    "id": 1674,
+    "name": "Purple Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1677,
+    "name": "Qleaner",
+    "race": "hybrid"
+    },
+    {
+    "id": 1678,
+    "name": "Qrazy Train",
+    "race": "hybrid"
+    },
+    {
+    "id": 1680,
+    "name": "Quebec Gold",
+    "race": "hybrid"
+    },
+    {
+    "id": 1681,
+    "name": "Queen's Panties",
+    "race": "hybrid"
+    },
+    {
+    "id": 1683,
+    "name": "Queso",
+    "race": "hybrid"
+    },
+    {
+    "id": 1686,
+    "name": "R-4",
+    "race": "hybrid"
+    },
+    {
+    "id": 1688,
+    "name": "Rainbow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1692,
+    "name": "Raskal OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1695,
+    "name": "Raw Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1697,
+    "name": "Rebel Berry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1701,
+    "name": "Red Cherry Berry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1703,
+    "name": "Red Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1704,
+    "name": "Red Dragon",
+    "race": "hybrid"
+    },
+    {
+    "id": 1709,
+    "name": "Red Poison",
+    "race": "hybrid"
+    },
+    {
+    "id": 1710,
+    "name": "Red Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1711,
+    "name": "Redd Cross",
+    "race": "hybrid"
+    },
+    {
+    "id": 1712,
+    "name": "Redding OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1715,
+    "name": "Rene",
+    "race": "hybrid"
+    },
+    {
+    "id": 1716,
+    "name": "Rene Mist",
+    "race": "hybrid"
+    },
+    {
+    "id": 1717,
+    "name": "Richie Rich",
+    "race": "hybrid"
+    },
+    {
+    "id": 1718,
+    "name": "Riddler OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1721,
+    "name": "Ringo's Gift",
+    "race": "hybrid"
+    },
+    {
+    "id": 1723,
+    "name": "Ripped Bubba",
+    "race": "hybrid"
+    },
+    {
+    "id": 1724,
+    "name": "Rob Ford Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1731,
+    "name": "Rocky Dennis",
+    "race": "hybrid"
+    },
+    {
+    "id": 1733,
+    "name": "Rocky Mountain High",
+    "race": "hybrid"
+    },
+    {
+    "id": 1735,
+    "name": "Rolls Choice",
+    "race": "hybrid"
+    },
+    {
+    "id": 1736,
+    "name": "Romping Goddess",
+    "race": "hybrid"
+    },
+    {
+    "id": 1738,
+    "name": "Romulan Grapefruit",
+    "race": "hybrid"
+    },
+    {
+    "id": 1739,
+    "name": "Romulan Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1742,
+    "name": "Royal Chemdawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1743,
+    "name": "Royal Dwarf",
+    "race": "hybrid"
+    },
+    {
+    "id": 1745,
+    "name": "Royal Highness",
+    "race": "hybrid"
+    },
+    {
+    "id": 1746,
+    "name": "Royal Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1747,
+    "name": "Rubicon",
+    "race": "hybrid"
+    },
+    {
+    "id": 1748,
+    "name": "RudeBoi OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1749,
+    "name": "Rug Burn OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1751,
+    "name": "Russian Rocket Fuel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1752,
+    "name": "SAGE",
+    "race": "hybrid"
+    },
+    {
+    "id": 1753,
+    "name": "SFV Dog",
+    "race": "hybrid"
+    },
+    {
+    "id": 1754,
+    "name": "SFV OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1760,
+    "name": "Sapphire Scout",
+    "race": "hybrid"
+    },
+    {
+    "id": 1761,
+    "name": "Sapphire Star",
+    "race": "hybrid"
+    },
+    {
+    "id": 1762,
+    "name": "Sasquatch Sap",
+    "race": "hybrid"
+    },
+    {
+    "id": 1764,
+    "name": "Satori",
+    "race": "hybrid"
+    },
+    {
+    "id": 1765,
+    "name": "Saturn OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1766,
+    "name": "Savage Citrus Sunshine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1767,
+    "name": "Savant's Grail",
+    "race": "hybrid"
+    },
+    {
+    "id": 1769,
+    "name": "Scooby Snacks",
+    "race": "hybrid"
+    },
+    {
+    "id": 1770,
+    "name": "Scott's OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1771,
+    "name": "Scout's Honor",
+    "race": "hybrid"
+    },
+    {
+    "id": 1775,
+    "name": "Secret Recipe",
+    "race": "hybrid"
+    },
+    {
+    "id": 1782,
+    "name": "Shangri-La",
+    "race": "hybrid"
+    },
+    {
+    "id": 1784,
+    "name": "Shark Bite",
+    "race": "hybrid"
+    },
+    {
+    "id": 1786,
+    "name": "Sharksbreath",
+    "race": "hybrid"
+    },
+    {
+    "id": 1787,
+    "name": "Shiatsu Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1791,
+    "name": "Shiskaquine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1793,
+    "name": "Shoreline",
+    "race": "hybrid"
+    },
+    {
+    "id": 1794,
+    "name": "Shurman #7",
+    "race": "hybrid"
+    },
+    {
+    "id": 1795,
+    "name": "Sierra Mist",
+    "race": "hybrid"
+    },
+    {
+    "id": 1796,
+    "name": "Silver Back",
+    "race": "hybrid"
+    },
+    {
+    "id": 1797,
+    "name": "Silver Bubble",
+    "race": "hybrid"
+    },
+    {
+    "id": 1798,
+    "name": "Silver Cindy",
+    "race": "hybrid"
+    },
+    {
+    "id": 1801,
+    "name": "Silver Nina",
+    "race": "hybrid"
+    },
+    {
+    "id": 1802,
+    "name": "Silver Pearl",
+    "race": "hybrid"
+    },
+    {
+    "id": 1803,
+    "name": "Silver Surfer",
+    "race": "hybrid"
+    },
+    {
+    "id": 1806,
+    "name": "Silverfalls Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1809,
+    "name": "Sin Valley OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1810,
+    "name": "SinMint Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1813,
+    "name": "Six Shooter",
+    "race": "hybrid"
+    },
+    {
+    "id": 1814,
+    "name": "Skins Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1817,
+    "name": "Skunk Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1818,
+    "name": "Skunk No. 1",
+    "race": "hybrid"
+    },
+    {
+    "id": 1822,
+    "name": "Star Tonic",
+    "race": "hybrid"
+    },
+    {
+    "id": 1824,
+    "name": "Stardawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 1826,
+    "name": "Starfighter",
+    "race": "hybrid"
+    },
+    {
+    "id": 1827,
+    "name": "Starry Night",
+    "race": "hybrid"
+    },
+    {
+    "id": 1830,
+    "name": "Stevie Wonder",
+    "race": "hybrid"
+    },
+    {
+    "id": 1834,
+    "name": "Strawberry Banana",
+    "race": "hybrid"
+    },
+    {
+    "id": 1835,
+    "name": "Strawberry Blondie",
+    "race": "hybrid"
+    },
+    {
+    "id": 1839,
+    "name": "Strawberry Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1840,
+    "name": "Strawberry Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1845,
+    "name": "Strawberry Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1848,
+    "name": "Strawberry Milkshake",
+    "race": "hybrid"
+    },
+    {
+    "id": 1849,
+    "name": "Strawberry OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1853,
+    "name": "Sugar Cookie",
+    "race": "hybrid"
+    },
+    {
+    "id": 1856,
+    "name": "Sugar Pine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1858,
+    "name": "Sugar Punch",
+    "race": "hybrid"
+    },
+    {
+    "id": 1859,
+    "name": "Sugar Shack",
+    "race": "hybrid"
+    },
+    {
+    "id": 1860,
+    "name": "Suicide Girl",
+    "race": "hybrid"
+    },
+    {
+    "id": 1866,
+    "name": "Sunlight Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1867,
+    "name": "Sunset Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1868,
+    "name": "Sunset Sherbet",
+    "race": "hybrid"
+    },
+    {
+    "id": 1870,
+    "name": "Sunshine #4",
+    "race": "hybrid"
+    },
+    {
+    "id": 1874,
+    "name": "Super Blue Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1883,
+    "name": "Super Lemon OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1885,
+    "name": "Super Silver Lights",
+    "race": "hybrid"
+    },
+    {
+    "id": 1889,
+    "name": "Super Sour OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1890,
+    "name": "Super Sour Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1891,
+    "name": "Super Sour Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 1892,
+    "name": "Super Sweet",
+    "race": "hybrid"
+    },
+    {
+    "id": 1894,
+    "name": "Superglue",
+    "race": "hybrid"
+    },
+    {
+    "id": 1896,
+    "name": "Supermax OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1898,
+    "name": "Supernova",
+    "race": "hybrid"
+    },
+    {
+    "id": 1899,
+    "name": "Superstar",
+    "race": "hybrid"
+    },
+    {
+    "id": 1900,
+    "name": "Suzy Q",
+    "race": "hybrid"
+    },
+    {
+    "id": 1903,
+    "name": "Sweet Berry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1908,
+    "name": "Sweet Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1909,
+    "name": "Sweet Dreams",
+    "race": "hybrid"
+    },
+    {
+    "id": 1910,
+    "name": "Sweet Harlem Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 1912,
+    "name": "Sweet Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1914,
+    "name": "Sweet Nina",
+    "race": "hybrid"
+    },
+    {
+    "id": 1915,
+    "name": "Sweet Pebbles",
+    "race": "hybrid"
+    },
+    {
+    "id": 1916,
+    "name": "Sweet Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1919,
+    "name": "Swiss Bliss",
+    "race": "hybrid"
+    },
+    {
+    "id": 1924,
+    "name": "THC Bomb",
+    "race": "hybrid"
+    },
+    {
+    "id": 1925,
+    "name": "TJ's CBD",
+    "race": "hybrid"
+    },
+    {
+    "id": 1926,
+    "name": "Tahoe Alien",
+    "race": "hybrid"
+    },
+    {
+    "id": 1927,
+    "name": "Tahoe Frostbite",
+    "race": "hybrid"
+    },
+    {
+    "id": 1928,
+    "name": "Tahoe Hydro Champagne",
+    "race": "hybrid"
+    },
+    {
+    "id": 1929,
+    "name": "Tahoe Hydro OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1930,
+    "name": "Tahoe OG Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1933,
+    "name": "Tangelo",
+    "race": "hybrid"
+    },
+    {
+    "id": 1934,
+    "name": "Tangelo Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1935,
+    "name": "Tangenesia",
+    "race": "hybrid"
+    },
+    {
+    "id": 1936,
+    "name": "Tangerine",
+    "race": "hybrid"
+    },
+    {
+    "id": 1937,
+    "name": "Tangerine Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1938,
+    "name": "Tangerine Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 1941,
+    "name": "Tangerine Power",
+    "race": "hybrid"
+    },
+    {
+    "id": 1944,
+    "name": "Tangie Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 1945,
+    "name": "Tangier Chilly",
+    "race": "hybrid"
+    },
+    {
+    "id": 1947,
+    "name": "Tango Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1949,
+    "name": "Tembo Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1951,
+    "name": "Tesla",
+    "race": "hybrid"
+    },
+    {
+    "id": 1954,
+    "name": "Thai Girl",
+    "race": "hybrid"
+    },
+    {
+    "id": 1956,
+    "name": "Thai Lights",
+    "race": "hybrid"
+    },
+    {
+    "id": 1958,
+    "name": "Thaidal Wave",
+    "race": "hybrid"
+    },
+    {
+    "id": 1959,
+    "name": "The Big Dirty",
+    "race": "hybrid"
+    },
+    {
+    "id": 1961,
+    "name": "The Blintz",
+    "race": "hybrid"
+    },
+    {
+    "id": 1963,
+    "name": "The Brotherhood",
+    "race": "hybrid"
+    },
+    {
+    "id": 1966,
+    "name": "The Flav",
+    "race": "hybrid"
+    },
+    {
+    "id": 1968,
+    "name": "The Grunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1971,
+    "name": "The One",
+    "race": "hybrid"
+    },
+    {
+    "id": 1973,
+    "name": "The Sauce",
+    "race": "hybrid"
+    },
+    {
+    "id": 1974,
+    "name": "The Sheriff",
+    "race": "hybrid"
+    },
+    {
+    "id": 1976,
+    "name": "The Third Dimension",
+    "race": "hybrid"
+    },
+    {
+    "id": 1977,
+    "name": "The Truth",
+    "race": "hybrid"
+    },
+    {
+    "id": 1978,
+    "name": "The Void",
+    "race": "hybrid"
+    },
+    {
+    "id": 1979,
+    "name": "The White",
+    "race": "hybrid"
+    },
+    {
+    "id": 1980,
+    "name": "The Wife",
+    "race": "hybrid"
+    },
+    {
+    "id": 1981,
+    "name": "Thelonious Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 1982,
+    "name": "Thin Mint Girl Scout Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 1983,
+    "name": "Think Different",
+    "race": "hybrid"
+    },
+    {
+    "id": 1988,
+    "name": "Tickle Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 1989,
+    "name": "Tiger Woods",
+    "race": "hybrid"
+    },
+    {
+    "id": 1992,
+    "name": "Tillamook Strawberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 1994,
+    "name": "Tina Danza",
+    "race": "hybrid"
+    },
+    {
+    "id": 1996,
+    "name": "Tokyo OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 1997,
+    "name": "Tommy's Home Grown",
+    "race": "hybrid"
+    },
+    {
+    "id": 2000,
+    "name": "Toxic Punch",
+    "race": "hybrid"
+    },
+    {
+    "id": 2002,
+    "name": "Trainwreck",
+    "race": "hybrid"
+    },
+    {
+    "id": 2004,
+    "name": "Transformer",
+    "race": "hybrid"
+    },
+    {
+    "id": 2005,
+    "name": "Trash",
+    "race": "hybrid"
+    },
+    {
+    "id": 2006,
+    "name": "Travel Joint",
+    "race": "hybrid"
+    },
+    {
+    "id": 2007,
+    "name": "Treasure Island",
+    "race": "hybrid"
+    },
+    {
+    "id": 2008,
+    "name": "Tree of Life",
+    "race": "hybrid"
+    },
+    {
+    "id": 2009,
+    "name": "Tres Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 2011,
+    "name": "Trident",
+    "race": "hybrid"
+    },
+    {
+    "id": 2012,
+    "name": "Trifecta",
+    "race": "hybrid"
+    },
+    {
+    "id": 2017,
+    "name": "Tropic Thunder",
+    "race": "hybrid"
+    },
+    {
+    "id": 2018,
+    "name": "Tropical Tang",
+    "race": "hybrid"
+    },
+    {
+    "id": 2019,
+    "name": "Tropicali",
+    "race": "hybrid"
+    },
+    {
+    "id": 2023,
+    "name": "Truth Serum",
+    "race": "hybrid"
+    },
+    {
+    "id": 2025,
+    "name": "Turbo Mind Warp",
+    "race": "hybrid"
+    },
+    {
+    "id": 2027,
+    "name": "Tutti Frutti",
+    "race": "hybrid"
+    },
+    {
+    "id": 2032,
+    "name": "UK Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 2036,
+    "name": "Ultra Sonja",
+    "race": "hybrid"
+    },
+    {
+    "id": 2039,
+    "name": "Urkle Train Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 2040,
+    "name": "VCDC",
+    "race": "hybrid"
+    },
+    {
+    "id": 2041,
+    "name": "VOTS AZ Super Sour OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2043,
+    "name": "Valentine X",
+    "race": "hybrid"
+    },
+    {
+    "id": 2044,
+    "name": "Valley Ghash",
+    "race": "hybrid"
+    },
+    {
+    "id": 2045,
+    "name": "Valley Girl",
+    "race": "hybrid"
+    },
+    {
+    "id": 2047,
+    "name": "Vanilluna",
+    "race": "hybrid"
+    },
+    {
+    "id": 2049,
+    "name": "Velvet Purps",
+    "race": "hybrid"
+    },
+    {
+    "id": 2051,
+    "name": "Venom OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2052,
+    "name": "Venus OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2053,
+    "name": "Verde Electric",
+    "race": "hybrid"
+    },
+    {
+    "id": 2054,
+    "name": "Versace",
+    "race": "hybrid"
+    },
+    {
+    "id": 2056,
+    "name": "Vietnamese Bubba",
+    "race": "hybrid"
+    },
+    {
+    "id": 2058,
+    "name": "Violet Delight",
+    "race": "hybrid"
+    },
+    {
+    "id": 2065,
+    "name": "Waldo",
+    "race": "hybrid"
+    },
+    {
+    "id": 2066,
+    "name": "Walker Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 2067,
+    "name": "Wally OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2068,
+    "name": "Walrus Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 2069,
+    "name": "Walter White",
+    "race": "hybrid"
+    },
+    {
+    "id": 2070,
+    "name": "Wappa",
+    "race": "hybrid"
+    },
+    {
+    "id": 2071,
+    "name": "Warlock",
+    "race": "hybrid"
+    },
+    {
+    "id": 2074,
+    "name": "Wedding Cake",
+    "race": "hybrid"
+    },
+    {
+    "id": 2075,
+    "name": "Wellness OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2080,
+    "name": "White 99",
+    "race": "hybrid"
+    },
+    {
+    "id": 2086,
+    "name": "White Cheese",
+    "race": "hybrid"
+    },
+    {
+    "id": 2087,
+    "name": "White Cookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 2088,
+    "name": "White Dawg",
+    "race": "hybrid"
+    },
+    {
+    "id": 2089,
+    "name": "White Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 2091,
+    "name": "White Dream",
+    "race": "hybrid"
+    },
+    {
+    "id": 2093,
+    "name": "White Elephant",
+    "race": "hybrid"
+    },
+    {
+    "id": 2096,
+    "name": "White Fire Alien OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2097,
+    "name": "White Fire OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2098,
+    "name": "White Gold",
+    "race": "hybrid"
+    },
+    {
+    "id": 2099,
+    "name": "White Gorilla",
+    "race": "hybrid"
+    },
+    {
+    "id": 2101,
+    "name": "White Knight",
+    "race": "hybrid"
+    },
+    {
+    "id": 2104,
+    "name": "White Lavender",
+    "race": "hybrid"
+    },
+    {
+    "id": 2105,
+    "name": "White Lightning",
+    "race": "hybrid"
+    },
+    {
+    "id": 2106,
+    "name": "White Lotus",
+    "race": "hybrid"
+    },
+    {
+    "id": 2109,
+    "name": "White Queen",
+    "race": "hybrid"
+    },
+    {
+    "id": 2111,
+    "name": "White Romulan",
+    "race": "hybrid"
+    },
+    {
+    "id": 2112,
+    "name": "White Russian",
+    "race": "hybrid"
+    },
+    {
+    "id": 2113,
+    "name": "White Ryder",
+    "race": "hybrid"
+    },
+    {
+    "id": 2114,
+    "name": "White Sangria",
+    "race": "hybrid"
+    },
+    {
+    "id": 2115,
+    "name": "White Siberian",
+    "race": "hybrid"
+    },
+    {
+    "id": 2116,
+    "name": "White Skunk",
+    "race": "hybrid"
+    },
+    {
+    "id": 2117,
+    "name": "White Slipper",
+    "race": "hybrid"
+    },
+    {
+    "id": 2118,
+    "name": "White Smurf",
+    "race": "hybrid"
+    },
+    {
+    "id": 2119,
+    "name": "White Strawberry",
+    "race": "hybrid"
+    },
+    {
+    "id": 2120,
+    "name": "White Urkle",
+    "race": "hybrid"
+    },
+    {
+    "id": 2121,
+    "name": "White Walker Kush",
+    "race": "hybrid"
+    },
+    {
+    "id": 2122,
+    "name": "White Walrus",
+    "race": "hybrid"
+    },
+    {
+    "id": 2123,
+    "name": "White Widow",
+    "race": "hybrid"
+    },
+    {
+    "id": 2124,
+    "name": "White Zombie",
+    "race": "hybrid"
+    },
+    {
+    "id": 2125,
+    "name": "Whiteout",
+    "race": "hybrid"
+    },
+    {
+    "id": 2131,
+    "name": "Wonder Haze",
+    "race": "hybrid"
+    },
+    {
+    "id": 2133,
+    "name": "Wonder Woman",
+    "race": "hybrid"
+    },
+    {
+    "id": 2135,
+    "name": "Wonka's Bubblicious",
+    "race": "hybrid"
+    },
+    {
+    "id": 2137,
+    "name": "Wookie",
+    "race": "hybrid"
+    },
+    {
+    "id": 2138,
+    "name": "Wookies",
+    "race": "hybrid"
+    },
+    {
+    "id": 2139,
+    "name": "Wreckage",
+    "race": "hybrid"
+    },
+    {
+    "id": 2140,
+    "name": "X-File",
+    "race": "hybrid"
+    },
+    {
+    "id": 2141,
+    "name": "X-Files",
+    "race": "hybrid"
+    },
+    {
+    "id": 2143,
+    "name": "X-tra Chz",
+    "race": "hybrid"
+    },
+    {
+    "id": 2144,
+    "name": "XJ-13",
+    "race": "hybrid"
+    },
+    {
+    "id": 2152,
+    "name": "Yogi Diesel",
+    "race": "hybrid"
+    },
+    {
+    "id": 2154,
+    "name": "Yummy",
+    "race": "hybrid"
+    },
+    {
+    "id": 2156,
+    "name": "Zen",
+    "race": "hybrid"
+    },
+    {
+    "id": 2158,
+    "name": "Zeus OG",
+    "race": "hybrid"
+    },
+    {
+    "id": 2162,
+    "name": "ʻAlenuihāhā",
+    "race": "hybrid"
+    }
+    ]
