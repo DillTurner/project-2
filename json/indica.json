@@ -1,0 +1,3272 @@
+[
+    {
+    "id": 19,
+    "name": "Alien Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 20,
+    "name": "Alien Dawg",
+    "race": "indica"
+    },
+    {
+    "id": 24,
+    "name": "Alien Kush",
+    "race": "indica"
+    },
+    {
+    "id": 27,
+    "name": "Alien Rift",
+    "race": "indica"
+    },
+    {
+    "id": 31,
+    "name": "Alien Technology",
+    "race": "indica"
+    },
+    {
+    "id": 32,
+    "name": "Aliens On Moonshine",
+    "race": "indica"
+    },
+    {
+    "id": 34,
+    "name": "Allkush",
+    "race": "indica"
+    },
+    {
+    "id": 43,
+    "name": "Alpine Star",
+    "race": "indica"
+    },
+    {
+    "id": 46,
+    "name": "American Kush",
+    "race": "indica"
+    },
+    {
+    "id": 47,
+    "name": "Americano",
+    "race": "indica"
+    },
+    {
+    "id": 53,
+    "name": "Ancient Kush",
+    "race": "indica"
+    },
+    {
+    "id": 54,
+    "name": "Ancient OG",
+    "race": "indica"
+    },
+    {
+    "id": 55,
+    "name": "Anesthesia",
+    "race": "indica"
+    },
+    {
+    "id": 56,
+    "name": "Angel OG",
+    "race": "indica"
+    },
+    {
+    "id": 58,
+    "name": "Anonymous OG",
+    "race": "indica"
+    },
+    {
+    "id": 66,
+    "name": "Appleberry",
+    "race": "indica"
+    },
+    {
+    "id": 71,
+    "name": "Argyle",
+    "race": "indica"
+    },
+    {
+    "id": 80,
+    "name": "Athabasca",
+    "race": "indica"
+    },
+    {
+    "id": 85,
+    "name": "Aurora Borealis",
+    "race": "indica"
+    },
+    {
+    "id": 86,
+    "name": "Aurora Indica",
+    "race": "indica"
+    },
+    {
+    "id": 91,
+    "name": "B-52",
+    "race": "indica"
+    },
+    {
+    "id": 93,
+    "name": "B.B. King",
+    "race": "indica"
+    },
+    {
+    "id": 97,
+    "name": "BC Sweet Tooth",
+    "race": "indica"
+    },
+    {
+    "id": 100,
+    "name": "Bakerstreet",
+    "race": "indica"
+    },
+    {
+    "id": 102,
+    "name": "Banana Candy",
+    "race": "indica"
+    },
+    {
+    "id": 110,
+    "name": "Barbara Bud",
+    "race": "indica"
+    },
+    {
+    "id": 112,
+    "name": "Batman OG",
+    "race": "indica"
+    },
+    {
+    "id": 115,
+    "name": "Beastmode 2.0",
+    "race": "indica"
+    },
+    {
+    "id": 118,
+    "name": "Bedica",
+    "race": "indica"
+    },
+    {
+    "id": 120,
+    "name": "Bell Ringer",
+    "race": "indica"
+    },
+    {
+    "id": 124,
+    "name": "Berry Noir",
+    "race": "indica"
+    },
+    {
+    "id": 126,
+    "name": "Berry White",
+    "race": "indica"
+    },
+    {
+    "id": 130,
+    "name": "Bhang 007 OG",
+    "race": "indica"
+    },
+    {
+    "id": 133,
+    "name": "Bhang Afghan Kush",
+    "race": "indica"
+    },
+    {
+    "id": 134,
+    "name": "Bhang Afghooey",
+    "race": "indica"
+    },
+    {
+    "id": 135,
+    "name": "Bhang Afgoo",
+    "race": "indica"
+    },
+    {
+    "id": 141,
+    "name": "Bhang Black Domina",
+    "race": "indica"
+    },
+    {
+    "id": 143,
+    "name": "Bhang Blackberry Kush",
+    "race": "indica"
+    },
+    {
+    "id": 145,
+    "name": "Bhang Bubba Kush",
+    "race": "indica"
+    },
+    {
+    "id": 152,
+    "name": "Bhang Cherry Kola",
+    "race": "indica"
+    },
+    {
+    "id": 158,
+    "name": "Bhang Darth Vader OG",
+    "race": "indica"
+    },
+    {
+    "id": 159,
+    "name": "Bhang Diablo OG",
+    "race": "indica"
+    },
+    {
+    "id": 160,
+    "name": "Bhang Diamond OG",
+    "race": "indica"
+    },
+    {
+    "id": 167,
+    "name": "Bhang Granddaddy Purple",
+    "race": "indica"
+    },
+    {
+    "id": 168,
+    "name": "Bhang Grape Ape",
+    "race": "indica"
+    },
+    {
+    "id": 176,
+    "name": "Bhang Humboldt Reserve",
+    "race": "indica"
+    },
+    {
+    "id": 182,
+    "name": "Bhang Jupiter OG",
+    "race": "indica"
+    },
+    {
+    "id": 184,
+    "name": "Bhang King's Kush",
+    "race": "indica"
+    },
+    {
+    "id": 185,
+    "name": "Bhang LA Confidential",
+    "race": "indica"
+    },
+    {
+    "id": 187,
+    "name": "Bhang Lavender Kush",
+    "race": "indica"
+    },
+    {
+    "id": 191,
+    "name": "Bhang MK Ultra",
+    "race": "indica"
+    },
+    {
+    "id": 192,
+    "name": "Bhang Mango OG",
+    "race": "indica"
+    },
+    {
+    "id": 193,
+    "name": "Bhang Master Kush",
+    "race": "indica"
+    },
+    {
+    "id": 195,
+    "name": "Bhang Mercury OG",
+    "race": "indica"
+    },
+    {
+    "id": 196,
+    "name": "Bhang Mr. Nice",
+    "race": "indica"
+    },
+    {
+    "id": 197,
+    "name": "Bhang Neptune OG",
+    "race": "indica"
+    },
+    {
+    "id": 198,
+    "name": "Bhang Northern Lights",
+    "race": "indica"
+    },
+    {
+    "id": 200,
+    "name": "Bhang Ogre",
+    "race": "indica"
+    },
+    {
+    "id": 203,
+    "name": "Bhang Perfecto Indica",
+    "race": "indica"
+    },
+    {
+    "id": 208,
+    "name": "Bhang Platinum Kush",
+    "race": "indica"
+    },
+    {
+    "id": 209,
+    "name": "Bhang Platinum OG",
+    "race": "indica"
+    },
+    {
+    "id": 212,
+    "name": "Bhang Purple Erkle",
+    "race": "indica"
+    },
+    {
+    "id": 214,
+    "name": "Bhang Purple Kush",
+    "race": "indica"
+    },
+    {
+    "id": 215,
+    "name": "Bhang Purple Nepal",
+    "race": "indica"
+    },
+    {
+    "id": 216,
+    "name": "Bhang Romulan",
+    "race": "indica"
+    },
+    {
+    "id": 218,
+    "name": "Bhang Seattle Blue",
+    "race": "indica"
+    },
+    {
+    "id": 219,
+    "name": "Bhang Sensi Star",
+    "race": "indica"
+    },
+    {
+    "id": 220,
+    "name": "Bhang Shark Shock",
+    "race": "indica"
+    },
+    {
+    "id": 229,
+    "name": "Bhang Super Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 234,
+    "name": "Bhang Triple Berry Goo",
+    "race": "indica"
+    },
+    {
+    "id": 235,
+    "name": "Bhang True OG",
+    "race": "indica"
+    },
+    {
+    "id": 240,
+    "name": "Bhang Yoda OG",
+    "race": "indica"
+    },
+    {
+    "id": 244,
+    "name": "Big Bang",
+    "race": "indica"
+    },
+    {
+    "id": 245,
+    "name": "Big Bud",
+    "race": "indica"
+    },
+    {
+    "id": 249,
+    "name": "Big Mac",
+    "race": "indica"
+    },
+    {
+    "id": 254,
+    "name": "Big White",
+    "race": "indica"
+    },
+    {
+    "id": 255,
+    "name": "Big Wreck",
+    "race": "indica"
+    },
+    {
+    "id": 259,
+    "name": "Biochem",
+    "race": "indica"
+    },
+    {
+    "id": 262,
+    "name": "Black '84",
+    "race": "indica"
+    },
+    {
+    "id": 263,
+    "name": "Black Afghan",
+    "race": "indica"
+    },
+    {
+    "id": 265,
+    "name": "Black Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 267,
+    "name": "Black Cherry OG",
+    "race": "indica"
+    },
+    {
+    "id": 271,
+    "name": "Black Diamond",
+    "race": "indica"
+    },
+    {
+    "id": 273,
+    "name": "Black Domina",
+    "race": "indica"
+    },
+    {
+    "id": 275,
+    "name": "Black Ice",
+    "race": "indica"
+    },
+    {
+    "id": 277,
+    "name": "Black Label Kush",
+    "race": "indica"
+    },
+    {
+    "id": 278,
+    "name": "Black Lime Special Reserve",
+    "race": "indica"
+    },
+    {
+    "id": 280,
+    "name": "Black Magic Kush",
+    "race": "indica"
+    },
+    {
+    "id": 281,
+    "name": "Black Mamba",
+    "race": "indica"
+    },
+    {
+    "id": 282,
+    "name": "Black Russian",
+    "race": "indica"
+    },
+    {
+    "id": 287,
+    "name": "Blackberry Bubble",
+    "race": "indica"
+    },
+    {
+    "id": 289,
+    "name": "Blackberry Cream",
+    "race": "indica"
+    },
+    {
+    "id": 293,
+    "name": "Blackberry Hashplant",
+    "race": "indica"
+    },
+    {
+    "id": 295,
+    "name": "Blackberry Kush",
+    "race": "indica"
+    },
+    {
+    "id": 298,
+    "name": "Blackberry Rhino",
+    "race": "indica"
+    },
+    {
+    "id": 300,
+    "name": "Blackberry x Blueberry",
+    "race": "indica"
+    },
+    {
+    "id": 301,
+    "name": "Blackwater",
+    "race": "indica"
+    },
+    {
+    "id": 306,
+    "name": "Bloo's Kloos",
+    "race": "indica"
+    },
+    {
+    "id": 310,
+    "name": "Blue Afghani",
+    "race": "indica"
+    },
+    {
+    "id": 311,
+    "name": "Blue Alien",
+    "race": "indica"
+    },
+    {
+    "id": 312,
+    "name": "Blue Bastard",
+    "race": "indica"
+    },
+    {
+    "id": 314,
+    "name": "Blue Blood",
+    "race": "indica"
+    },
+    {
+    "id": 316,
+    "name": "Blue Buddha",
+    "race": "indica"
+    },
+    {
+    "id": 318,
+    "name": "Blue Cheese",
+    "race": "indica"
+    },
+    {
+    "id": 322,
+    "name": "Blue Diamond",
+    "race": "indica"
+    },
+    {
+    "id": 327,
+    "name": "Blue Dynamite",
+    "race": "indica"
+    },
+    {
+    "id": 330,
+    "name": "Blue God",
+    "race": "indica"
+    },
+    {
+    "id": 339,
+    "name": "Blue Knight",
+    "race": "indica"
+    },
+    {
+    "id": 340,
+    "name": "Blue Kripple",
+    "race": "indica"
+    },
+    {
+    "id": 342,
+    "name": "Blue Lights",
+    "race": "indica"
+    },
+    {
+    "id": 345,
+    "name": "Blue Monster",
+    "race": "indica"
+    },
+    {
+    "id": 347,
+    "name": "Blue Moonshine",
+    "race": "indica"
+    },
+    {
+    "id": 349,
+    "name": "Blue Mystic",
+    "race": "indica"
+    },
+    {
+    "id": 353,
+    "name": "Blue Ox",
+    "race": "indica"
+    },
+    {
+    "id": 355,
+    "name": "Blue Power",
+    "race": "indica"
+    },
+    {
+    "id": 359,
+    "name": "Blue Steel",
+    "race": "indica"
+    },
+    {
+    "id": 369,
+    "name": "Blue Zombie",
+    "race": "indica"
+    },
+    {
+    "id": 370,
+    "name": "Blueberry",
+    "race": "indica"
+    },
+    {
+    "id": 380,
+    "name": "Blueberry Kush",
+    "race": "indica"
+    },
+    {
+    "id": 387,
+    "name": "Blueberry Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 388,
+    "name": "Blueberry Waltz",
+    "race": "indica"
+    },
+    {
+    "id": 404,
+    "name": "Brains Damage",
+    "race": "indica"
+    },
+    {
+    "id": 407,
+    "name": "Brand X",
+    "race": "indica"
+    },
+    {
+    "id": 408,
+    "name": "Brandywine",
+    "race": "indica"
+    },
+    {
+    "id": 412,
+    "name": "Bronze Whaler",
+    "race": "indica"
+    },
+    {
+    "id": 416,
+    "name": "Bubba Doja",
+    "race": "indica"
+    },
+    {
+    "id": 418,
+    "name": "Bubba Kush",
+    "race": "indica"
+    },
+    {
+    "id": 419,
+    "name": "Bubba OG",
+    "race": "indica"
+    },
+    {
+    "id": 422,
+    "name": "Bubba's Bitch",
+    "race": "indica"
+    },
+    {
+    "id": 423,
+    "name": "Bubba's Gift",
+    "race": "indica"
+    },
+    {
+    "id": 424,
+    "name": "Bubble Cheese",
+    "race": "indica"
+    },
+    {
+    "id": 427,
+    "name": "Bubblegum Kush",
+    "race": "indica"
+    },
+    {
+    "id": 430,
+    "name": "Buckeye Purple",
+    "race": "indica"
+    },
+    {
+    "id": 432,
+    "name": "Buddha Tahoe",
+    "race": "indica"
+    },
+    {
+    "id": 434,
+    "name": "Buddha's Sister",
+    "race": "indica"
+    },
+    {
+    "id": 437,
+    "name": "Burkle",
+    "race": "indica"
+    },
+    {
+    "id": 439,
+    "name": "Butter OG",
+    "race": "indica"
+    },
+    {
+    "id": 440,
+    "name": "Butterscotch",
+    "race": "indica"
+    },
+    {
+    "id": 445,
+    "name": "CBD Critical Cure",
+    "race": "indica"
+    },
+    {
+    "id": 449,
+    "name": "CBD OX",
+    "race": "indica"
+    },
+    {
+    "id": 450,
+    "name": "CBD Shark",
+    "race": "indica"
+    },
+    {
+    "id": 451,
+    "name": "CHR Super OG",
+    "race": "indica"
+    },
+    {
+    "id": 453,
+    "name": "Cactus",
+    "race": "indica"
+    },
+    {
+    "id": 455,
+    "name": "Cadillac Purple",
+    "race": "indica"
+    },
+    {
+    "id": 459,
+    "name": "California Grapefruit",
+    "race": "indica"
+    },
+    {
+    "id": 460,
+    "name": "California Hash Plant",
+    "race": "indica"
+    },
+    {
+    "id": 465,
+    "name": "Candy Cane",
+    "race": "indica"
+    },
+    {
+    "id": 469,
+    "name": "CannaSutra",
+    "race": "indica"
+    },
+    {
+    "id": 474,
+    "name": "Capers",
+    "race": "indica"
+    },
+    {
+    "id": 479,
+    "name": "Caramel Kona Coffee Kush",
+    "race": "indica"
+    },
+    {
+    "id": 481,
+    "name": "Caramella",
+    "race": "indica"
+    },
+    {
+    "id": 485,
+    "name": "Cascadia Kush",
+    "race": "indica"
+    },
+    {
+    "id": 488,
+    "name": "Casper OG",
+    "race": "indica"
+    },
+    {
+    "id": 505,
+    "name": "Chem D.O.G.",
+    "race": "indica"
+    },
+    {
+    "id": 507,
+    "name": "Chem Scout",
+    "race": "indica"
+    },
+    {
+    "id": 518,
+    "name": "Chemo",
+    "race": "indica"
+    },
+    {
+    "id": 521,
+    "name": "Cherries Jubilee",
+    "race": "indica"
+    },
+    {
+    "id": 529,
+    "name": "Cherry Kola",
+    "race": "indica"
+    },
+    {
+    "id": 540,
+    "name": "China Yunnan",
+    "race": "indica"
+    },
+    {
+    "id": 544,
+    "name": "Chocolate Chunk",
+    "race": "indica"
+    },
+    {
+    "id": 549,
+    "name": "Chocolate Kush",
+    "race": "indica"
+    },
+    {
+    "id": 550,
+    "name": "Chocolate Meringue",
+    "race": "indica"
+    },
+    {
+    "id": 551,
+    "name": "Chocolate OG",
+    "race": "indica"
+    },
+    {
+    "id": 559,
+    "name": "Chronic Thunder",
+    "race": "indica"
+    },
+    {
+    "id": 563,
+    "name": "Church OG",
+    "race": "indica"
+    },
+    {
+    "id": 578,
+    "name": "Club 69",
+    "race": "indica"
+    },
+    {
+    "id": 583,
+    "name": "Colorado Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 585,
+    "name": "Colorado Clementines",
+    "race": "indica"
+    },
+    {
+    "id": 586,
+    "name": "Commerce City Kush",
+    "race": "indica"
+    },
+    {
+    "id": 588,
+    "name": "Confidential Cheese",
+    "race": "indica"
+    },
+    {
+    "id": 591,
+    "name": "Conspiracy Kush",
+    "race": "indica"
+    },
+    {
+    "id": 595,
+    "name": "Cookie Monster",
+    "race": "indica"
+    },
+    {
+    "id": 597,
+    "name": "Cookies Kush",
+    "race": "indica"
+    },
+    {
+    "id": 600,
+    "name": "Copper Kush",
+    "race": "indica"
+    },
+    {
+    "id": 601,
+    "name": "Corleone Kush",
+    "race": "indica"
+    },
+    {
+    "id": 602,
+    "name": "Cornbread",
+    "race": "indica"
+    },
+    {
+    "id": 609,
+    "name": "Cream Caramel",
+    "race": "indica"
+    },
+    {
+    "id": 615,
+    "name": "Critical Hog",
+    "race": "indica"
+    },
+    {
+    "id": 618,
+    "name": "Critical Kush",
+    "race": "indica"
+    },
+    {
+    "id": 619,
+    "name": "Critical Mass",
+    "race": "indica"
+    },
+    {
+    "id": 621,
+    "name": "Critical Plus 2.0",
+    "race": "indica"
+    },
+    {
+    "id": 622,
+    "name": "Critical Sensi Star",
+    "race": "indica"
+    },
+    {
+    "id": 627,
+    "name": "Crosswalker",
+    "race": "indica"
+    },
+    {
+    "id": 628,
+    "name": "Crouching Tiger Hidden Alien",
+    "race": "indica"
+    },
+    {
+    "id": 629,
+    "name": "Crown OG",
+    "race": "indica"
+    },
+    {
+    "id": 630,
+    "name": "Crown Royale",
+    "race": "indica"
+    },
+    {
+    "id": 635,
+    "name": "Crystalberry",
+    "race": "indica"
+    },
+    {
+    "id": 636,
+    "name": "Cuvee",
+    "race": "indica"
+    },
+    {
+    "id": 638,
+    "name": "DJ Short Blueberry",
+    "race": "indica"
+    },
+    {
+    "id": 641,
+    "name": "Dakini  Kush",
+    "race": "indica"
+    },
+    {
+    "id": 646,
+    "name": "Dank Schrader",
+    "race": "indica"
+    },
+    {
+    "id": 648,
+    "name": "Danky Doodle",
+    "race": "indica"
+    },
+    {
+    "id": 650,
+    "name": "Dark Side of the Moon",
+    "race": "indica"
+    },
+    {
+    "id": 651,
+    "name": "Dark Star",
+    "race": "indica"
+    },
+    {
+    "id": 652,
+    "name": "Darkside OG",
+    "race": "indica"
+    },
+    {
+    "id": 653,
+    "name": "Darth Vader OG",
+    "race": "indica"
+    },
+    {
+    "id": 658,
+    "name": "Deadwood",
+    "race": "indica"
+    },
+    {
+    "id": 659,
+    "name": "Death Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 660,
+    "name": "Death Star",
+    "race": "indica"
+    },
+    {
+    "id": 661,
+    "name": "Death Star OG",
+    "race": "indica"
+    },
+    {
+    "id": 663,
+    "name": "Deep Chunk",
+    "race": "indica"
+    },
+    {
+    "id": 664,
+    "name": "Deep Purple",
+    "race": "indica"
+    },
+    {
+    "id": 665,
+    "name": "Deep Sleep",
+    "race": "indica"
+    },
+    {
+    "id": 667,
+    "name": "Denver Maple",
+    "race": "indica"
+    },
+    {
+    "id": 670,
+    "name": "Devil Fruit",
+    "race": "indica"
+    },
+    {
+    "id": 672,
+    "name": "Diablo",
+    "race": "indica"
+    },
+    {
+    "id": 673,
+    "name": "Diamond OG",
+    "race": "indica"
+    },
+    {
+    "id": 678,
+    "name": "Digweed",
+    "race": "indica"
+    },
+    {
+    "id": 681,
+    "name": "Dirty Old Bastard",
+    "race": "indica"
+    },
+    {
+    "id": 687,
+    "name": "Do-Si-Dos",
+    "race": "indica"
+    },
+    {
+    "id": 691,
+    "name": "Dolla Sign OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 692,
+    "name": "Domino",
+    "race": "indica"
+    },
+    {
+    "id": 699,
+    "name": "Dorit",
+    "race": "indica"
+    },
+    {
+    "id": 704,
+    "name": "Double Mint",
+    "race": "indica"
+    },
+    {
+    "id": 705,
+    "name": "Double OG",
+    "race": "indica"
+    },
+    {
+    "id": 706,
+    "name": "Double Purple Doja",
+    "race": "indica"
+    },
+    {
+    "id": 711,
+    "name": "Dr. Funk",
+    "race": "indica"
+    },
+    {
+    "id": 718,
+    "name": "Dream Berry",
+    "race": "indica"
+    },
+    {
+    "id": 730,
+    "name": "Durga Mata",
+    "race": "indica"
+    },
+    {
+    "id": 735,
+    "name": "Dutch Kush",
+    "race": "indica"
+    },
+    {
+    "id": 741,
+    "name": "Dynamite",
+    "race": "indica"
+    },
+    {
+    "id": 742,
+    "name": "Early Girl",
+    "race": "indica"
+    },
+    {
+    "id": 751,
+    "name": "Eastern European",
+    "race": "indica"
+    },
+    {
+    "id": 757,
+    "name": "Edelweiss",
+    "race": "indica"
+    },
+    {
+    "id": 758,
+    "name": "El Chapo OG",
+    "race": "indica"
+    },
+    {
+    "id": 759,
+    "name": "El Jefe",
+    "race": "indica"
+    },
+    {
+    "id": 763,
+    "name": "Electric Black Mamba",
+    "race": "indica"
+    },
+    {
+    "id": 770,
+    "name": "Emerald OG",
+    "race": "indica"
+    },
+    {
+    "id": 772,
+    "name": "Endless Sky",
+    "race": "indica"
+    },
+    {
+    "id": 773,
+    "name": "Enemy of the State",
+    "race": "indica"
+    },
+    {
+    "id": 774,
+    "name": "Enigma",
+    "race": "indica"
+    },
+    {
+    "id": 775,
+    "name": "Eran Almog",
+    "race": "indica"
+    },
+    {
+    "id": 776,
+    "name": "Erez",
+    "race": "indica"
+    },
+    {
+    "id": 777,
+    "name": "Ether",
+    "race": "indica"
+    },
+    {
+    "id": 781,
+    "name": "Everlast",
+    "race": "indica"
+    },
+    {
+    "id": 784,
+    "name": "Extreme Cream",
+    "race": "indica"
+    },
+    {
+    "id": 785,
+    "name": "Extreme OG",
+    "race": "indica"
+    },
+    {
+    "id": 786,
+    "name": "F'n louZER",
+    "race": "indica"
+    },
+    {
+    "id": 787,
+    "name": "Face Off OG",
+    "race": "indica"
+    },
+    {
+    "id": 792,
+    "name": "Fat Purple",
+    "race": "indica"
+    },
+    {
+    "id": 793,
+    "name": "Faygo Red Pop",
+    "race": "indica"
+    },
+    {
+    "id": 799,
+    "name": "Flaming Cookies",
+    "race": "indica"
+    },
+    {
+    "id": 802,
+    "name": "Flo OG",
+    "race": "indica"
+    },
+    {
+    "id": 804,
+    "name": "Flowerbomb Kush",
+    "race": "indica"
+    },
+    {
+    "id": 809,
+    "name": "Four Way",
+    "race": "indica"
+    },
+    {
+    "id": 811,
+    "name": "Frankenstein",
+    "race": "indica"
+    },
+    {
+    "id": 812,
+    "name": "Fred Flipn’ Stoned",
+    "race": "indica"
+    },
+    {
+    "id": 813,
+    "name": "Freezeland",
+    "race": "indica"
+    },
+    {
+    "id": 814,
+    "name": "Frida",
+    "race": "indica"
+    },
+    {
+    "id": 819,
+    "name": "Frosty",
+    "race": "indica"
+    },
+    {
+    "id": 823,
+    "name": "Fruity Chronic Juice",
+    "race": "indica"
+    },
+    {
+    "id": 826,
+    "name": "Fruitylicious",
+    "race": "indica"
+    },
+    {
+    "id": 827,
+    "name": "Fucking Incredible",
+    "race": "indica"
+    },
+    {
+    "id": 830,
+    "name": "Funky Monkey",
+    "race": "indica"
+    },
+    {
+    "id": 834,
+    "name": "G Stik \"RED\"",
+    "race": "indica"
+    },
+    {
+    "id": 837,
+    "name": "G Stik \"Violeta\"",
+    "race": "indica"
+    },
+    {
+    "id": 838,
+    "name": "G-Force",
+    "race": "indica"
+    },
+    {
+    "id": 840,
+    "name": "G13",
+    "race": "indica"
+    },
+    {
+    "id": 849,
+    "name": "Gandalf OG",
+    "race": "indica"
+    },
+    {
+    "id": 851,
+    "name": "Garlic Bud",
+    "race": "indica"
+    },
+    {
+    "id": 858,
+    "name": "Ghost OG Moonshine",
+    "race": "indica"
+    },
+    {
+    "id": 859,
+    "name": "Ghost Ship",
+    "race": "indica"
+    },
+    {
+    "id": 861,
+    "name": "Gigabud",
+    "race": "indica"
+    },
+    {
+    "id": 869,
+    "name": "Gobbilygoo",
+    "race": "indica"
+    },
+    {
+    "id": 870,
+    "name": "Gobbstopper",
+    "race": "indica"
+    },
+    {
+    "id": 871,
+    "name": "God Bud",
+    "race": "indica"
+    },
+    {
+    "id": 872,
+    "name": "God's Gift",
+    "race": "indica"
+    },
+    {
+    "id": 874,
+    "name": "Godberry",
+    "race": "indica"
+    },
+    {
+    "id": 875,
+    "name": "Godfather OG",
+    "race": "indica"
+    },
+    {
+    "id": 876,
+    "name": "Godfather Purple Kush",
+    "race": "indica"
+    },
+    {
+    "id": 877,
+    "name": "Godzilla",
+    "race": "indica"
+    },
+    {
+    "id": 879,
+    "name": "God’s Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 880,
+    "name": "God’s Treat",
+    "race": "indica"
+    },
+    {
+    "id": 881,
+    "name": "Gog & Magog",
+    "race": "indica"
+    },
+    {
+    "id": 885,
+    "name": "Goldberry",
+    "race": "indica"
+    },
+    {
+    "id": 894,
+    "name": "Goo",
+    "race": "indica"
+    },
+    {
+    "id": 895,
+    "name": "Gooberry",
+    "race": "indica"
+    },
+    {
+    "id": 897,
+    "name": "Gorilla Biscuit",
+    "race": "indica"
+    },
+    {
+    "id": 903,
+    "name": "Goverment Mule",
+    "race": "indica"
+    },
+    {
+    "id": 904,
+    "name": "Grand Doggy Purps",
+    "race": "indica"
+    },
+    {
+    "id": 905,
+    "name": "Grand Hindu",
+    "race": "indica"
+    },
+    {
+    "id": 907,
+    "name": "Granddaddy Purple",
+    "race": "indica"
+    },
+    {
+    "id": 909,
+    "name": "Grandpa Larry OG",
+    "race": "indica"
+    },
+    {
+    "id": 910,
+    "name": "Grandpa’s Breath",
+    "race": "indica"
+    },
+    {
+    "id": 911,
+    "name": "Grape Ape",
+    "race": "indica"
+    },
+    {
+    "id": 913,
+    "name": "Grape Cookies",
+    "race": "indica"
+    },
+    {
+    "id": 915,
+    "name": "Grape Drink",
+    "race": "indica"
+    },
+    {
+    "id": 917,
+    "name": "Grape Inferno",
+    "race": "indica"
+    },
+    {
+    "id": 918,
+    "name": "Grape Krush",
+    "race": "indica"
+    },
+    {
+    "id": 920,
+    "name": "Grape OX",
+    "race": "indica"
+    },
+    {
+    "id": 921,
+    "name": "Grape Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 923,
+    "name": "Grape Valley Kush",
+    "race": "indica"
+    },
+    {
+    "id": 928,
+    "name": "Gravity",
+    "race": "indica"
+    },
+    {
+    "id": 937,
+    "name": "Green Dragon",
+    "race": "indica"
+    },
+    {
+    "id": 943,
+    "name": "Green Kush",
+    "race": "indica"
+    },
+    {
+    "id": 945,
+    "name": "Green Love Potion",
+    "race": "indica"
+    },
+    {
+    "id": 946,
+    "name": "Green Mango",
+    "race": "indica"
+    },
+    {
+    "id": 948,
+    "name": "Green Poison",
+    "race": "indica"
+    },
+    {
+    "id": 949,
+    "name": "Green Python",
+    "race": "indica"
+    },
+    {
+    "id": 954,
+    "name": "Grimace",
+    "race": "indica"
+    },
+    {
+    "id": 955,
+    "name": "Grimace OG",
+    "race": "indica"
+    },
+    {
+    "id": 956,
+    "name": "Grimmdica",
+    "race": "indica"
+    },
+    {
+    "id": 957,
+    "name": "Guard Dawg",
+    "race": "indica"
+    },
+    {
+    "id": 961,
+    "name": "Guido Kush",
+    "race": "indica"
+    },
+    {
+    "id": 962,
+    "name": "Gumbo",
+    "race": "indica"
+    },
+    {
+    "id": 967,
+    "name": "Gutbuster",
+    "race": "indica"
+    },
+    {
+    "id": 968,
+    "name": "Hades Haze",
+    "race": "indica"
+    },
+    {
+    "id": 970,
+    "name": "Hammerhead",
+    "race": "indica"
+    },
+    {
+    "id": 972,
+    "name": "Haoma",
+    "race": "indica"
+    },
+    {
+    "id": 974,
+    "name": "Hardcore OG",
+    "race": "indica"
+    },
+    {
+    "id": 979,
+    "name": "Harmonia",
+    "race": "indica"
+    },
+    {
+    "id": 982,
+    "name": "Hash Plant",
+    "race": "indica"
+    },
+    {
+    "id": 983,
+    "name": "Hashbar OG",
+    "race": "indica"
+    },
+    {
+    "id": 984,
+    "name": "Hashberry",
+    "race": "indica"
+    },
+    {
+    "id": 988,
+    "name": "Hawaiian Delight",
+    "race": "indica"
+    },
+    {
+    "id": 995,
+    "name": "Hawaiian Purple Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1020,
+    "name": "Herijuana",
+    "race": "indica"
+    },
+    {
+    "id": 1024,
+    "name": "Himalayan Blackberry",
+    "race": "indica"
+    },
+    {
+    "id": 1026,
+    "name": "Hindu Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1027,
+    "name": "Hindu Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 1032,
+    "name": "Hog's Breath",
+    "race": "indica"
+    },
+    {
+    "id": 1033,
+    "name": "Holland's Hope",
+    "race": "indica"
+    },
+    {
+    "id": 1038,
+    "name": "Honey Boo Boo",
+    "race": "indica"
+    },
+    {
+    "id": 1044,
+    "name": "Hulkamania",
+    "race": "indica"
+    },
+    {
+    "id": 1046,
+    "name": "Humboldt Dream",
+    "race": "indica"
+    },
+    {
+    "id": 1047,
+    "name": "Humboldt Headband",
+    "race": "indica"
+    },
+    {
+    "id": 1052,
+    "name": "IFC OG",
+    "race": "indica"
+    },
+    {
+    "id": 1059,
+    "name": "Iced Widow",
+    "race": "indica"
+    },
+    {
+    "id": 1060,
+    "name": "Ill OG",
+    "race": "indica"
+    },
+    {
+    "id": 1061,
+    "name": "Illuminati OG",
+    "race": "indica"
+    },
+    {
+    "id": 1063,
+    "name": "Incredible Bulk",
+    "race": "indica"
+    },
+    {
+    "id": 1066,
+    "name": "Ingrid",
+    "race": "indica"
+    },
+    {
+    "id": 1069,
+    "name": "Irish Cream",
+    "race": "indica"
+    },
+    {
+    "id": 1077,
+    "name": "JT15",
+    "race": "indica"
+    },
+    {
+    "id": 1079,
+    "name": "Jack Burton",
+    "race": "indica"
+    },
+    {
+    "id": 1105,
+    "name": "Jawa Pie",
+    "race": "indica"
+    },
+    {
+    "id": 1108,
+    "name": "Jedi Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1109,
+    "name": "Jelly Roll",
+    "race": "indica"
+    },
+    {
+    "id": 1112,
+    "name": "Jesse's Girl",
+    "race": "indica"
+    },
+    {
+    "id": 1122,
+    "name": "Josh D OG",
+    "race": "indica"
+    },
+    {
+    "id": 1123,
+    "name": "Jr",
+    "race": "indica"
+    },
+    {
+    "id": 1129,
+    "name": "Jupiter OG",
+    "race": "indica"
+    },
+    {
+    "id": 1130,
+    "name": "K-Train",
+    "race": "indica"
+    },
+    {
+    "id": 1134,
+    "name": "KC 36",
+    "race": "indica"
+    },
+    {
+    "id": 1137,
+    "name": "Kahuna",
+    "race": "indica"
+    },
+    {
+    "id": 1143,
+    "name": "Kali China",
+    "race": "indica"
+    },
+    {
+    "id": 1146,
+    "name": "Kandahar",
+    "race": "indica"
+    },
+    {
+    "id": 1150,
+    "name": "Katsu Bubba Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1151,
+    "name": "Katsu Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1153,
+    "name": "Kelly Hill Gold",
+    "race": "indica"
+    },
+    {
+    "id": 1159,
+    "name": "Khufu",
+    "race": "indica"
+    },
+    {
+    "id": 1169,
+    "name": "King Louis XIII",
+    "race": "indica"
+    },
+    {
+    "id": 1171,
+    "name": "King's Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1173,
+    "name": "Kiwiskunk",
+    "race": "indica"
+    },
+    {
+    "id": 1174,
+    "name": "Kobain Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1177,
+    "name": "Kool-Aid Smile",
+    "race": "indica"
+    },
+    {
+    "id": 1178,
+    "name": "Kosher Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1181,
+    "name": "Kraken",
+    "race": "indica"
+    },
+    {
+    "id": 1182,
+    "name": "Krishna Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1183,
+    "name": "Kryptonite",
+    "race": "indica"
+    },
+    {
+    "id": 1189,
+    "name": "Kushadelic",
+    "race": "indica"
+    },
+    {
+    "id": 1192,
+    "name": "Kushberry",
+    "race": "indica"
+    },
+    {
+    "id": 1195,
+    "name": "L.A.K. Federal Reserve",
+    "race": "indica"
+    },
+    {
+    "id": 1197,
+    "name": "LA Confidential",
+    "race": "indica"
+    },
+    {
+    "id": 1201,
+    "name": "LA OG",
+    "race": "indica"
+    },
+    {
+    "id": 1202,
+    "name": "LA Ultra",
+    "race": "indica"
+    },
+    {
+    "id": 1216,
+    "name": "Las Vegas Purple Kush BX",
+    "race": "indica"
+    },
+    {
+    "id": 1217,
+    "name": "Lashkar Gah",
+    "race": "indica"
+    },
+    {
+    "id": 1219,
+    "name": "Lavender",
+    "race": "indica"
+    },
+    {
+    "id": 1225,
+    "name": "Lee Roy",
+    "race": "indica"
+    },
+    {
+    "id": 1227,
+    "name": "Legend OG",
+    "race": "indica"
+    },
+    {
+    "id": 1264,
+    "name": "Lime Purple Mist",
+    "race": "indica"
+    },
+    {
+    "id": 1267,
+    "name": "Lions Gate",
+    "race": "indica"
+    },
+    {
+    "id": 1268,
+    "name": "Liquid Butter",
+    "race": "indica"
+    },
+    {
+    "id": 1272,
+    "name": "Locomotion",
+    "race": "indica"
+    },
+    {
+    "id": 1280,
+    "name": "Love Potion #9",
+    "race": "indica"
+    },
+    {
+    "id": 1285,
+    "name": "Lucid Bolt",
+    "race": "indica"
+    },
+    {
+    "id": 1289,
+    "name": "M-39",
+    "race": "indica"
+    },
+    {
+    "id": 1291,
+    "name": "MK Ultra",
+    "race": "indica"
+    },
+    {
+    "id": 1293,
+    "name": "Mad Scientist",
+    "race": "indica"
+    },
+    {
+    "id": 1294,
+    "name": "Madagascar",
+    "race": "indica"
+    },
+    {
+    "id": 1297,
+    "name": "Madzilla",
+    "race": "indica"
+    },
+    {
+    "id": 1298,
+    "name": "Magic Beans OG",
+    "race": "indica"
+    },
+    {
+    "id": 1309,
+    "name": "Mango",
+    "race": "indica"
+    },
+    {
+    "id": 1314,
+    "name": "Mangolicious",
+    "race": "indica"
+    },
+    {
+    "id": 1316,
+    "name": "Maple Leaf Indica",
+    "race": "indica"
+    },
+    {
+    "id": 1322,
+    "name": "Mars OG",
+    "race": "indica"
+    },
+    {
+    "id": 1325,
+    "name": "Master Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 1326,
+    "name": "Master Jedi",
+    "race": "indica"
+    },
+    {
+    "id": 1327,
+    "name": "Master Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1328,
+    "name": "Master OG",
+    "race": "indica"
+    },
+    {
+    "id": 1332,
+    "name": "Mataro Blue",
+    "race": "indica"
+    },
+    {
+    "id": 1333,
+    "name": "Matsu",
+    "race": "indica"
+    },
+    {
+    "id": 1343,
+    "name": "Mazar I Sharif",
+    "race": "indica"
+    },
+    {
+    "id": 1344,
+    "name": "Mazar Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1356,
+    "name": "Mendo Breath",
+    "race": "indica"
+    },
+    {
+    "id": 1358,
+    "name": "Mercury OG",
+    "race": "indica"
+    },
+    {
+    "id": 1359,
+    "name": "Merlot OG",
+    "race": "indica"
+    },
+    {
+    "id": 1367,
+    "name": "Milky Way",
+    "race": "indica"
+    },
+    {
+    "id": 1371,
+    "name": "Misty Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1375,
+    "name": "Moloka’i Frost",
+    "race": "indica"
+    },
+    {
+    "id": 1376,
+    "name": "Moloka’i Purpz",
+    "race": "indica"
+    },
+    {
+    "id": 1377,
+    "name": "Money Maker",
+    "race": "indica"
+    },
+    {
+    "id": 1379,
+    "name": "Monolith",
+    "race": "indica"
+    },
+    {
+    "id": 1380,
+    "name": "Monster Cookies",
+    "race": "indica"
+    },
+    {
+    "id": 1389,
+    "name": "Mossad",
+    "race": "indica"
+    },
+    {
+    "id": 1390,
+    "name": "Mossimo OG",
+    "race": "indica"
+    },
+    {
+    "id": 1391,
+    "name": "Motavation",
+    "race": "indica"
+    },
+    {
+    "id": 1393,
+    "name": "Mother of Berries",
+    "race": "indica"
+    },
+    {
+    "id": 1398,
+    "name": "Mr. Nice",
+    "race": "indica"
+    },
+    {
+    "id": 1401,
+    "name": "Mt. Cook",
+    "race": "indica"
+    },
+    {
+    "id": 1404,
+    "name": "Mud Bite",
+    "race": "indica"
+    },
+    {
+    "id": 1405,
+    "name": "Murkle",
+    "race": "indica"
+    },
+    {
+    "id": 1414,
+    "name": "Negra 44",
+    "race": "indica"
+    },
+    {
+    "id": 1417,
+    "name": "Neptune Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1418,
+    "name": "Neptune OG",
+    "race": "indica"
+    },
+    {
+    "id": 1421,
+    "name": "Nexus OG",
+    "race": "indica"
+    },
+    {
+    "id": 1422,
+    "name": "Nice Cherry",
+    "race": "indica"
+    },
+    {
+    "id": 1423,
+    "name": "Nicole Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1424,
+    "name": "Night Nurse",
+    "race": "indica"
+    },
+    {
+    "id": 1425,
+    "name": "Night Terror OG",
+    "race": "indica"
+    },
+    {
+    "id": 1426,
+    "name": "Night Train",
+    "race": "indica"
+    },
+    {
+    "id": 1431,
+    "name": "Nordle",
+    "race": "indica"
+    },
+    {
+    "id": 1432,
+    "name": "North American Indica",
+    "race": "indica"
+    },
+    {
+    "id": 1434,
+    "name": "North Indian",
+    "race": "indica"
+    },
+    {
+    "id": 1435,
+    "name": "Northern Berry",
+    "race": "indica"
+    },
+    {
+    "id": 1437,
+    "name": "Northern Lights",
+    "race": "indica"
+    },
+    {
+    "id": 1438,
+    "name": "Northern Lights #5",
+    "race": "indica"
+    },
+    {
+    "id": 1441,
+    "name": "Northern Wreck",
+    "race": "indica"
+    },
+    {
+    "id": 1442,
+    "name": "Nova",
+    "race": "indica"
+    },
+    {
+    "id": 1443,
+    "name": "Nuggetry OG",
+    "race": "indica"
+    },
+    {
+    "id": 1444,
+    "name": "Nuken",
+    "race": "indica"
+    },
+    {
+    "id": 1446,
+    "name": "OCA Gold",
+    "race": "indica"
+    },
+    {
+    "id": 1453,
+    "name": "OG Eddy Lepp",
+    "race": "indica"
+    },
+    {
+    "id": 1456,
+    "name": "OG LA Affie",
+    "race": "indica"
+    },
+    {
+    "id": 1457,
+    "name": "OG Los Angeles Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1465,
+    "name": "OG's Pearl",
+    "race": "indica"
+    },
+    {
+    "id": 1467,
+    "name": "Obama Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1470,
+    "name": "Ogre Berry",
+    "race": "indica"
+    },
+    {
+    "id": 1478,
+    "name": "Opal OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1481,
+    "name": "Orange Afghani",
+    "race": "indica"
+    },
+    {
+    "id": 1493,
+    "name": "Orange Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1494,
+    "name": "Orange Romulan",
+    "race": "indica"
+    },
+    {
+    "id": 1499,
+    "name": "Oregon Diesel",
+    "race": "indica"
+    },
+    {
+    "id": 1503,
+    "name": "Ortega",
+    "race": "indica"
+    },
+    {
+    "id": 1507,
+    "name": "P-51",
+    "race": "indica"
+    },
+    {
+    "id": 1509,
+    "name": "PVC OG",
+    "race": "indica"
+    },
+    {
+    "id": 1510,
+    "name": "Pacific Blue",
+    "race": "indica"
+    },
+    {
+    "id": 1512,
+    "name": "Pakistan Valley Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1513,
+    "name": "Pakistani Chitral Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1514,
+    "name": "Pamelina",
+    "race": "indica"
+    },
+    {
+    "id": 1519,
+    "name": "Papa's OG",
+    "race": "indica"
+    },
+    {
+    "id": 1520,
+    "name": "Papaya",
+    "race": "indica"
+    },
+    {
+    "id": 1521,
+    "name": "Paris OG",
+    "race": "indica"
+    },
+    {
+    "id": 1522,
+    "name": "Paris XXX",
+    "race": "indica"
+    },
+    {
+    "id": 1527,
+    "name": "Pennywise",
+    "race": "indica"
+    },
+    {
+    "id": 1530,
+    "name": "Pestilence",
+    "race": "indica"
+    },
+    {
+    "id": 1531,
+    "name": "Petrolia Headstash",
+    "race": "indica"
+    },
+    {
+    "id": 1532,
+    "name": "Peyote Cookies",
+    "race": "indica"
+    },
+    {
+    "id": 1534,
+    "name": "Pez",
+    "race": "indica"
+    },
+    {
+    "id": 1535,
+    "name": "Phantom Arrow",
+    "race": "indica"
+    },
+    {
+    "id": 1537,
+    "name": "Phantom OG",
+    "race": "indica"
+    },
+    {
+    "id": 1538,
+    "name": "Phishhead Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1542,
+    "name": "Pine Tar Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1561,
+    "name": "Pink Berry",
+    "race": "indica"
+    },
+    {
+    "id": 1562,
+    "name": "Pink Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 1563,
+    "name": "Pink Champagne",
+    "race": "indica"
+    },
+    {
+    "id": 1565,
+    "name": "Pink Death Star",
+    "race": "indica"
+    },
+    {
+    "id": 1573,
+    "name": "Pink Sunset",
+    "race": "indica"
+    },
+    {
+    "id": 1575,
+    "name": "Pitbull",
+    "race": "indica"
+    },
+    {
+    "id": 1576,
+    "name": "Platinum Bubba Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1579,
+    "name": "Platinum Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1580,
+    "name": "Platinum OG",
+    "race": "indica"
+    },
+    {
+    "id": 1581,
+    "name": "Platinum Purple Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1583,
+    "name": "Plushberry",
+    "race": "indica"
+    },
+    {
+    "id": 1584,
+    "name": "Pluto Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1586,
+    "name": "Pokie",
+    "race": "indica"
+    },
+    {
+    "id": 1589,
+    "name": "Popcorn Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1590,
+    "name": "Pot of Gold",
+    "race": "indica"
+    },
+    {
+    "id": 1591,
+    "name": "Power Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1593,
+    "name": "Pre-98 Bubba Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1595,
+    "name": "Presidential OG",
+    "race": "indica"
+    },
+    {
+    "id": 1596,
+    "name": "Primus",
+    "race": "indica"
+    },
+    {
+    "id": 1600,
+    "name": "Proper BHO Shatter",
+    "race": "indica"
+    },
+    {
+    "id": 1602,
+    "name": "Puna Buddaz",
+    "race": "indica"
+    },
+    {
+    "id": 1604,
+    "name": "Punky Lion",
+    "race": "indica"
+    },
+    {
+    "id": 1605,
+    "name": "Pure Afghan",
+    "race": "indica"
+    },
+    {
+    "id": 1606,
+    "name": "Pure Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1607,
+    "name": "Pure OG",
+    "race": "indica"
+    },
+    {
+    "id": 1610,
+    "name": "Purple Afghani",
+    "race": "indica"
+    },
+    {
+    "id": 1614,
+    "name": "Purple Berry",
+    "race": "indica"
+    },
+    {
+    "id": 1615,
+    "name": "Purple Bubba",
+    "race": "indica"
+    },
+    {
+    "id": 1616,
+    "name": "Purple Bud",
+    "race": "indica"
+    },
+    {
+    "id": 1617,
+    "name": "Purple Buddha",
+    "race": "indica"
+    },
+    {
+    "id": 1618,
+    "name": "Purple Bush",
+    "race": "indica"
+    },
+    {
+    "id": 1619,
+    "name": "Purple Candy",
+    "race": "indica"
+    },
+    {
+    "id": 1621,
+    "name": "Purple Cheddar",
+    "race": "indica"
+    },
+    {
+    "id": 1623,
+    "name": "Purple Chemdawg",
+    "race": "indica"
+    },
+    {
+    "id": 1624,
+    "name": "Purple Cotton Candy",
+    "race": "indica"
+    },
+    {
+    "id": 1627,
+    "name": "Purple Cream",
+    "race": "indica"
+    },
+    {
+    "id": 1630,
+    "name": "Purple Dragon",
+    "race": "indica"
+    },
+    {
+    "id": 1632,
+    "name": "Purple Elephant",
+    "race": "indica"
+    },
+    {
+    "id": 1634,
+    "name": "Purple Goo",
+    "race": "indica"
+    },
+    {
+    "id": 1639,
+    "name": "Purple Hindu Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1642,
+    "name": "Purple Jolly Rancher",
+    "race": "indica"
+    },
+    {
+    "id": 1643,
+    "name": "Purple Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1644,
+    "name": "Purple Linda",
+    "race": "indica"
+    },
+    {
+    "id": 1645,
+    "name": "Purple Martian Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1647,
+    "name": "Purple Monkey Balls",
+    "race": "indica"
+    },
+    {
+    "id": 1648,
+    "name": "Purple Mr. Nice",
+    "race": "indica"
+    },
+    {
+    "id": 1649,
+    "name": "Purple Nepal",
+    "race": "indica"
+    },
+    {
+    "id": 1650,
+    "name": "Purple OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1652,
+    "name": "Purple Panty Dropper",
+    "race": "indica"
+    },
+    {
+    "id": 1654,
+    "name": "Purple Passion",
+    "race": "indica"
+    },
+    {
+    "id": 1655,
+    "name": "Purple People Eater",
+    "race": "indica"
+    },
+    {
+    "id": 1656,
+    "name": "Purple Pinecone",
+    "race": "indica"
+    },
+    {
+    "id": 1659,
+    "name": "Purple Punch",
+    "race": "indica"
+    },
+    {
+    "id": 1664,
+    "name": "Purple Star",
+    "race": "indica"
+    },
+    {
+    "id": 1665,
+    "name": "Purple Swish",
+    "race": "indica"
+    },
+    {
+    "id": 1670,
+    "name": "Purple Tonic",
+    "race": "indica"
+    },
+    {
+    "id": 1672,
+    "name": "Purple Urkle",
+    "race": "indica"
+    },
+    {
+    "id": 1675,
+    "name": "Purple Wreck",
+    "race": "indica"
+    },
+    {
+    "id": 1682,
+    "name": "Querkle",
+    "race": "indica"
+    },
+    {
+    "id": 1684,
+    "name": "Quin-N-Tonic",
+    "race": "indica"
+    },
+    {
+    "id": 1685,
+    "name": "Qush",
+    "race": "indica"
+    },
+    {
+    "id": 1689,
+    "name": "Rainbow Jones",
+    "race": "indica"
+    },
+    {
+    "id": 1690,
+    "name": "Rare Dankness #1",
+    "race": "indica"
+    },
+    {
+    "id": 1691,
+    "name": "Rare Darkness",
+    "race": "indica"
+    },
+    {
+    "id": 1694,
+    "name": "Raspberry Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1696,
+    "name": "Ray Charles",
+    "race": "indica"
+    },
+    {
+    "id": 1699,
+    "name": "Reclining Buddha",
+    "race": "indica"
+    },
+    {
+    "id": 1700,
+    "name": "Recon",
+    "race": "indica"
+    },
+    {
+    "id": 1705,
+    "name": "Red Dwarf",
+    "race": "indica"
+    },
+    {
+    "id": 1706,
+    "name": "Red Eye OG",
+    "race": "indica"
+    },
+    {
+    "id": 1713,
+    "name": "Redwood Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1714,
+    "name": "Remedy",
+    "race": "indica"
+    },
+    {
+    "id": 1720,
+    "name": "Rigger Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1722,
+    "name": "Rip City Purps",
+    "race": "indica"
+    },
+    {
+    "id": 1726,
+    "name": "Rockbud",
+    "race": "indica"
+    },
+    {
+    "id": 1727,
+    "name": "Rocklock",
+    "race": "indica"
+    },
+    {
+    "id": 1728,
+    "name": "Rockstar",
+    "race": "indica"
+    },
+    {
+    "id": 1729,
+    "name": "Rockstar Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1730,
+    "name": "Rockstar Master Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1732,
+    "name": "Rocky Mountain Blueberry",
+    "race": "indica"
+    },
+    {
+    "id": 1734,
+    "name": "Rollex OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1737,
+    "name": "Romulan",
+    "race": "indica"
+    },
+    {
+    "id": 1741,
+    "name": "Rose Bud",
+    "race": "indica"
+    },
+    {
+    "id": 1750,
+    "name": "Russian Assassin",
+    "race": "indica"
+    },
+    {
+    "id": 1755,
+    "name": "SFV OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1757,
+    "name": "Salmon River OG",
+    "race": "indica"
+    },
+    {
+    "id": 1763,
+    "name": "Satellite OG",
+    "race": "indica"
+    },
+    {
+    "id": 1772,
+    "name": "Seattle Blue",
+    "race": "indica"
+    },
+    {
+    "id": 1774,
+    "name": "Secret Garden OG",
+    "race": "indica"
+    },
+    {
+    "id": 1776,
+    "name": "Sensi Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 1777,
+    "name": "Sensi Star",
+    "race": "indica"
+    },
+    {
+    "id": 1780,
+    "name": "Sexxpot",
+    "race": "indica"
+    },
+    {
+    "id": 1783,
+    "name": "Shark Attack",
+    "race": "indica"
+    },
+    {
+    "id": 1785,
+    "name": "Shark Shock",
+    "race": "indica"
+    },
+    {
+    "id": 1790,
+    "name": "Shishkaberry",
+    "race": "indica"
+    },
+    {
+    "id": 1792,
+    "name": "Shiva Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 1805,
+    "name": "Silverback Gorilla",
+    "race": "indica"
+    },
+    {
+    "id": 1808,
+    "name": "Sin City Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1812,
+    "name": "Sirius Black",
+    "race": "indica"
+    },
+    {
+    "id": 1815,
+    "name": "Skunk 47",
+    "race": "indica"
+    },
+    {
+    "id": 1819,
+    "name": "Star Berry Indica",
+    "race": "indica"
+    },
+    {
+    "id": 1820,
+    "name": "Star Killer",
+    "race": "indica"
+    },
+    {
+    "id": 1821,
+    "name": "Star Master Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1823,
+    "name": "StarBud",
+    "race": "indica"
+    },
+    {
+    "id": 1829,
+    "name": "Stephen Hawking Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1837,
+    "name": "Strawberry Cheesecake",
+    "race": "indica"
+    },
+    {
+    "id": 1842,
+    "name": "Strawberry Fields",
+    "race": "indica"
+    },
+    {
+    "id": 1843,
+    "name": "Strawberry Frost",
+    "race": "indica"
+    },
+    {
+    "id": 1852,
+    "name": "Sugar Black Rose",
+    "race": "indica"
+    },
+    {
+    "id": 1854,
+    "name": "Sugar Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1855,
+    "name": "Sugar Mama",
+    "race": "indica"
+    },
+    {
+    "id": 1863,
+    "name": "Sumo's OG Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1871,
+    "name": "Sunshine Daydream",
+    "race": "indica"
+    },
+    {
+    "id": 1873,
+    "name": "Super  Chronic",
+    "race": "indica"
+    },
+    {
+    "id": 1875,
+    "name": "Super Bud",
+    "race": "indica"
+    },
+    {
+    "id": 1877,
+    "name": "Super Cheese",
+    "race": "indica"
+    },
+    {
+    "id": 1881,
+    "name": "Super Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1886,
+    "name": "Super Skunk",
+    "race": "indica"
+    },
+    {
+    "id": 1893,
+    "name": "Supergirl",
+    "race": "indica"
+    },
+    {
+    "id": 1895,
+    "name": "Superman OG",
+    "race": "indica"
+    },
+    {
+    "id": 1902,
+    "name": "Sweet Baby Jane",
+    "race": "indica"
+    },
+    {
+    "id": 1904,
+    "name": "Sweet Black Angel",
+    "race": "indica"
+    },
+    {
+    "id": 1906,
+    "name": "Sweet Deep Grapefruit",
+    "race": "indica"
+    },
+    {
+    "id": 1913,
+    "name": "Sweet Lafayette",
+    "race": "indica"
+    },
+    {
+    "id": 1917,
+    "name": "Sweet Tooth",
+    "race": "indica"
+    },
+    {
+    "id": 1918,
+    "name": "Sweet and Sour Widow",
+    "race": "indica"
+    },
+    {
+    "id": 1921,
+    "name": "Swiss Indica",
+    "race": "indica"
+    },
+    {
+    "id": 1931,
+    "name": "Tahoe Purps",
+    "race": "indica"
+    },
+    {
+    "id": 1932,
+    "name": "Taliban Poison",
+    "race": "indica"
+    },
+    {
+    "id": 1939,
+    "name": "Tangerine Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1950,
+    "name": "Terminator OG",
+    "race": "indica"
+    },
+    {
+    "id": 1960,
+    "name": "The Black",
+    "race": "indica"
+    },
+    {
+    "id": 1965,
+    "name": "The Doctor",
+    "race": "indica"
+    },
+    {
+    "id": 1969,
+    "name": "The Hog",
+    "race": "indica"
+    },
+    {
+    "id": 1970,
+    "name": "The OX",
+    "race": "indica"
+    },
+    {
+    "id": 1972,
+    "name": "The Ooze",
+    "race": "indica"
+    },
+    {
+    "id": 1975,
+    "name": "The Sister",
+    "race": "indica"
+    },
+    {
+    "id": 1985,
+    "name": "Throwback Kush",
+    "race": "indica"
+    },
+    {
+    "id": 1990,
+    "name": "Tiger's Milk",
+    "race": "indica"
+    },
+    {
+    "id": 1991,
+    "name": "Tigermelon",
+    "race": "indica"
+    },
+    {
+    "id": 1998,
+    "name": "Tonics Web",
+    "race": "indica"
+    },
+    {
+    "id": 1999,
+    "name": "Tora Bora",
+    "race": "indica"
+    },
+    {
+    "id": 2001,
+    "name": "Training Day",
+    "race": "indica"
+    },
+    {
+    "id": 2003,
+    "name": "Tranquil Elephantizer: Remix",
+    "race": "indica"
+    },
+    {
+    "id": 2010,
+    "name": "Triangle Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2014,
+    "name": "Triple Cheese",
+    "race": "indica"
+    },
+    {
+    "id": 2020,
+    "name": "True OG",
+    "race": "indica"
+    },
+    {
+    "id": 2021,
+    "name": "True X",
+    "race": "indica"
+    },
+    {
+    "id": 2022,
+    "name": "Truffle Butter",
+    "race": "indica"
+    },
+    {
+    "id": 2024,
+    "name": "Tuna Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2030,
+    "name": "Tyson",
+    "race": "indica"
+    },
+    {
+    "id": 2031,
+    "name": "U2 Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2033,
+    "name": "UW",
+    "race": "indica"
+    },
+    {
+    "id": 2035,
+    "name": "Ultra Banana",
+    "race": "indica"
+    },
+    {
+    "id": 2038,
+    "name": "UltraViolet OG",
+    "race": "indica"
+    },
+    {
+    "id": 2042,
+    "name": "Vader OG",
+    "race": "indica"
+    },
+    {
+    "id": 2046,
+    "name": "Vanilla Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2057,
+    "name": "Violator Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2062,
+    "name": "WMD",
+    "race": "indica"
+    },
+    {
+    "id": 2063,
+    "name": "WSU",
+    "race": "indica"
+    },
+    {
+    "id": 2072,
+    "name": "Watermelon",
+    "race": "indica"
+    },
+    {
+    "id": 2076,
+    "name": "West Coast Dawg",
+    "race": "indica"
+    },
+    {
+    "id": 2077,
+    "name": "West OG",
+    "race": "indica"
+    },
+    {
+    "id": 2079,
+    "name": "Whitaker Blues",
+    "race": "indica"
+    },
+    {
+    "id": 2081,
+    "name": "White Bastard",
+    "race": "indica"
+    },
+    {
+    "id": 2082,
+    "name": "White Berry",
+    "race": "indica"
+    },
+    {
+    "id": 2083,
+    "name": "White Bubblegum",
+    "race": "indica"
+    },
+    {
+    "id": 2085,
+    "name": "White Caramel Cookie",
+    "race": "indica"
+    },
+    {
+    "id": 2090,
+    "name": "White Dragon",
+    "race": "indica"
+    },
+    {
+    "id": 2094,
+    "name": "White Empress",
+    "race": "indica"
+    },
+    {
+    "id": 2095,
+    "name": "White Fire 43",
+    "race": "indica"
+    },
+    {
+    "id": 2102,
+    "name": "White Kryptonite",
+    "race": "indica"
+    },
+    {
+    "id": 2103,
+    "name": "White Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2108,
+    "name": "White OG",
+    "race": "indica"
+    },
+    {
+    "id": 2110,
+    "name": "White Rhino",
+    "race": "indica"
+    },
+    {
+    "id": 2126,
+    "name": "Whitewalker OG",
+    "race": "indica"
+    },
+    {
+    "id": 2130,
+    "name": "Willy's Wonder",
+    "race": "indica"
+    },
+    {
+    "id": 2132,
+    "name": "Wonder Kid",
+    "race": "indica"
+    },
+    {
+    "id": 2134,
+    "name": "Wonder Woman OG",
+    "race": "indica"
+    },
+    {
+    "id": 2136,
+    "name": "Woody Kush",
+    "race": "indica"
+    },
+    {
+    "id": 2142,
+    "name": "X-Wing",
+    "race": "indica"
+    },
+    {
+    "id": 2145,
+    "name": "XXX 420",
+    "race": "indica"
+    },
+    {
+    "id": 2146,
+    "name": "XXX OG",
+    "race": "indica"
+    },
+    {
+    "id": 2149,
+    "name": "Yeti OG",
+    "race": "indica"
+    },
+    {
+    "id": 2150,
+    "name": "Yoda OG",
+    "race": "indica"
+    },
+    {
+    "id": 2151,
+    "name": "Yoda's Brain",
+    "race": "indica"
+    },
+    {
+    "id": 2153,
+    "name": "Yumboldt",
+    "race": "indica"
+    },
+    {
+    "id": 2159,
+    "name": "Zkittlez",
+    "race": "indica"
+    },
+    {
+    "id": 2160,
+    "name": "Zombie OG",
+    "race": "indica"
+    },
+    {
+    "id": 2161,
+    "name": "Zoom Pie",
+    "race": "indica"
+    }
+    ]

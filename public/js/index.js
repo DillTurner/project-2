@@ -1,11 +1,25 @@
+
+
 $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
-
-
     //api function call for all strains
-    $.get("/api/all", function(data) {
-        console.log(data);
+    $.get("/api/indica", function(response) {
+        console.log(response);
+      });
+      $.get("/api/sativa", function(response) {
+        console.log(response);
+      });
+      $.get("/api/hybrid", function(response) {
+        console.log(response);
+      });
+    $.get("/api/all").then(function(response){    
+                   
+                  var IndicaTitle = $('#titleIndica');
+                  //$("<h3>"+title+"</h3>").appendTo(IndicaTitle);
+                  console.log(response);
+                  //console.log(indica);
+
       });
 
   });

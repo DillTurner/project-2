@@ -1,0 +1,2067 @@
+[
+    {
+    "id": 2,
+    "name": "African",
+    "race": "sativa"
+    },
+    {
+    "id": 8,
+    "name": "Alaska",
+    "race": "sativa"
+    },
+    {
+    "id": 10,
+    "name": "Alaskan Ice",
+    "race": "sativa"
+    },
+    {
+    "id": 11,
+    "name": "Alaskan Thunder Fuck",
+    "race": "sativa"
+    },
+    {
+    "id": 15,
+    "name": "Alice in Wonderland",
+    "race": "sativa"
+    },
+    {
+    "id": 21,
+    "name": "Alien Dutchess",
+    "race": "sativa"
+    },
+    {
+    "id": 30,
+    "name": "Alien Stardawg",
+    "race": "sativa"
+    },
+    {
+    "id": 33,
+    "name": "Allen Wrench",
+    "race": "sativa"
+    },
+    {
+    "id": 35,
+    "name": "Aloha",
+    "race": "sativa"
+    },
+    {
+    "id": 38,
+    "name": "Alpha Blue",
+    "race": "sativa"
+    },
+    {
+    "id": 39,
+    "name": "Alpha Cow",
+    "race": "sativa"
+    },
+    {
+    "id": 40,
+    "name": "Alpha Express",
+    "race": "sativa"
+    },
+    {
+    "id": 50,
+    "name": "Amnesia",
+    "race": "sativa"
+    },
+    {
+    "id": 51,
+    "name": "Amnesia Ganja Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 52,
+    "name": "Amnesia Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 63,
+    "name": "Appalachian Power",
+    "race": "sativa"
+    },
+    {
+    "id": 67,
+    "name": "Arabian Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 72,
+    "name": "Arjan's Strawberry Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 73,
+    "name": "Arjan's Ultra Haze #1",
+    "race": "sativa"
+    },
+    {
+    "id": 77,
+    "name": "Asian Fantasy",
+    "race": "sativa"
+    },
+    {
+    "id": 79,
+    "name": "Astroboy",
+    "race": "sativa"
+    },
+    {
+    "id": 84,
+    "name": "Atomical Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 113,
+    "name": "Bay 11",
+    "race": "sativa"
+    },
+    {
+    "id": 114,
+    "name": "Bay Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 119,
+    "name": "Bediol",
+    "race": "sativa"
+    },
+    {
+    "id": 122,
+    "name": "Berkeley",
+    "race": "sativa"
+    },
+    {
+    "id": 128,
+    "name": "Bertberry Cheesecake",
+    "race": "sativa"
+    },
+    {
+    "id": 137,
+    "name": "Bhang Aloha",
+    "race": "sativa"
+    },
+    {
+    "id": 138,
+    "name": "Bhang Arjan's Strawberry Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 142,
+    "name": "Bhang Blackberry Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 148,
+    "name": "Bhang Casey Jones",
+    "race": "sativa"
+    },
+    {
+    "id": 154,
+    "name": "Bhang Chiesel",
+    "race": "sativa"
+    },
+    {
+    "id": 155,
+    "name": "Bhang Chocolate Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 156,
+    "name": "Bhang Chocolope",
+    "race": "sativa"
+    },
+    {
+    "id": 157,
+    "name": "Bhang Colombian Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 161,
+    "name": "Bhang Durban Poison",
+    "race": "sativa"
+    },
+    {
+    "id": 169,
+    "name": "Bhang Green Crack",
+    "race": "sativa"
+    },
+    {
+    "id": 170,
+    "name": "Bhang Harlequin",
+    "race": "sativa"
+    },
+    {
+    "id": 171,
+    "name": "Bhang Hawaiian Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 172,
+    "name": "Bhang Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 173,
+    "name": "Bhang Hazewreck",
+    "race": "sativa"
+    },
+    {
+    "id": 177,
+    "name": "Bhang Island Sweet Skunk",
+    "race": "sativa"
+    },
+    {
+    "id": 180,
+    "name": "Bhang Jack Herer",
+    "race": "sativa"
+    },
+    {
+    "id": 183,
+    "name": "Bhang Kali Mist",
+    "race": "sativa"
+    },
+    {
+    "id": 186,
+    "name": "Bhang Lamb's Bread",
+    "race": "sativa"
+    },
+    {
+    "id": 189,
+    "name": "Bhang Lemon Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 194,
+    "name": "Bhang Maui Waui",
+    "race": "sativa"
+    },
+    {
+    "id": 201,
+    "name": "Bhang Panama Red",
+    "race": "sativa"
+    },
+    {
+    "id": 204,
+    "name": "Bhang Perfecto Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 207,
+    "name": "Bhang Pineapple Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 213,
+    "name": "Bhang Purple Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 223,
+    "name": "Bhang Sour Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 225,
+    "name": "Bhang Strawberry Cough",
+    "race": "sativa"
+    },
+    {
+    "id": 226,
+    "name": "Bhang Strawberry Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 227,
+    "name": "Bhang Super Lemon Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 228,
+    "name": "Bhang Super Silver Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 230,
+    "name": "Bhang Super Sour Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 232,
+    "name": "Bhang Tangie",
+    "race": "sativa"
+    },
+    {
+    "id": 253,
+    "name": "Big Sur Holy Bud",
+    "race": "sativa"
+    },
+    {
+    "id": 260,
+    "name": "Birds Eye",
+    "race": "sativa"
+    },
+    {
+    "id": 272,
+    "name": "Black Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 290,
+    "name": "Blackberry Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 294,
+    "name": "Blackberry Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 296,
+    "name": "Blackberry Lime Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 302,
+    "name": "Blaze",
+    "race": "sativa"
+    },
+    {
+    "id": 309,
+    "name": "Blucifer",
+    "race": "sativa"
+    },
+    {
+    "id": 313,
+    "name": "Blue Bayou",
+    "race": "sativa"
+    },
+    {
+    "id": 324,
+    "name": "Blue Dot",
+    "race": "sativa"
+    },
+    {
+    "id": 343,
+    "name": "Blue Magic",
+    "race": "sativa"
+    },
+    {
+    "id": 348,
+    "name": "Blue Mountain Fire",
+    "race": "sativa"
+    },
+    {
+    "id": 357,
+    "name": "Blue Satellite",
+    "race": "sativa"
+    },
+    {
+    "id": 372,
+    "name": "Blueberry Blast",
+    "race": "sativa"
+    },
+    {
+    "id": 375,
+    "name": "Blueberry Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 395,
+    "name": "Bob Saget",
+    "race": "sativa"
+    },
+    {
+    "id": 405,
+    "name": "Brainstorm Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 409,
+    "name": "Brazil Amazonia",
+    "race": "sativa"
+    },
+    {
+    "id": 431,
+    "name": "Buddha Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 435,
+    "name": "Buffalo Bill",
+    "race": "sativa"
+    },
+    {
+    "id": 441,
+    "name": "C13 Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 447,
+    "name": "CBD Lilly",
+    "race": "sativa"
+    },
+    {
+    "id": 448,
+    "name": "CBD Mango Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 463,
+    "name": "Cambodian",
+    "race": "sativa"
+    },
+    {
+    "id": 464,
+    "name": "Cambodian Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 466,
+    "name": "Candy Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 467,
+    "name": "Candyland",
+    "race": "sativa"
+    },
+    {
+    "id": 471,
+    "name": "Cannalope Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 482,
+    "name": "Caramelo",
+    "race": "sativa"
+    },
+    {
+    "id": 484,
+    "name": "Carnival",
+    "race": "sativa"
+    },
+    {
+    "id": 486,
+    "name": "Casey Jones",
+    "race": "sativa"
+    },
+    {
+    "id": 489,
+    "name": "Cat Piss",
+    "race": "sativa"
+    },
+    {
+    "id": 491,
+    "name": "Catfish",
+    "race": "sativa"
+    },
+    {
+    "id": 493,
+    "name": "Central American",
+    "race": "sativa"
+    },
+    {
+    "id": 494,
+    "name": "Cerebro Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 498,
+    "name": "Charlotte's Web",
+    "race": "sativa"
+    },
+    {
+    "id": 509,
+    "name": "Chem's Sister",
+    "race": "sativa"
+    },
+    {
+    "id": 545,
+    "name": "Chocolate Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 547,
+    "name": "Chocolate Fondue",
+    "race": "sativa"
+    },
+    {
+    "id": 552,
+    "name": "Chocolate Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 553,
+    "name": "Chocolate Thunder",
+    "race": "sativa"
+    },
+    {
+    "id": 555,
+    "name": "Chocolope",
+    "race": "sativa"
+    },
+    {
+    "id": 567,
+    "name": "Cinex",
+    "race": "sativa"
+    },
+    {
+    "id": 568,
+    "name": "Cirrus",
+    "race": "sativa"
+    },
+    {
+    "id": 571,
+    "name": "Citrus Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 574,
+    "name": "Clementine",
+    "race": "sativa"
+    },
+    {
+    "id": 581,
+    "name": "Colombian Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 582,
+    "name": "Colombian Mojito",
+    "race": "sativa"
+    },
+    {
+    "id": 603,
+    "name": "Cosmic Collision",
+    "race": "sativa"
+    },
+    {
+    "id": 606,
+    "name": "Cracker Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 617,
+    "name": "Critical Kali Mist",
+    "race": "sativa"
+    },
+    {
+    "id": 633,
+    "name": "Crystal Coma",
+    "race": "sativa"
+    },
+    {
+    "id": 637,
+    "name": "DJ Andy Williams",
+    "race": "sativa"
+    },
+    {
+    "id": 642,
+    "name": "Damn Sour",
+    "race": "sativa"
+    },
+    {
+    "id": 644,
+    "name": "Dance World",
+    "race": "sativa"
+    },
+    {
+    "id": 666,
+    "name": "DelaHaze",
+    "race": "sativa"
+    },
+    {
+    "id": 669,
+    "name": "Destroyer",
+    "race": "sativa"
+    },
+    {
+    "id": 671,
+    "name": "Devil's Tit",
+    "race": "sativa"
+    },
+    {
+    "id": 680,
+    "name": "Dirty Girl",
+    "race": "sativa"
+    },
+    {
+    "id": 685,
+    "name": "Django",
+    "race": "sativa"
+    },
+    {
+    "id": 688,
+    "name": "Doctor Doctor",
+    "race": "sativa"
+    },
+    {
+    "id": 697,
+    "name": "Doox",
+    "race": "sativa"
+    },
+    {
+    "id": 701,
+    "name": "Double Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 708,
+    "name": "Doug's Varin",
+    "race": "sativa"
+    },
+    {
+    "id": 712,
+    "name": "Dr. Grinspoon",
+    "race": "sativa"
+    },
+    {
+    "id": 717,
+    "name": "Dream Beaver",
+    "race": "sativa"
+    },
+    {
+    "id": 724,
+    "name": "Drizella",
+    "race": "sativa"
+    },
+    {
+    "id": 728,
+    "name": "Durban Cookies",
+    "race": "sativa"
+    },
+    {
+    "id": 729,
+    "name": "Durban Poison",
+    "race": "sativa"
+    },
+    {
+    "id": 732,
+    "name": "Dutch Dragon",
+    "race": "sativa"
+    },
+    {
+    "id": 733,
+    "name": "Dutch Hawaiian",
+    "race": "sativa"
+    },
+    {
+    "id": 734,
+    "name": "Dutch Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 744,
+    "name": "Early Pearl",
+    "race": "sativa"
+    },
+    {
+    "id": 749,
+    "name": "East Coast Alien",
+    "race": "sativa"
+    },
+    {
+    "id": 750,
+    "name": "East Coast Sour Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 765,
+    "name": "Electric Lemon G",
+    "race": "sativa"
+    },
+    {
+    "id": 766,
+    "name": "Elephant",
+    "race": "sativa"
+    },
+    {
+    "id": 767,
+    "name": "Elphinstone",
+    "race": "sativa"
+    },
+    {
+    "id": 769,
+    "name": "Emerald Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 778,
+    "name": "Euforia",
+    "race": "sativa"
+    },
+    {
+    "id": 794,
+    "name": "Fighting Buddha",
+    "race": "sativa"
+    },
+    {
+    "id": 796,
+    "name": "Fire Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 798,
+    "name": "Firewalker OG",
+    "race": "sativa"
+    },
+    {
+    "id": 801,
+    "name": "Flo Limone",
+    "race": "sativa"
+    },
+    {
+    "id": 817,
+    "name": "Frostbite",
+    "race": "sativa"
+    },
+    {
+    "id": 821,
+    "name": "Fruit Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 828,
+    "name": "Full Moon",
+    "race": "sativa"
+    },
+    {
+    "id": 832,
+    "name": "G Stik \"Amarillo\"",
+    "race": "sativa"
+    },
+    {
+    "id": 835,
+    "name": "G Stik \"Rosado\"",
+    "race": "sativa"
+    },
+    {
+    "id": 847,
+    "name": "Galactic Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 860,
+    "name": "Ghost Train Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 884,
+    "name": "Gold King's Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 893,
+    "name": "Goldwing",
+    "race": "sativa"
+    },
+    {
+    "id": 902,
+    "name": "Gorkle",
+    "race": "sativa"
+    },
+    {
+    "id": 924,
+    "name": "Grapefruit",
+    "race": "sativa"
+    },
+    {
+    "id": 926,
+    "name": "Grapefruit Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 930,
+    "name": "Great White Shark",
+    "race": "sativa"
+    },
+    {
+    "id": 932,
+    "name": "Green Candy",
+    "race": "sativa"
+    },
+    {
+    "id": 934,
+    "name": "Green Crack",
+    "race": "sativa"
+    },
+    {
+    "id": 935,
+    "name": "Green Crack Extreme",
+    "race": "sativa"
+    },
+    {
+    "id": 939,
+    "name": "Green Goblin",
+    "race": "sativa"
+    },
+    {
+    "id": 941,
+    "name": "Green Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 944,
+    "name": "Green Lantern",
+    "race": "sativa"
+    },
+    {
+    "id": 976,
+    "name": "Harlequin",
+    "race": "sativa"
+    },
+    {
+    "id": 977,
+    "name": "Harley Storm",
+    "race": "sativa"
+    },
+    {
+    "id": 978,
+    "name": "Harley Twin",
+    "race": "sativa"
+    },
+    {
+    "id": 985,
+    "name": "Hashplant Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 986,
+    "name": "Hawaiian",
+    "race": "sativa"
+    },
+    {
+    "id": 989,
+    "name": "Hawaiian Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 990,
+    "name": "Hawaiian Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 992,
+    "name": "Hawaiian Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 993,
+    "name": "Hawaiian Mayan Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 994,
+    "name": "Hawaiian Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 996,
+    "name": "Hawaiian Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 998,
+    "name": "Hawaiian Snow",
+    "race": "sativa"
+    },
+    {
+    "id": 1001,
+    "name": "Hawai’i ‘78",
+    "race": "sativa"
+    },
+    {
+    "id": 1002,
+    "name": "Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1003,
+    "name": "Haze Berry",
+    "race": "sativa"
+    },
+    {
+    "id": 1005,
+    "name": "Haze Mist",
+    "race": "sativa"
+    },
+    {
+    "id": 1006,
+    "name": "Haze Wreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1013,
+    "name": "Heisenberg Kush",
+    "race": "sativa"
+    },
+    {
+    "id": 1018,
+    "name": "Hempstar",
+    "race": "sativa"
+    },
+    {
+    "id": 1022,
+    "name": "Higher Power",
+    "race": "sativa"
+    },
+    {
+    "id": 1028,
+    "name": "Hippie Chicken",
+    "race": "sativa"
+    },
+    {
+    "id": 1041,
+    "name": "Hoodwreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1049,
+    "name": "Hurricane",
+    "race": "sativa"
+    },
+    {
+    "id": 1062,
+    "name": "In The Pines",
+    "race": "sativa"
+    },
+    {
+    "id": 1064,
+    "name": "Incredible Hulk",
+    "race": "sativa"
+    },
+    {
+    "id": 1071,
+    "name": "Island Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1072,
+    "name": "Island Maui Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1073,
+    "name": "Island Sweet Skunk",
+    "race": "sativa"
+    },
+    {
+    "id": 1075,
+    "name": "J-27",
+    "race": "sativa"
+    },
+    {
+    "id": 1080,
+    "name": "Jack Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 1084,
+    "name": "Jack Herer",
+    "race": "sativa"
+    },
+    {
+    "id": 1086,
+    "name": "Jack Skellington",
+    "race": "sativa"
+    },
+    {
+    "id": 1087,
+    "name": "Jack Smack",
+    "race": "sativa"
+    },
+    {
+    "id": 1089,
+    "name": "Jack Wreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1090,
+    "name": "Jack the Ripper",
+    "race": "sativa"
+    },
+    {
+    "id": 1091,
+    "name": "Jack's Cleaner",
+    "race": "sativa"
+    },
+    {
+    "id": 1093,
+    "name": "Jackalope",
+    "race": "sativa"
+    },
+    {
+    "id": 1095,
+    "name": "Jacky White",
+    "race": "sativa"
+    },
+    {
+    "id": 1097,
+    "name": "Jahwaiian",
+    "race": "sativa"
+    },
+    {
+    "id": 1098,
+    "name": "Jamaican",
+    "race": "sativa"
+    },
+    {
+    "id": 1099,
+    "name": "Jamaican Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 1100,
+    "name": "Jamaican Lion",
+    "race": "sativa"
+    },
+    {
+    "id": 1101,
+    "name": "Jamaican Pearl",
+    "race": "sativa"
+    },
+    {
+    "id": 1110,
+    "name": "Jenni",
+    "race": "sativa"
+    },
+    {
+    "id": 1114,
+    "name": "Jesus OG",
+    "race": "sativa"
+    },
+    {
+    "id": 1119,
+    "name": "Jock Horror",
+    "race": "sativa"
+    },
+    {
+    "id": 1120,
+    "name": "Johnny’s Tonic",
+    "race": "sativa"
+    },
+    {
+    "id": 1136,
+    "name": "Kaboom",
+    "race": "sativa"
+    },
+    {
+    "id": 1142,
+    "name": "Kali 47",
+    "race": "sativa"
+    },
+    {
+    "id": 1145,
+    "name": "Kali Mist",
+    "race": "sativa"
+    },
+    {
+    "id": 1152,
+    "name": "Kaua’i Electric",
+    "race": "sativa"
+    },
+    {
+    "id": 1155,
+    "name": "Kerala Krush",
+    "race": "sativa"
+    },
+    {
+    "id": 1161,
+    "name": "Kilimanjaro",
+    "race": "sativa"
+    },
+    {
+    "id": 1165,
+    "name": "Killing Fields",
+    "race": "sativa"
+    },
+    {
+    "id": 1170,
+    "name": "King's Bread",
+    "race": "sativa"
+    },
+    {
+    "id": 1175,
+    "name": "Kona Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 1207,
+    "name": "La Niña",
+    "race": "sativa"
+    },
+    {
+    "id": 1211,
+    "name": "Lamb's Bread",
+    "race": "sativa"
+    },
+    {
+    "id": 1218,
+    "name": "Laughing Buddha",
+    "race": "sativa"
+    },
+    {
+    "id": 1220,
+    "name": "Lavender Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1224,
+    "name": "Leda Uno",
+    "race": "sativa"
+    },
+    {
+    "id": 1228,
+    "name": "Legendary Lemon",
+    "race": "sativa"
+    },
+    {
+    "id": 1232,
+    "name": "Lemon Bubble",
+    "race": "sativa"
+    },
+    {
+    "id": 1233,
+    "name": "Lemon Cake",
+    "race": "sativa"
+    },
+    {
+    "id": 1238,
+    "name": "Lemon G",
+    "race": "sativa"
+    },
+    {
+    "id": 1239,
+    "name": "Lemon Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1240,
+    "name": "Lemon Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 1245,
+    "name": "Lemon Meringue",
+    "race": "sativa"
+    },
+    {
+    "id": 1248,
+    "name": "Lemon Pie",
+    "race": "sativa"
+    },
+    {
+    "id": 1249,
+    "name": "Lemon Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1251,
+    "name": "Lemon Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 1257,
+    "name": "Leonidas",
+    "race": "sativa"
+    },
+    {
+    "id": 1261,
+    "name": "Light of Jah",
+    "race": "sativa"
+    },
+    {
+    "id": 1263,
+    "name": "Lime Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1265,
+    "name": "Lime Skunk",
+    "race": "sativa"
+    },
+    {
+    "id": 1266,
+    "name": "Limon",
+    "race": "sativa"
+    },
+    {
+    "id": 1279,
+    "name": "Love Potion #1",
+    "race": "sativa"
+    },
+    {
+    "id": 1295,
+    "name": "Madcow",
+    "race": "sativa"
+    },
+    {
+    "id": 1301,
+    "name": "Magnum PI",
+    "race": "sativa"
+    },
+    {
+    "id": 1304,
+    "name": "Mako Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1305,
+    "name": "Malakoff",
+    "race": "sativa"
+    },
+    {
+    "id": 1306,
+    "name": "Malawi",
+    "race": "sativa"
+    },
+    {
+    "id": 1310,
+    "name": "Mango Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 1311,
+    "name": "Mango Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1331,
+    "name": "Matanuska Thunder Fuck",
+    "race": "sativa"
+    },
+    {
+    "id": 1335,
+    "name": "Maui",
+    "race": "sativa"
+    },
+    {
+    "id": 1338,
+    "name": "Maui Citrus Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 1342,
+    "name": "Maui Wowie",
+    "race": "sativa"
+    },
+    {
+    "id": 1346,
+    "name": "MediHaze",
+    "race": "sativa"
+    },
+    {
+    "id": 1352,
+    "name": "Megalodon",
+    "race": "sativa"
+    },
+    {
+    "id": 1353,
+    "name": "Mekamika Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1355,
+    "name": "Memory Loss",
+    "race": "sativa"
+    },
+    {
+    "id": 1360,
+    "name": "Mexican",
+    "race": "sativa"
+    },
+    {
+    "id": 1361,
+    "name": "Mexican Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1363,
+    "name": "Mickey Kush",
+    "race": "sativa"
+    },
+    {
+    "id": 1365,
+    "name": "Middlefork x Pineapple Express",
+    "race": "sativa"
+    },
+    {
+    "id": 1374,
+    "name": "Moby Dick",
+    "race": "sativa"
+    },
+    {
+    "id": 1384,
+    "name": "Moondance",
+    "race": "sativa"
+    },
+    {
+    "id": 1385,
+    "name": "Moonshine Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1387,
+    "name": "Moose and Lobsta",
+    "race": "sativa"
+    },
+    {
+    "id": 1392,
+    "name": "Mother Tongue",
+    "race": "sativa"
+    },
+    {
+    "id": 1395,
+    "name": "Mother’s Finest",
+    "race": "sativa"
+    },
+    {
+    "id": 1406,
+    "name": "NL5 Haze Mist",
+    "race": "sativa"
+    },
+    {
+    "id": 1410,
+    "name": "NYPD",
+    "race": "sativa"
+    },
+    {
+    "id": 1411,
+    "name": "Narnia",
+    "race": "sativa"
+    },
+    {
+    "id": 1415,
+    "name": "Nepalese",
+    "race": "sativa"
+    },
+    {
+    "id": 1419,
+    "name": "Nevil's Wreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1420,
+    "name": "Neville's Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1427,
+    "name": "NightFire OG",
+    "race": "sativa"
+    },
+    {
+    "id": 1429,
+    "name": "Nina Limone",
+    "race": "sativa"
+    },
+    {
+    "id": 1433,
+    "name": "North American Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1439,
+    "name": "Northern Lights #5 x Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1445,
+    "name": "Nurse Jackie",
+    "race": "sativa"
+    },
+    {
+    "id": 1448,
+    "name": "OCD",
+    "race": "sativa"
+    },
+    {
+    "id": 1472,
+    "name": "Old Mother Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1489,
+    "name": "Orange Durban",
+    "race": "sativa"
+    },
+    {
+    "id": 1498,
+    "name": "Orange Wreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1501,
+    "name": "Oregon Pinot Noir",
+    "race": "sativa"
+    },
+    {
+    "id": 1505,
+    "name": "Outer Space",
+    "race": "sativa"
+    },
+    {
+    "id": 1506,
+    "name": "Outlaw",
+    "race": "sativa"
+    },
+    {
+    "id": 1511,
+    "name": "Pagoda",
+    "race": "sativa"
+    },
+    {
+    "id": 1515,
+    "name": "Panama Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 1516,
+    "name": "Panama Red",
+    "race": "sativa"
+    },
+    {
+    "id": 1518,
+    "name": "Pandora's Box",
+    "race": "sativa"
+    },
+    {
+    "id": 1549,
+    "name": "Pineapple Fields",
+    "race": "sativa"
+    },
+    {
+    "id": 1550,
+    "name": "Pineapple Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1551,
+    "name": "Pineapple Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 1553,
+    "name": "Pineapple OG",
+    "race": "sativa"
+    },
+    {
+    "id": 1554,
+    "name": "Pineapple Punch",
+    "race": "sativa"
+    },
+    {
+    "id": 1556,
+    "name": "Pineapple Purps",
+    "race": "sativa"
+    },
+    {
+    "id": 1558,
+    "name": "Pineapple Super Silver Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1559,
+    "name": "Pineapple Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 1574,
+    "name": "Pinot Green",
+    "race": "sativa"
+    },
+    {
+    "id": 1585,
+    "name": "Poison Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1587,
+    "name": "Poochie Love",
+    "race": "sativa"
+    },
+    {
+    "id": 1592,
+    "name": "Power Plant",
+    "race": "sativa"
+    },
+    {
+    "id": 1601,
+    "name": "Proper PHO Shatter",
+    "race": "sativa"
+    },
+    {
+    "id": 1620,
+    "name": "Purple Champagne",
+    "race": "sativa"
+    },
+    {
+    "id": 1625,
+    "name": "Purple Cow",
+    "race": "sativa"
+    },
+    {
+    "id": 1637,
+    "name": "Purple Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1657,
+    "name": "Purple Power",
+    "race": "sativa"
+    },
+    {
+    "id": 1666,
+    "name": "Purple Tangie",
+    "race": "sativa"
+    },
+    {
+    "id": 1668,
+    "name": "Purple Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 1676,
+    "name": "Q3",
+    "race": "sativa"
+    },
+    {
+    "id": 1679,
+    "name": "Quantum Kush",
+    "race": "sativa"
+    },
+    {
+    "id": 1687,
+    "name": "Rafael",
+    "race": "sativa"
+    },
+    {
+    "id": 1693,
+    "name": "Raspberry Cough",
+    "race": "sativa"
+    },
+    {
+    "id": 1698,
+    "name": "Rebel God Smoke",
+    "race": "sativa"
+    },
+    {
+    "id": 1702,
+    "name": "Red Congolese",
+    "race": "sativa"
+    },
+    {
+    "id": 1707,
+    "name": "Red Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1708,
+    "name": "Red Headed Stranger",
+    "race": "sativa"
+    },
+    {
+    "id": 1719,
+    "name": "Ridge Berry",
+    "race": "sativa"
+    },
+    {
+    "id": 1725,
+    "name": "Robert Plant",
+    "race": "sativa"
+    },
+    {
+    "id": 1740,
+    "name": "Root Beer Kush",
+    "race": "sativa"
+    },
+    {
+    "id": 1744,
+    "name": "Royal Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1756,
+    "name": "Sage N Sour",
+    "race": "sativa"
+    },
+    {
+    "id": 1758,
+    "name": "Santa Maria",
+    "race": "sativa"
+    },
+    {
+    "id": 1759,
+    "name": "Santa Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1768,
+    "name": "Schrom",
+    "race": "sativa"
+    },
+    {
+    "id": 1773,
+    "name": "Seattle Cough",
+    "race": "sativa"
+    },
+    {
+    "id": 1778,
+    "name": "Sequoia Strawberry",
+    "race": "sativa"
+    },
+    {
+    "id": 1779,
+    "name": "Serious 6",
+    "race": "sativa"
+    },
+    {
+    "id": 1781,
+    "name": "Shaman",
+    "race": "sativa"
+    },
+    {
+    "id": 1788,
+    "name": "Shining Silver Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1789,
+    "name": "Shipwreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1799,
+    "name": "Silver Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1800,
+    "name": "Silver Kush",
+    "race": "sativa"
+    },
+    {
+    "id": 1804,
+    "name": "Silver Train",
+    "race": "sativa"
+    },
+    {
+    "id": 1807,
+    "name": "Silverhawks OG",
+    "race": "sativa"
+    },
+    {
+    "id": 1811,
+    "name": "Sinai",
+    "race": "sativa"
+    },
+    {
+    "id": 1816,
+    "name": "Skunk Dawg",
+    "race": "sativa"
+    },
+    {
+    "id": 1825,
+    "name": "Stardawg Guava",
+    "race": "sativa"
+    },
+    {
+    "id": 1828,
+    "name": "Stella Blue",
+    "race": "sativa"
+    },
+    {
+    "id": 1831,
+    "name": "Straight A's Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1832,
+    "name": "Strawberry",
+    "race": "sativa"
+    },
+    {
+    "id": 1833,
+    "name": "Strawberry Amnesia",
+    "race": "sativa"
+    },
+    {
+    "id": 1836,
+    "name": "Strawberry Blue",
+    "race": "sativa"
+    },
+    {
+    "id": 1838,
+    "name": "Strawberry Cough",
+    "race": "sativa"
+    },
+    {
+    "id": 1841,
+    "name": "Strawberry Durban Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 1844,
+    "name": "Strawberry Ice",
+    "race": "sativa"
+    },
+    {
+    "id": 1846,
+    "name": "Strawberry Lemonade",
+    "race": "sativa"
+    },
+    {
+    "id": 1847,
+    "name": "Strawberry Mango Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1850,
+    "name": "Strawberry Satori",
+    "race": "sativa"
+    },
+    {
+    "id": 1851,
+    "name": "Sublime",
+    "race": "sativa"
+    },
+    {
+    "id": 1857,
+    "name": "Sugar Plum",
+    "race": "sativa"
+    },
+    {
+    "id": 1861,
+    "name": "Summertime Squeeze",
+    "race": "sativa"
+    },
+    {
+    "id": 1862,
+    "name": "Sumo Grande",
+    "race": "sativa"
+    },
+    {
+    "id": 1864,
+    "name": "Sun Ra",
+    "race": "sativa"
+    },
+    {
+    "id": 1865,
+    "name": "Sunburn",
+    "race": "sativa"
+    },
+    {
+    "id": 1869,
+    "name": "Sunshine",
+    "race": "sativa"
+    },
+    {
+    "id": 1872,
+    "name": "Supa Don",
+    "race": "sativa"
+    },
+    {
+    "id": 1876,
+    "name": "Super Cat Piss",
+    "race": "sativa"
+    },
+    {
+    "id": 1878,
+    "name": "Super G",
+    "race": "sativa"
+    },
+    {
+    "id": 1879,
+    "name": "Super Green Crack",
+    "race": "sativa"
+    },
+    {
+    "id": 1880,
+    "name": "Super Jack",
+    "race": "sativa"
+    },
+    {
+    "id": 1882,
+    "name": "Super Lemon Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1884,
+    "name": "Super Silver Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1887,
+    "name": "Super Snow Dog",
+    "race": "sativa"
+    },
+    {
+    "id": 1888,
+    "name": "Super Sour Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 1897,
+    "name": "Supernatural",
+    "race": "sativa"
+    },
+    {
+    "id": 1901,
+    "name": "Swazi Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 1905,
+    "name": "Sweet Cheese",
+    "race": "sativa"
+    },
+    {
+    "id": 1907,
+    "name": "Sweet Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 1911,
+    "name": "Sweet Jane",
+    "race": "sativa"
+    },
+    {
+    "id": 1920,
+    "name": "Swiss Gold",
+    "race": "sativa"
+    },
+    {
+    "id": 1922,
+    "name": "Swiss Sativa",
+    "race": "sativa"
+    },
+    {
+    "id": 1923,
+    "name": "Swiss Tsunami",
+    "race": "sativa"
+    },
+    {
+    "id": 1940,
+    "name": "Tangerine Man",
+    "race": "sativa"
+    },
+    {
+    "id": 1942,
+    "name": "Tangerine Sunrise",
+    "race": "sativa"
+    },
+    {
+    "id": 1943,
+    "name": "Tangie",
+    "race": "sativa"
+    },
+    {
+    "id": 1946,
+    "name": "Tangilope",
+    "race": "sativa"
+    },
+    {
+    "id": 1948,
+    "name": "Tardis",
+    "race": "sativa"
+    },
+    {
+    "id": 1952,
+    "name": "Tesla Tower",
+    "race": "sativa"
+    },
+    {
+    "id": 1953,
+    "name": "Thai",
+    "race": "sativa"
+    },
+    {
+    "id": 1955,
+    "name": "Thai Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 1957,
+    "name": "Thai-Tanic",
+    "race": "sativa"
+    },
+    {
+    "id": 1962,
+    "name": "The Blood",
+    "race": "sativa"
+    },
+    {
+    "id": 1964,
+    "name": "The Cough",
+    "race": "sativa"
+    },
+    {
+    "id": 1967,
+    "name": "The Fork",
+    "race": "sativa"
+    },
+    {
+    "id": 1984,
+    "name": "Thor's Hammer",
+    "race": "sativa"
+    },
+    {
+    "id": 1986,
+    "name": "Thunderbird Rose",
+    "race": "sativa"
+    },
+    {
+    "id": 1987,
+    "name": "Thunderstruck",
+    "race": "sativa"
+    },
+    {
+    "id": 1993,
+    "name": "Timewreck",
+    "race": "sativa"
+    },
+    {
+    "id": 1995,
+    "name": "Titan's Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 2013,
+    "name": "Trinity",
+    "race": "sativa"
+    },
+    {
+    "id": 2015,
+    "name": "Triple Diesel",
+    "race": "sativa"
+    },
+    {
+    "id": 2016,
+    "name": "Trix",
+    "race": "sativa"
+    },
+    {
+    "id": 2026,
+    "name": "Tutankhamon",
+    "race": "sativa"
+    },
+    {
+    "id": 2028,
+    "name": "Twista",
+    "race": "sativa"
+    },
+    {
+    "id": 2029,
+    "name": "Twisted Citrus",
+    "race": "sativa"
+    },
+    {
+    "id": 2034,
+    "name": "Ultimate Trainwreck",
+    "race": "sativa"
+    },
+    {
+    "id": 2037,
+    "name": "Ultra Sour",
+    "race": "sativa"
+    },
+    {
+    "id": 2048,
+    "name": "Velvet Bud",
+    "race": "sativa"
+    },
+    {
+    "id": 2050,
+    "name": "Venice OG",
+    "race": "sativa"
+    },
+    {
+    "id": 2055,
+    "name": "Very Berry Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 2059,
+    "name": "Viper",
+    "race": "sativa"
+    },
+    {
+    "id": 2060,
+    "name": "Voodoo",
+    "race": "sativa"
+    },
+    {
+    "id": 2061,
+    "name": "Vortex",
+    "race": "sativa"
+    },
+    {
+    "id": 2064,
+    "name": "Waipi'o Hapa",
+    "race": "sativa"
+    },
+    {
+    "id": 2073,
+    "name": "Webster",
+    "race": "sativa"
+    },
+    {
+    "id": 2078,
+    "name": "Wet Dream",
+    "race": "sativa"
+    },
+    {
+    "id": 2084,
+    "name": "White Buffalo",
+    "race": "sativa"
+    },
+    {
+    "id": 2092,
+    "name": "White Durban",
+    "race": "sativa"
+    },
+    {
+    "id": 2100,
+    "name": "White Haze",
+    "race": "sativa"
+    },
+    {
+    "id": 2107,
+    "name": "White Nightmare",
+    "race": "sativa"
+    },
+    {
+    "id": 2127,
+    "name": "Wild Thailand",
+    "race": "sativa"
+    },
+    {
+    "id": 2128,
+    "name": "Willie Nelson",
+    "race": "sativa"
+    },
+    {
+    "id": 2129,
+    "name": "Willy Wonka",
+    "race": "sativa"
+    },
+    {
+    "id": 2147,
+    "name": "Xanadu",
+    "race": "sativa"
+    },
+    {
+    "id": 2148,
+    "name": "Y Griega",
+    "race": "sativa"
+    },
+    {
+    "id": 2155,
+    "name": "Zelly’s Gift",
+    "race": "sativa"
+    },
+    {
+    "id": 2157,
+    "name": "Zeta Sage",
+    "race": "sativa"
+    }
+    ]
