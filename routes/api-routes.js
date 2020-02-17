@@ -1,4 +1,5 @@
 const axios = require('axios');
+var path = require("path");
 var db = require("../models");
 const jsonAll = require("../json/all-strains.json");
 const jsonIndica = require("../json/indica.json");
@@ -6,6 +7,8 @@ const jsonSativa = require("../json/sativa.json");
 const jsonHybrid = require("../json/hybrid.json");
 module.exports = function(app) {
 
+// servers all our json files
+//===========================
   app.get("/api/all", function(req, res) {
       res.json(jsonAll);
     
@@ -22,7 +25,42 @@ module.exports = function(app) {
     
   app.get("/api/hybrid",function(req,res){
       res.json(jsonHybrid);
-})
-  
+});
+//==================================
+
+//turn this code into code that sequelize can use
+app.post('/auth', function(request, response) {
+	var username = request.body.username;
+	var password = request.body.password;
+	if (username && password) {
+		connection.query('SELECT * FROM accounts WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
+			if (results.length > 0) {
+				request.session.loggedin = true;
+				request.session.username = username;
+				response.redirect('../public/profile.html');
+			} else {
+				response.send('Incorrect Username and/or Password!');
+			}			
+			response.end();
+		});
+	} else {
+		response.send('Please enter Username and Password!');
+		response.end();
+	}
+});
+//========================================
+
+
+// I feel this belongs in the html routes page but please verify team.
+app.get('/profile', function(request, response) {
+	if (request.session.loggedin) {
+		response.send('Welcome back, ' + request.session.username + '!');
+	} else {
+		response.send('Please login to view this page!');
+	}
+	response.end();
+});
+//===========================================
+
 }
 

@@ -4,11 +4,10 @@ var path = require("path");
 // Routes
 // =============================================================
 module.exports = function(app) {
-
+// this serves our index page 
   app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
-
 
   app.get("/indica", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/indica.html"));
@@ -24,6 +23,8 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/hybrid.html"));
   });
 
-  
-
+  app.get('/login', function(request, response) {
+    response.sendFile(path.join(__dirname + '../public/login.html'));
+  });
+// need to add a profile html route.
 };
