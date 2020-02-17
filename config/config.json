@@ -1,11 +1,13 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
+    "password": "kokiller1",
+    "database": "cannabis_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "define": {
+      "timestamps": false
+    }
   },
   "test": {
     "username": "root",
