@@ -1,8 +1,8 @@
+
+
 $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
-
-
     //api function call for all strains
     $.get("/api/indica", function(data) {
         var response = stringify(data);
@@ -13,6 +13,14 @@ $(document).ready(function(){
       });
       $.get("/api/hybrid", function(data) {
         console.log(data);
+      });
+    $.get("/api/all").then(function(response){    
+                   
+                  var IndicaTitle = $('#titleIndica');
+                  $("<h3>"+title+"</h3>").appendTo(IndicaTitle);
+                  console.log(response);
+                  //console.log(indica);
+
       });
 
   });
