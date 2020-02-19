@@ -21,7 +21,7 @@ module.exports = function(app) {
   app.get("/hybrid", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/hybrid.html"));
   });
-  app.get("/this", function(req, res) {
+  app.get("/profile", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/profile.html"));
   });
   
