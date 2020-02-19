@@ -1,22 +1,24 @@
+
+
 $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
 
+    //api function calls\
+    // these calls need to be changed to only call on certain actions for different pages ie if user wants to search.
+    //========================
+    $.get("/api/indica", function(response) {
+        console.log(response);
 
-    //api function call for all strains
-    $.get("https://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica", function(data) {
-          
-        var title = data[0].name;
-        var IndicaTitle = $('#titleIndica');
-        title.appendTo(IndicaTitle);
-
-        console.log(data);
       });
-      $.get("/api/all", function(data) {
-        console.log(data);
+      $.get("/api/sativa", function(response) {
+        console.log(response);
       });
-      $.get("/api/hybrid", function(data) {
-        console.log(data);
+    $.get("/api/all").then(function(response){               
+                  var IndicaTitle = $('#titleIndica');
+                  //$("<h3>"+title+"</h3>").appendTo(IndicaTitle);
+                  console.log(response);
+                  //console.log(indica);
       });
-
+      //====================
   });

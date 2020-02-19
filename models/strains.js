@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var jane = sequelize.define("jane", {
+    var jane = sequelize.define("mary", {
       name: DataTypes.TEXT,
       ocpc: DataTypes.TEXT,
       qr: DataTypes.TEXT,

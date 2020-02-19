@@ -1,60 +1,86 @@
 const axios = require('axios');
+var path = require("path");
 var db = require("../models");
-
+const jsonAll = require("../json/all-strains.json");
+const jsonIndica = require("../json/indica.json");
+const jsonSativa = require("../json/sativa.json");
+const jsonHybrid = require("../json/hybrid.json");
 module.exports = function(app) {
 
-  /*app.get("/api/all", function(req, res) {
-
-    db.jane.findAll().then(function(data){
-      res.json(data);
-    })
-    //request data from external api
+// servers all our json files
+//===========================
+  app.get("/api/all", function(req, res) {
+      res.json(jsonAll);
     
-  });*/
-  // call for all strains
- /* app.get("/api/all",function(req,res){
-    axios.get('http://strainapi.evanbusse.com/UyDNtOb/strains/search/all')
-    .then(function (response) {
-    
-     res.json(response.data);
-    })
-      .catch((error)=>{
-        console.log(error)
-      });
-})*/
+  });
 
   app.get("/api/indica",function(req,res){
-    axios.get('https://strainapi.evanbusse.com/UyDNtOb/strains/search/race/Indica')
-    .then(function (response) {
-      console.log(response);
-     res.json(response);
+	db.jane.findAll({
+		where: {
+			Value_race: 'indica'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
     })
-      .catch((error)=>{
-        console.log(error)
-      });
-    })
+  app.get("/api/sativa",function(req,res){
+	db.jane.findAll({
+		where: {
+			Value_race: 'sativa'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
 
- /* app.get("/api/sativa",function(req,res){
-    axios.get('strainapi.evanbusse.com/UyDNtOb/strains/search/race/Sativa')
-    .then(function (response) {
 
-     res.json(response.data);
-    })
-      .catch((error)=>{
-        console.log(error)
-      });
-    })
+    });
     
   app.get("/api/hybrid",function(req,res){
-    axios.get('strainapi.evanbusse.com/UyDNtOb/strains/search/race/Hybrid')
-    .then(function (response) {
 
-     res.json(response.data);
-    })
-      .catch((error)=>{
-        console.log(error)
-      });
-})
-  */
+	db.jane.findAll({
+		where: {
+			Value_race: 'hybrid'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
+	  
+});
+//==================================
+
+//turn this code into code that sequelize can use
+app.post('/auth', function(request, response) {
+	var username = request.body.username;
+	var password = request.body.password;
+	if (username && password) {
+		connection.query('SELECT * FROM accounts WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
+			if (results.length > 0) {
+				request.session.loggedin = true;
+				request.session.username = username;
+				response.redirect('../public/profile.html');
+			} else {
+				response.send('Incorrect Username and/or Password!');
+			}			
+			response.end();
+		});
+	} else {
+		response.send('Please enter Username and Password!');
+		response.end();
+	}
+});
+//========================================
+
+
+// I feel this belongs in the html routes page but please verify team.
+app.get('/profile', function(request, response) {
+	if (request.session.loggedin) {
+		response.send('Welcome back, ' + request.session.username + '!');
+	} else {
+		response.send('Please login to view this page!');
+	}
+	response.end();
+});
+//===========================================
+
 }
 
