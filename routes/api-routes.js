@@ -10,7 +10,9 @@ module.exports = function(app) {
 // servers all our json files
 //===========================
   app.get("/api/all", function(req, res) {
-      res.json(jsonAll);
+      db.jane.findAll().then(function(response){
+		  res.json(response);
+	  })
     
   });
 
