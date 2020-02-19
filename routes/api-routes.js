@@ -17,7 +17,7 @@ module.exports = function(app) {
   app.get("/api/indica",function(req,res){
 	db.jane.findAll({
 		where: {
-			Value_race: 'sativa'
+			Value_race: 'indica'
 		}
 	}).then(function(resopnse){
 		res.json(resopnse);
@@ -32,9 +32,11 @@ module.exports = function(app) {
 		res.json(resopnse);
 	});
 
+
     });
     
   app.get("/api/hybrid",function(req,res){
+
 	db.jane.findAll({
 		where: {
 			Value_race: 'hybrid'

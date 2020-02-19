@@ -7,8 +7,7 @@
          href = "https://fonts.googleapis.com/icon?family=Material+Icons">
       <link rel = "stylesheet"
          href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-      <script type = "text/javascript"
-         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>        
       <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
       </script>             
       <script src="css/index.css"></script>
@@ -36,87 +35,14 @@
       </div>
 
 <div class = "container" style="width: 97%;"> 
-<!-- first row -->         
-<div class = "row">
-
-   <!--1-->
-   <div class = "col s12 m6">
       <div class = "card grey lighten-1">
          <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
+               <!-- name -->
+            <span class = "card-title" id="titleIndica" style="text-align: center;">
+            </span>
 
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
-
-         </div>
-      </div>
-   </div>
-   <!--2-->
-   <div class = "col s12 m6">
-      <div class = "card grey lighten-1">
-         <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
-
-         </div>
-      </div>
-   </div>
-   </div>
-
-<!-- second row -->
-   <div class = "row">
-
-   <!--3-->   
-      <div class = "col s12 m6">
-         <div class = "card grey lighten-1">
-            <div class = "card-content">
-               <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
+   <!-- row1 -->            
+            <div class = " row ">
                <!-- description -->
                <div class = "col s12 m4">
                   <p>*strain info*</p>  
@@ -130,65 +56,31 @@
                <!-- negative -->
                <div class = "col s12 m4">
                   <p>*strain info*</p>  
+               </div>    
+            </div>  
+   <!-- row2 -->
+            <div class = " row ">
+               <!-- flavors -->
+               <div class = "col s12 m6">
+                  <p>*strain info*</p>  
                </div>      
-          </div>
-            
-            <div class = "card-action">
+
                <!-- medical -->
-               <button class = "btn waves-effect waves-light green darken-2">
-                  Medical Effects
-                  <i class = "material-icons">local_hospital</i></button>
-               
-               <!-- view in main card -->
-               <button class = "btn waves-effect waves-light green darken-2">
-                  <i class = "material-icons">forward</i></button>
+               <div class = "col s12 m6">
+                  <p>*strain info*</p>  
+               </div>      
 
             </div>
-         </div>
-      </div>
 
-
-   <!--4-->
-   <div class = "col s12 m6">
-      <div class = "card grey lighten-1">
-         <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
+               <!-- view in main card -->
+               <button class = "btn waves-effect waves-light green darken-2" id="viewall">
+               VIEW ALL STRAINS</button>
 
          </div>
       </div>
-   </div>
-   </div>
+</div>
 
-         </div>
-         
-
-
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="js/index.js"></script>
    </body>
 
