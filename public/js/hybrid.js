@@ -56,7 +56,7 @@ var HybridNegative3 = $('#negativeHybrid3');
 $("<h7>"+RandomStrain3.Value_effects_negative+"</h7>").appendTo(HybridNegative3);
 
 var HybridFlavors3 = $('#flavorsHybrid3');
-$("<h7>"+RandomStrain3.Value_flavors+"</h7>").appendTo(vFlavors3);
+$("<h7>"+RandomStrain3.Value_flavors+"</h7>").appendTo(HybridFlavors3);
 
 var HybridMedical3 = $('#medicalHybrid3');
 $("<h7>"+RandomStrain3.Value_effects_medical+"</h7>").appendTo(HybridMedical3);

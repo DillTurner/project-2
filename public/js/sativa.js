@@ -56,7 +56,7 @@ var SativaNegative3 = $('#negativeSativa3');
 $("<h7>"+RandomStrain3.Value_effects_negative+"</h7>").appendTo(SativaNegative3);
 
 var SativaFlavors3 = $('#flavorsSativa3');
-$("<h7>"+RandomStrain3.Value_flavors+"</h7>").appendTo(vFlavors3);
+$("<h7>"+RandomStrain3.Value_flavors+"</h7>").appendTo(SativaFlavors3);
 
 var SativaMedical3 = $('#medicalSativa3');
 $("<h7>"+RandomStrain3.Value_effects_medical+"</h7>").appendTo(SativaMedical3);
