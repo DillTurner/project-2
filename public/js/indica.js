@@ -2,25 +2,26 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
 
 $.get("/api/indica", function(response) {
+
+    var RandomStrain = response[Math.floor(Math.random()*response.length)];
+
+    
     var IndicaTitle = $('#titleIndica');
-    $("<h3>"+response[0].name+"</h3>").appendTo(IndicaTitle);
+    $("<h3>"+RandomStrain.name+"</h3>").appendTo(IndicaTitle);
 
     var IndicaPositive = $('#positiveIndica');
-    $("<h3>"+response[0].Value_effects_positive+"</h3>").appendTo(IndicaPositive);
+    $("<h5>"+RandomStrain.Value_effects_positive+"</h5>").appendTo(IndicaPositive);
 
     var IndicaNegative = $('#negativeIndica');
-    $("<h3>"+response[0].Value_effects_negative+"</h3>").appendTo(IndicaNegative);
+    $("<h5>"+RandomStrain.Value_effects_negative+"</h5>").appendTo(IndicaNegative);
 
     var IndicaFlavors = $('#flavorsIndica');
-    $("<h3>"+response[0].Value_flavors+"</h3>").appendTo(IndicaFlavors);
+    $("<h5>"+RandomStrain.Value_flavors+"</h5>").appendTo(IndicaFlavors);
 
     var IndicaMedical = $('#medicalIndica');
-    $("<h3>"+response[0].Value_effects_medical+"</h3>").appendTo(IndicaMedical);
+    $("<h5>"+rRandomStrain.Value_effects_medical+"</h5>").appendTo(IndicaMedical);
 
-
-
-
-
+    
       console.log(response);
 
     });
