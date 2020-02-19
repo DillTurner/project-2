@@ -43,7 +43,7 @@
    <div class = "col s12 m6">
       <div class = "card grey lighten-1">
          <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
+            <span id="title_name" class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
             <!-- description -->
             <div class = "col s12 m4">
                <p>*strain info*</p>  
@@ -62,9 +62,19 @@
          
          <div class = "card-action">
             <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
+            <button data-target="modal1" class="btn modal-trigger">
                Medical Effects
                <i class = "material-icons">local_hospital</i></button>
+
+               <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                  </div>
+                </div>
             
             <!-- view in main card -->
             <button class = "btn waves-effect waves-light green darken-2">
