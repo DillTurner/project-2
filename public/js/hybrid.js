@@ -29,7 +29,7 @@ $("<h5>"+RandomStrain.Value_effects_medical+"</h5>").appendTo(HybridMedical);
 var RandomStrain2 = response[Math.floor(Math.random()*response.length)];
 
 var HybridTitle2 = $('#titleHybrid2');
-$("<h5>"+RandomStrain2.name+"</h5>").appendTo(HybridTitle2);
+$("<h4>"+RandomStrain2.name+"</h4>").appendTo(HybridTitle2);
 
 var HybridPositive2 = $('#positiveHybrid2');
 $("<h7>"+RandomStrain2.Value_effects_positive+"</h7>").appendTo(HybridPositive2);
@@ -47,7 +47,7 @@ $("<h7>"+RandomStrain2.Value_effects_medical+"</h7>").appendTo(HybridMedical2);
 var RandomStrain3 = response[Math.floor(Math.random()*response.length)];
 
 var HybridTitle3 = $('#titleHybrid3');
-$("<h5>"+RandomStrain3.name+"</h5>").appendTo(HybridTitle3);
+$("<h4>"+RandomStrain3.name+"</h4>").appendTo(HybridTitle3);
 
 var HybridPositive3 = $('#positiveHybrid3');
 $("<h7>"+RandomStrain3.Value_effects_positive+"</h7>").appendTo(HybridPositive3);
@@ -65,7 +65,7 @@ $("<h7>"+RandomStrain3.Value_effects_medical+"</h7>").appendTo(HybridMedical3);
 var RandomStrain4 = response[Math.floor(Math.random()*response.length)];
 
 var HybridTitle4 = $('#titleHybrid4');
-$("<h5>"+RandomStrain4.name+"</h5>").appendTo(HybridTitle4);
+$("<h4>"+RandomStrain4.name+"</h4>").appendTo(HybridTitle4);
 
 var HybridPositive4 = $('#positiveHybrid4');
 $("<h7>"+RandomStrain4.Value_effects_positive+"</h7>").appendTo(HybridPositive4);
@@ -83,7 +83,7 @@ $("<h7>"+RandomStrain4.Value_effects_medical+"</h7>").appendTo(HybridMedical4);
 var RandomStrain5 = response[Math.floor(Math.random()*response.length)];
 
 var HybridTitle5 = $('#titleHybrid5');
-$("<h5>"+RandomStrain5.name+"</h5>").appendTo(HybridTitle5);
+$("<h4>"+RandomStrain5.name+"</h4>").appendTo(HybridTitle5);
 
 var HybridPositive5 = $('#positiveHybrid');
 $("<h7>"+RandomStrain5.Value_effects_positive+"</h7>").appendTo(HybridPositive5);

@@ -29,7 +29,7 @@ $("<h5>"+RandomStrain.Value_effects_medical+"</h5>").appendTo(SativaMedical);
 var RandomStrain2 = response[Math.floor(Math.random()*response.length)];
 
 var SativaTitle2 = $('#titleSativa2');
-$("<h5>"+RandomStrain2.name+"</h5>").appendTo(SativaTitle2);
+$("<h4>"+RandomStrain2.name+"</h4>").appendTo(SativaTitle2);
 
 var SativaPositive2 = $('#positiveSativa2');
 $("<h7>"+RandomStrain2.Value_effects_positive+"</h7>").appendTo(SativaPositive2);
@@ -47,7 +47,7 @@ $("<h7>"+RandomStrain2.Value_effects_medical+"</h7>").appendTo(SativaMedical2);
 var RandomStrain3 = response[Math.floor(Math.random()*response.length)];
 
 var SativaTitle3 = $('#titleSativa3');
-$("<h5>"+RandomStrain3.name+"</h5>").appendTo(SativaTitle3);
+$("<h4>"+RandomStrain3.name+"</h4>").appendTo(SativaTitle3);
 
 var SativaPositive3 = $('#positiveSativa3');
 $("<h7>"+RandomStrain3.Value_effects_positive+"</h7>").appendTo(SativaPositive3);
@@ -65,7 +65,7 @@ $("<h7>"+RandomStrain3.Value_effects_medical+"</h7>").appendTo(SativaMedical3);
 var RandomStrain4 = response[Math.floor(Math.random()*response.length)];
 
 var SativaTitle4 = $('#titleSativa4');
-$("<h5>"+RandomStrain4.name+"</h5>").appendTo(SativaTitle4);
+$("<h4>"+RandomStrain4.name+"</h4>").appendTo(SativaTitle4);
 
 var SativaPositive4 = $('#positiveSativa4');
 $("<h7>"+RandomStrain4.Value_effects_positive+"</h7>").appendTo(SativaPositive4);
@@ -83,7 +83,7 @@ $("<h7>"+RandomStrain4.Value_effects_medical+"</h7>").appendTo(SativaMedical4);
 var RandomStrain5 = response[Math.floor(Math.random()*response.length)];
 
 var SativaTitle5 = $('#titleSativa5');
-$("<h5>"+RandomStrain5.name+"</h5>").appendTo(SativaTitle5);
+$("<h4>"+RandomStrain5.name+"</h4>").appendTo(SativaTitle5);
 
 var SativaPositive5 = $('#positiveSativa');
 $("<h7>"+RandomStrain5.Value_effects_positive+"</h7>").appendTo(SativaPositive5);
