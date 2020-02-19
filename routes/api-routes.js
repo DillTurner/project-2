@@ -15,16 +15,34 @@ module.exports = function(app) {
   });
 
   app.get("/api/indica",function(req,res){
-      res.json(jsonIndica);
-
+	db.jane.findAll({
+		where: {
+			Value_race: 'sativa'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
     })
   app.get("/api/sativa",function(req,res){
-        res.json(jsonSativa);
+	db.jane.findAll({
+		where: {
+			Value_race: 'sativa'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
 
     });
     
   app.get("/api/hybrid",function(req,res){
-      res.json(jsonHybrid);
+	db.jane.findAll({
+		where: {
+			Value_race: 'hybrid'
+		}
+	}).then(function(resopnse){
+		res.json(resopnse);
+	});
+	  
 });
 //==================================
 
