@@ -12,9 +12,6 @@ $(document).ready(function(){
       $.get("/api/sativa", function(response) {
         console.log(response);
       });
-      $.get("/api/hybrid", function(response) {
-        console.log(response);
-      });
     $.get("/api/all").then(function(response){               
                   var IndicaTitle = $('#titleIndica');
                   //$("<h3>"+title+"</h3>").appendTo(IndicaTitle);
