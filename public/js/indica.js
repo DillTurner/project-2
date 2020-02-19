@@ -4,12 +4,11 @@ $(document).ready(function(){
 
 $.get("/api/indica", function(response) {
 
-    var RandomStrain = response[Math.floor(Math.random()*response.length)];
-    var RandomStrain3 = response[Math.floor(Math.random()*response.length)];
-    var RandomStrain4 = response[Math.floor(Math.random()*response.length)];
-    var RandomStrain5 = response[Math.floor(Math.random()*response.length)];
 
 // Card 1
+    var RandomStrain = response[Math.floor(Math.random()*response.length)];
+
+
     var IndicaTitle = $('#titleIndica');
     $("<h2>"+RandomStrain.name+"</h2>").appendTo(IndicaTitle);
 
@@ -43,8 +42,65 @@ $.get("/api/indica", function(response) {
     var IndicaMedical2 = $('#medicalIndica2');
     $("<h7>"+RandomStrain2.Value_effects_medical+"</h7>").appendTo(IndicaMedical2);
 
+
+// Card 3
+    var RandomStrain3 = response[Math.floor(Math.random()*response.length)];
+
+    var IndicaTitle3 = $('#titleIndica3');
+    $("<h5>"+RandomStrain3.name+"</h5>").appendTo(IndicaTitle3);
+
+    var IndicaPositive3 = $('#positiveIndica3');
+    $("<h7>"+RandomStrain3.Value_effects_positive+"</h7>").appendTo(IndicaPositive3);
+
+    var IndicaNegative3 = $('#negativeIndica3');
+    $("<h7>"+RandomStrain3.Value_effects_negative+"</h7>").appendTo(IndicaNegative3);
+
+    var IndicaFlavors3 = $('#flavorsIndica3');
+    $("<h7>"+RandomStrain3.Value_flavors+"</h7>").appendTo(IndicaFlavors3);
+
+    var IndicaMedical3 = $('#medicalIndica3');
+    $("<h7>"+RandomStrain3.Value_effects_medical+"</h7>").appendTo(IndicaMedical3);
+
+// Card 4
+    var RandomStrain4 = response[Math.floor(Math.random()*response.length)];
+
+    var IndicaTitle4 = $('#titleIndica4');
+    $("<h5>"+RandomStrain4.name+"</h5>").appendTo(IndicaTitle4);
+
+    var IndicaPositive4 = $('#positiveIndica4');
+    $("<h7>"+RandomStrain4.Value_effects_positive+"</h7>").appendTo(IndicaPositive4);
+
+    var IndicaNegative4 = $('#negativeIndica4');
+    $("<h7>"+RandomStrain4.Value_effects_negative+"</h7>").appendTo(IndicaNegative4);
+
+    var IndicaFlavors4 = $('#flavorsIndica4');
+    $("<h7>"+RandomStrain4.Value_flavors+"</h7>").appendTo(IndicaFlavors4);
+
+    var IndicaMedical4 = $('#medicalIndica4');
+    $("<h7>"+RandomStrain4.Value_effects_medical+"</h7>").appendTo(IndicaMedical4);
+
+// Card 5
+    var RandomStrain5 = response[Math.floor(Math.random()*response.length)];
+
+    var IndicaTitle5 = $('#titleIndica5');
+    $("<h5>"+RandomStrain5.name+"</h5>").appendTo(IndicaTitle5);
+
+    var IndicaPositive5 = $('#positiveIndica5');
+    $("<h7>"+RandomStrain5.Value_effects_positive+"</h7>").appendTo(IndicaPositive5);
+
+    var IndicaNegative5 = $('#negativeIndica5');
+    $("<h7>"+RandomStrain5.Value_effects_negative+"</h7>").appendTo(IndicaNegative5);
+
+    var IndicaFlavors5 = $('#flavorsIndica5');
+    $("<h7>"+RandomStrain5.Value_flavors+"</h7>").appendTo(IndicaFlavors5);
+
+    var IndicaMedical5 = $('#medicalIndica5');
+    $("<h7>"+RandomStrain5.Value_effects_medical+"</h7>").appendTo(IndicaMedical5);
+
       console.log(response);
 
     });
 
+
 });
+
