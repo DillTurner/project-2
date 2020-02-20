@@ -2,13 +2,32 @@ $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
     $('.modal').modal();
+    $('.tabs').tabs();
+    $('.fixed-action-btn').floatingActionButton();
+    $("#top1").click(function () {
+       // $('#top1').addClass("scale-out");
+        $("html, body").animate({scrollTop: 0}, 1000);
 
-
+     });
+     $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#top1').removeClass("scale-out");
+        } else {
+            $('#top1').addClass("scale-out");
+        }
+    });
 $.get("/api/all", function(response) {
+        
+    console.log(response);
+for (var i = 0; i < 250; i++) {
 
-for (var i = 0; i < 500; i++) {
+    var Names = $('#a_c');
+$("<p>"+response[i].name+"</p>").appendTo(Names);
 
-    var Names = $('#column1');
+}
+for (var i = 251; i < 500; i++) {
+
+    var Names = $('#c');
 $("<p>"+response[i].name+"</p>").appendTo(Names);
 
 }
@@ -26,14 +45,13 @@ $("<p>"+response[k].name+"</p>").appendTo(Names3);
 
 }
 
-for (var l = 1501; l < 1971; l++) {
+for (var l = 1501; l < 1970; l++) {
 
     var Names4 = $('#column4');
 $("<p>"+response[l].name+"</p>").appendTo(Names4);
 
 }
 
-console.log(response);
 });
 
 });
