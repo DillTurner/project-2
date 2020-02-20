@@ -1,10 +1,18 @@
-
-
-footer {
-    background-color: #bdbdbd !important;
-
-}
+.tabs .tab a{
+    color:#000 !important;
+  } /*Black color to the text*/
+  .tabs .tab a:hover {
+    background-color:#eee !important;
+    color:#000 !important;
+  } /*Text color on hover*/
+  .tabs .tab a.active {
+    background-color:#9c9999 !important;
+    color:#eee !important;
+  } /*Background and text color when a tab is active*/
+  .tabs .indicator {
+    background-color:rgb(99, 99, 99) !important;
+  } 
 .nav-grey {
-    background-color: #bdbdbd !important;
+    background-color: #9c9999 !important;
 
   }

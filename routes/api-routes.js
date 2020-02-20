@@ -40,7 +40,9 @@ module.exports = function(app) {
 	app.get("/api/hybrid",function(req,res){
 
 	db.jane.findAll({
-		where: { 			Value_race: 'hybrid' 		}
+		where: { 			
+			Value_race: 'hybrid' 
+			}
  	}).then(function(resopnse){
  		res.json(resopnse);
  	});
