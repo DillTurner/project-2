@@ -32,7 +32,7 @@ $.get("/api/all", function(response) {
         for (var i = 0; i < 50; i++) {
 
             var strains = $("#column1");
-        $("<a href="#" id="makeMain"><p>"+response[i].name+"</p></a>").appendTo(strains);
+        $('<a href="#" id="makeMain"><p>'+response[i].name+'</p></a>').appendTo(strains);
 
         }
 
