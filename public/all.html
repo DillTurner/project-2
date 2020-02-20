@@ -4,6 +4,7 @@
 <head>
    <title>Jane's Essentials</title>
    <meta name="viewport" content="width = device-width, initial-scale = 1">
+   <link rel="stylesheet" href="css/index.css"></link>
    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -12,7 +13,6 @@
       </script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-   <script rel="stylesheet" src="css/index.css"></script>
 </head>
 
 
@@ -36,17 +36,31 @@
    <div class="card-panel white">
       <h2 style="text-align: center; font-weight: bolder;">Select A Strain</h2>
 
-      <div class="container" style="width: 97%;">
-        <div class="row">
-            <div class="col s12 m3" id="column1">
+      
+      <div  class="container z-depth-4" style="width: 97%; overflow: auto;">       
+            <div  class="row center-align">
+               <ul id="tabs-swipe-demo" class="tabs">
+                  <li class="tab col s3" style="overflow: auto;"><a class="active" href="#column1">Test 1</a></li>
+                  <li class="tab col s3"><a href="#column2">Test 2</a></li>
+                  <li class="tab col s3"><a href="#column3">Test 3</a></li>
+                  <li class="tab col s3"><a href="#column4">Test 4</a></li>
+                  
+               </ul>
+               <div id="column1" class="col s12 "style="overflow: auto;">
+                  <div id="a_c" class="col s6"></div>
+                  <div id="c" class="col s6"></div>
+                  
+               </div>
+               <div id="column2" class="col s12 "></div>
+               <div id="column3" class="col s12 "></div>
+               <div id="column4" class="col s12 "></div>
             </div>
-            <div class="col s12 m3" id="column2">
-            </div>
-            <div class="col s12 m3" id="column3">
-            </div>
-            <div class="col s12 m3" id="column4">
-            </div>
-        </div>
+            
+            <div class="fixed-action-btn">
+               <a id="top1"class="btn-floating btn-large green darken-2 scale-transition scale-out">
+                 <i class="large material-icons">arrow_upward</i>
+               </a>
+         </div>
       </div>
    </div>
 
