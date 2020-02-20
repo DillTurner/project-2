@@ -77,8 +77,9 @@ function addCard(res,startCount,endCount,columnNum){
         card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
         card += '<p><a href="#">This is a link</a></p></div>'
         card += '<div class="card-reveal">'
-        card += '<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>'
-        card += '<p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>'
+        card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
+        card += '<h7>Race: '+ res[i].Value_race+'</h7>'
+        card += '</div></div>'
         $(card).appendTo(strains);
     }
 }
