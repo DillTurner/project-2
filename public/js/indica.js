@@ -4,8 +4,10 @@ $(document).ready(function(){
 
 $.get("/api/indica", function(response) {
 
+
 // Card 1
     var RandomStrain = response[Math.floor(Math.random()*response.length)];
+
 
     var IndicaTitle = $('#titleIndica');
     $("<h2>"+RandomStrain.name+"</h2>").appendTo(IndicaTitle);
@@ -39,6 +41,7 @@ $.get("/api/indica", function(response) {
 
     var IndicaMedical2 = $('#medicalIndica2');
     $("<h7>"+RandomStrain2.Value_effects_medical+"</h7>").appendTo(IndicaMedical2);
+
 
 // Card 3
     var RandomStrain3 = response[Math.floor(Math.random()*response.length)];
@@ -94,9 +97,10 @@ $.get("/api/indica", function(response) {
     var IndicaMedical5 = $('#medicalIndica5');
     $("<h7>"+RandomStrain5.Value_effects_medical+"</h7>").appendTo(IndicaMedical5);
 
-
       console.log(response);
 
     });
 
+
 });
+
