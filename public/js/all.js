@@ -2,34 +2,8 @@ $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
     $('.modal').modal();
-
-
-    // $("#makeMain").click(function(){
-    
-    //     $('#strainName').empty();
-    //     $('#positiveStrain').empty();
-    //     $('#negativeStrain').empty();
-    //     $('#medicalStrain').empty();
-    //     $('#flavorsStrain').empty();
-
-    //     var mainTitle = $('#strainName');
-    //     $("<h4>"+response.name+"</h4>").appendTo(mainTitle);
-        
-    //     var mainPositive = $('#positiveHybrid');
-    //     $("<h7>"+response.Value_effects_positive+"</h7>").appendTo(mainPositive);
-        
-    //     var mainNegative = $('#negativeHybrid5');
-    //     $("<h7>"+response.Value_effects_negative+"</h7>").appendTo(mainNegative);
-        
-    //     var mainFlavors = $('#flavorsHybrid');
-    //     $("<h7>"+response.Value_flavors+"</h7>").appendTo(mainFlavors);
-        
-    //     var mainMedical = $('#medicalHybrid5');
-    //     $("<h7>"+response.Value_effects_medical+"</h7>").appendTo(mainMedical);
-    
-    // });
-  
-   /* $('.tabs').tabs();
+    $('.tabs').tabs();
+    // back to top button------------
     $('.fixed-action-btn').floatingActionButton();
     $("#top1").click(function () {
        // $('#top1').addClass("scale-out");
@@ -42,72 +16,75 @@ $(document).ready(function(){
         } else {
             $('#top1').addClass("scale-out");
         }
-    });*/
-
+    });
+    //-----------------------
 $.get("/api/all", function(response) {
-        
     console.log(response);
-  //isaac tab feature------
-/*for (var i = 0; i < 250; i++) {
-    var Names = $('#a_c');
-$("<p>"+response[i].name+"</p>").appendTo(Names);
-
-}
-for (var i = 251; i < 500; i++) {
-
-    var Names = $('#c');
-$("<p>"+response[i].name+"</p>").appendTo(Names);
-}*/
-  //-----------------------------------
-
-        for (var i = 0; i < 50; i++) {
-
-            var strains = $("#column1");
-        $('<a href="#" id="makeMain"><p>'+response[i].name+'</p></a>').appendTo(strains);
-          
-        }
-
-
-        for (var j = 51; j < 100; j++) {
-
-            var strains2 = $('#column2');
-        $("<p>"+response[j].name+"</p>").appendTo(strains2);
-
-        }
-
-        for (var k = 101; k < 150; k++) {
-
-            var strains3 = $('#column3');
-        $("<p>"+response[k].name+"</p>").appendTo(strains3);
-
-        }
-
-
-        for (var l = 151; l < 200; l++) {
-
-            var strains4 = $('#column4');
-        $("<p>"+response[l].name+"</p>").appendTo(strains4);
-
-        }
-
-        for (var m = 201; m < 250; m++) {
-
-            var strains5 = $('#column5');
-        $("<p>"+response[m].name+"</p>").appendTo(strains5);
-
-        }
-
-        for (var n = 251; n < 300; n++) {
-
-            var strains6 = $('#column6');
-        $("<p>"+response[n].name+"</p>").appendTo(strains6);
-
-        }
+    addCard(response,0,50,1);
+    addCard(response,51,100,2);
+    addCard(response,101,150,3);
+    addCard(response,151,200,4);
+    addCard(response,201,250,5);
+    addCard(response,251,300,6);
+    addCard(response,301,350,7);
+    addCard(response,351,400,8);
+    addCard(response,401,450,9);
+    addCard(response,451,500,10);
+    addCard(response,501,550,11);
+    addCard(response,551,600,12);
+    addCard(response,601,650,13);
+    addCard(response,651,700,14);
+    addCard(response,701,750,15);
+    addCard(response,751,800,16);
+    addCard(response,801,850,17);
+    addCard(response,851,900,18);
+    addCard(response,901,950,19);
+    addCard(response,951,1000,20);
+    addCard(response,1001,1050,21);
+    addCard(response,1051,1100,22);
+    addCard(response,1101,1150,23);
+    addCard(response,1151,1200,24);
+    addCard(response,1201,1250,25);
+    addCard(response,1251,1300,26);
+    addCard(response,1301,1350,27);
+    addCard(response,1351,1400,28);
+    addCard(response,1401,1450,29);
+    addCard(response,1451,1500,30);
+    addCard(response,1501,1550,31);
+    addCard(response,1551,1600,32);
+    addCard(response,1601,1650,33);
+    addCard(response,1651,1700,34);
+    addCard(response,1701,1750,35);
+    addCard(response,1751,1800,36);
+    addCard(response,1801,1850,37);
+    addCard(response,1851,1900,38);
+    addCard(response,1901,1950,39);
+    addCard(response,1951,1970,40);
+    
 
 
 });
 
 
+function addCard(res,startCount,endCount,columnNum){
+    for (var i = startCount; i < endCount; i++) {
+
+        var strains = $('#column'+columnNum);
+        var card= '<div class="card small">'
+        card += '<div class="card-image waves-effect waves-block waves-light">'
+        card += '<img class="activator" src="assets/images/janelogo.png"></div>'
+        card += '<div class="card-content">'
+        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
+        card += '<p><a href="#">This is a link</a></p></div>'
+        card += '<div class="card-reveal">'
+        card += '<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>'
+        card += '<p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>'
+        $(card).appendTo(strains);
+    }
+}
+
+});
+/*
 ////////////////////////////// PAGE 1 //////////////////////////////
 $("#page1").click(function(){
 
@@ -119,48 +96,13 @@ $("#page1").click(function(){
     $('#column6').empty();
 
 $.get("/api/all", function(response) {
-
-    for (var i = 0; i < 50; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var j = 51; j < 100; j++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var k = 101; k < 150; k++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var l = 151; l < 200; l++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var m = 201; m < 250; m++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var n = 251; n < 300; n++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
-
-    }
+    
+    addCard(response,0,50,1);
+    addCard(response,51,100,2);
+    addCard(response,101,150,3);
+    addCard(response,151,200,4);
+    addCard(response,201,250,5);
+    addCard(response,251,300,6);
 
 });
 });
@@ -177,48 +119,13 @@ $("#page2").click(function(){
     $('#column6').empty();
 
 $.get("/api/all", function(response) {
+    addCard(response,301,350,1);
+    addCard(response,351,400,2);
+    addCard(response,401,450,3);
+    addCard(response,451,500,4);
+    addCard(response,501,550,5);
+    addCard(response,551,600,6);
 
-    for (var i = 301; i < 350; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var j = 351; j < 400; j++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var k = 401; k < 450; k++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var l = 451; l < 500; l++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var m = 501; m < 650; m++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var n = 651; n < 700; n++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
-
-    }
 
 });
 });
@@ -243,38 +150,38 @@ $.get("/api/all", function(response) {
 
     }
 
-    for (var j = 751; j < 800; j++) {
+    for (var i = 751; i < 800; i++) {
 
         var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
+    $("<p>"+response[i].name+"</p>").appendTo(strains2);
 
     }
 
-    for (var k = 801; k < 850; k++) {
+    for (var i = 801; i < 850; i++) {
 
         var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
+    $("<p>"+response[i].name+"</p>").appendTo(strains3);
 
     }
 
-    for (var l = 851; l < 900; l++) {
+    for (var i = 851; i < 900; i++) {
 
         var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
+    $("<p>"+response[i].name+"</p>").appendTo(strains4);
 
     }
 
-    for (var m = 901; m < 950; m++) {
+    for (var i = 901; i < 950; i++) {
 
         var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
+    $("<p>"+response[i].name+"</p>").appendTo(strains5);
 
     }
 
-    for (var n = 951; n < 1000; n++) {
+    for (var i = 951; i < 1000; i++) {
 
         var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
+    $("<p>"+response[i].name+"</p>").appendTo(strains6);
 
     }
 
@@ -301,38 +208,38 @@ $.get("/api/all", function(response) {
 
     }
 
-    for (var j = 1051; j < 1100; j++) {
+    for (var i = 1051; i < 1100; i++) {
 
         var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
+    $("<p>"+response[i].name+"</p>").appendTo(strains2);
 
     }
 
-    for (var k = 1101; k < 1150; k++) {
+    for (var i = 1101; i < 1150; i++) {
 
         var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
+    $("<p>"+response[i].name+"</p>").appendTo(strains3);
 
     }
 
-    for (var l = 1151; l < 1200; l++) {
+    for (var i = 1151; i < 1200; i++) {
 
         var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
+    $("<p>"+response[i].name+"</p>").appendTo(strains4);
 
     }
 
-    for (var m = 1201; m < 1250; m++) {
+    for (var i = 1201; i < 1250; i++) {
 
         var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
+    $("<p>"+response[i].name+"</p>").appendTo(strains5);
 
     }
 
-    for (var n = 1251; n < 1300; n++) {
+    for (var i = 1251; i < 1300; i++) {
 
         var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
+    $("<p>"+response[i].name+"</p>").appendTo(strains6);
 
     }
 
@@ -359,38 +266,38 @@ $.get("/api/all", function(response) {
 
     }
 
-    for (var j = 1351; j < 1400; j++) {
+    for (var i = 1351; i < 1400; i++) {
 
         var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
+    $("<p>"+response[i].name+"</p>").appendTo(strains2);
 
     }
 
-    for (var k = 1401; k < 1450; k++) {
+    for (var i = 1401; i < 1450; i++) {
 
         var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
+    $("<p>"+response[i].name+"</p>").appendTo(strains3);
 
     }
 
-    for (var l = 1451; l < 1500; l++) {
+    for (var i = 1451; i < 1500; i++) {
 
         var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
+    $("<p>"+response[i].name+"</p>").appendTo(strains4);
 
     }
 
-    for (var m = 1501; m < 1550; m++) {
+    for (var i = 1501; i < 1550; i++) {
 
         var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
+    $("<p>"+response[i].name+"</p>").appendTo(strains5);
 
     }
 
-    for (var n = 1551; n < 1600; n++) {
+    for (var i = 1551; i < 1600; i++) {
 
         var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
+    $("<p>"+response[i].name+"</p>").appendTo(strains6);
 
     }
 
@@ -409,109 +316,15 @@ $("#page6").click(function(){
     $('#column6').empty();
 
 $.get("/api/all", function(response) {
+    
+    addCard(response,1601,1665,1);
+    addCard(response,1667,1732,2);
+    addCard(response,1733,1798,3);
+    addCard(response,1799,1864,4);
+    addCard(response,1865,1930,5);
+    addCard(response,1931,1970,6);
 
-    for (var i = 1601; i < 1665; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var j = 1667; j < 1732; j++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[j].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var k = 1733; k < 1798; k++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[k].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var l = 1799; l < 1864; l++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[l].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var m = 1865; m < 1930; m++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[m].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var n = 1931; n < 1970; n++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[n].name+"</p>").appendTo(strains6);
-
-    }
-
+    
 });
 });
-
-
-});
-
-/*$(document).ready(function(){
-    // activate sidenav feature
-    $('.sidenav').sidenav();
-    $('.modal').modal();
-    $('.tabs').tabs();
-    $('.fixed-action-btn').floatingActionButton();
-    $("#top1").click(function () {
-       // $('#top1').addClass("scale-out");
-        $("html, body").animate({scrollTop: 0}, 1000);
-
-     });
-     $(window).scroll(function() {
-        if ($(this).scrollTop()) {
-            $('#top1').removeClass("scale-out");
-        } else {
-            $('#top1').addClass("scale-out");
-        }
-    });
-$.get("/api/all", function(response) {
-        
-    console.log(response);
-for (var i = 0; i < 250; i++) {
-
-    var Names = $('#a_c');
-$("<p>"+response[i].name+"</p>").appendTo(Names);
-
-}
-for (var i = 251; i < 500; i++) {
-
-    var Names = $('#c');
-$("<p>"+response[i].name+"</p>").appendTo(Names);
-
-}
-for (var j = 501; j < 1000; j++) {
-
-    var Names2 = $('#column2');
-$("<p>"+response[j].name+"</p>").appendTo(Names2);
-
-}
-
-for (var k = 1001; k < 1500; k++) {
-
-    var Names3 = $('#column3');
-$("<p>"+response[k].name+"</p>").appendTo(Names3);
-
-}
-
-for (var l = 1501; l < 1970; l++) {
-
-    var Names4 = $('#column4');
-$("<p>"+response[l].name+"</p>").appendTo(Names4);
-
-}
-
-});
-
-});*/
+*/
