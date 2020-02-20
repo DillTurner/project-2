@@ -3,13 +3,36 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.modal').modal();
 
+    // $("#makeMain").click(function(){
+    
+    //     $('#strainName').empty();
+    //     $('#positiveStrain').empty();
+    //     $('#negativeStrain').empty();
+    //     $('#medicalStrain').empty();
+    //     $('#flavorsStrain').empty();
 
+    //     var mainTitle = $('#strainName');
+    //     $("<h4>"+response.name+"</h4>").appendTo(mainTitle);
+        
+    //     var mainPositive = $('#positiveHybrid');
+    //     $("<h7>"+response.Value_effects_positive+"</h7>").appendTo(mainPositive);
+        
+    //     var mainNegative = $('#negativeHybrid5');
+    //     $("<h7>"+response.Value_effects_negative+"</h7>").appendTo(mainNegative);
+        
+    //     var mainFlavors = $('#flavorsHybrid');
+    //     $("<h7>"+response.Value_flavors+"</h7>").appendTo(mainFlavors);
+        
+    //     var mainMedical = $('#medicalHybrid5');
+    //     $("<h7>"+response.Value_effects_medical+"</h7>").appendTo(mainMedical);
+    
+    // });
 $.get("/api/all", function(response) {
 
         for (var i = 0; i < 50; i++) {
 
             var strains = $("#column1");
-        $("<p>"+response[i].name+"</p>").appendTo(strains);
+        $("<a href="#" id="makeMain"><p>"+response[i].name+"</p></a>").appendTo(strains);
 
         }
 
