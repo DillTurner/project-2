@@ -26,10 +26,6 @@ module.exports = (sequelize, DataTypes) => {
     deleted_at: DataTypes.DATE
   }, {
     underscored: true
-});
-        User.hasMany(favorites, {foreignKey:'user_id'})
-
-        favorites.belongsTo(User, {foreignKey:'user_id'})
-        
+});     
   return Users;
 };

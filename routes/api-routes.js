@@ -66,6 +66,44 @@ app.post('/auth', function(request, response) {
 		response.end();
 	}
 });
+
+app.post('/api/Users', function(req, res){
+	db.Users.create({
+		username: req.body.text,
+		password: req.body.text
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});
+
+app.delete("/api/Users/:id",function(req, res){
+	db.Users.delete({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});;
+
+app.put("api/Users", function(req, res){
+	db.Users.update({
+		username: req.body.text,
+		password: req.body.text,
+	},{
+		where: {
+			id: req.body.id
+		}
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});
+
+var favs = Sample;
+favs.findAll({
+limit: 420,
+});
+
 //========================================
 
 
@@ -81,4 +119,5 @@ app.get('/profile', function(request, response) {
 //===========================================
 
 }
+
 

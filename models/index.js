@@ -40,5 +40,7 @@ db.Sequelize = Sequelize;
   favorites.belongsTo(User, {foreignKey:'user_id'});
 
   favorites.hasMany(strainName, {foreignKey:'user_id'});
+  
+  strainName.belongsTo(favorites, {foreignKey:'user_id'});
 
 module.exports = db;
