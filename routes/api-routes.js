@@ -51,7 +51,7 @@ app.post('/auth', function(request, response) {
     var username1 = request.body.username;
     var password1 = request.body.password;
     if (username && password) {
-        db.User.findAll({
+        db.user.findAll({
             where: {
                 username: username1,
                 password: password1
@@ -73,7 +73,7 @@ app.post('/auth', function(request, response) {
         });
 //routes for user table
 app.post('/api/login', function(req, res){
-	db.Users.create({
+	db.user.create({
 		username: req.body.text,
 		password: req.body.text
 	}).then(function(dbUsers){
@@ -82,7 +82,7 @@ app.post('/api/login', function(req, res){
 });
 
 app.delete("/api/login/:id",function(req, res){
-	db.Users.delete({
+	db.user.delete({
 		where: {
 			id: req.params.id
 		}
@@ -92,31 +92,31 @@ app.delete("/api/login/:id",function(req, res){
 });;
 
 app.put("api/login", function(req, res){
-	db.Users.update({
+	db.user.update({
 		username: req.body.text,
 		password: req.body.text,
 	},{
 		where: {
 			id: req.body.id
 		}
-	}).then(function(dbUsers){
-		res.json(dbUsers);
+	}).then(function(dbuser){
+		res.json(dbuser);
 	});
 });
 //routes for favs table
 app.post('/api/profilepage', function(req, res){
-	db.favs.create({
+	db.fav.create({
 		id: req.body.text
 	});
 });
 
 app.delete("/api/profile/:id",function(req, res){
-	db.favs.delete({
+	db.fav.delete({
 		where: {
 			id: req.params.id
 		}
-	}).then(function(dbfavs){
-		res.json(dbfavs);
+	}).then(function(dbfav){
+		res.json(dbfav);
 	});
 });
 };

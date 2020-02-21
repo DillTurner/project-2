@@ -2,7 +2,7 @@
 'use strict'
 
 module.exports = (sequelize, DataTypes) => {
-  const Users = sequelize.define('users', {
+  const user = sequelize.define('user', {
     id: {
       type: DataTypes.UUID,
       primaryKey: true,
@@ -27,5 +27,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     underscored: true
 });     
-  return Users;
+  user.associate = function(models){
+    models.user.hasMany(models.fav);
+  };
+  return user;
 };

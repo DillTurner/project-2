@@ -28,6 +28,6 @@ module.exports = function(app) {
   });
 // need to add a profile html route.
 };
-app.get('/profilepage', function(req, res){
+/*app.get('/profilepage', function(req, res){
   res.sendfile(path.join(__dirname, "../public/profilepage.html"))
-});
+});*/
