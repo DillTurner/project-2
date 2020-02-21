@@ -84,6 +84,33 @@ function addCard(res,startCount,endCount,columnNum){
     }
 }
 
+
+function makeHeader(){
+
+        var headerInfo = '<div class="mainInfo">'
+        info += '<span id="titleStrain" style="text-align: center;"></span>'
+        info += '<div class = " row ">'
+        info += '<div class = "col s12 m6 center-align">'
+        info += '<h3>Positive Effects:</h3>'
+        info += 'p id="positiveStrain"></p></div></div>'
+        info += '<div class = "col s12 m6 center-align">'
+        info += '<h3>Negative Effects:</h3>'
+        info += 'p id="negativeStrain"></p></div></div>'
+        info += '<div class = " row ">'
+        info += '<div class = "col s12 m6 center-align">'
+        info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
+        info += '<div id="modal9" class="modal">'
+        info += '<div class="modal-content"><h4>Medical Effects</h4><p id="medicalStrain"></p></div>'
+        info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
+        info += '<div class = "col s12 m6 center-align">'
+        info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_florist</i></button>'
+        info += '<div id="modal9" class="modal">'
+        info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
+        info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
+        $(info).appendTo(headerInfo);
+    
+}
+
 });
 /*
 ////////////////////////////// PAGE 1 //////////////////////////////
