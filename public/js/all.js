@@ -70,12 +70,13 @@ function addCard(res,startCount,endCount,columnNum){
     for (var i = startCount; i < endCount; i++) {
 
         var strains = $('#column'+columnNum);
-        var card= '<div class="card hoverable small">'
+        var card= '<div id= "card" data-id='+res[i].id+' class="card hoverable small">'
         card += '<div class="card-image waves-effect waves-block waves-light">'
         card += '<img class="activator" src="assets/images/janelogo.png"></div>'
         card += '<div class="card-content">'
         card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
-        card += '<p><a href="#">This is a link</a></p></div>'
+        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Check me out!</a></div>'
+        card += '</div>'
         card += '<div class="card-reveal">'
         card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
         card += '<h7>Race: '+ res[i].Value_race+'</h7>'
@@ -83,6 +84,10 @@ function addCard(res,startCount,endCount,columnNum){
         $(card).appendTo(strains);
     }
 }
+$(document).on("click","div.card-action",function(event) {
+  var test = $(event.target).attr('data-id');
+    console.log(test);
+  });
 
 });
 /*
