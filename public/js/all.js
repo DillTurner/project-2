@@ -65,29 +65,11 @@ $.get("/api/all", function(response) {
 
 });
 
-
-function addCard(res,startCount,endCount,columnNum){
-    for (var i = startCount; i < endCount; i++) {
-
-        var strains = $('#column'+columnNum);
-        var card= '<div class="card hoverable small">'
-        card += '<div class="card-image waves-effect waves-block waves-light">'
-        card += '<img class="activator" src="assets/images/janelogo.png"></div>'
-        card += '<div class="card-content">'
-        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
-        card += '<p><a href="#">This is a link</a></p></div>'
-        card += '<div class="card-reveal">'
-        card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
-        card += '<h7>Race: '+ res[i].Value_race+'</h7>'
-        card += '</div></div>'
-        $(card).appendTo(strains);
-    }
-}
-
-
 function makeHeader(){
+    $( "#headerInfo" ).empty();
 
-        var headerInfo = '<div class="mainInfo" style="width: 50%;">'
+        var headerDiv = $('#headerInfo');
+        var info = '<div class="mainInfo" style="width: 50%;">'
         info += '<span id="titleStrain" style="text-align: center;"></span>'
         info += '<div class = " row ">'
         info += '<div class = "col s12 m6 center-align">'
@@ -107,8 +89,28 @@ function makeHeader(){
         info += '<div id="modal9" class="modal">'
         info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
         info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
-        $(info).appendTo(headerInfo);
+        $(info).appendTo(headerDiv);
+
     
+};
+
+
+function addCard(res,startCount,endCount,columnNum){
+    for (var i = startCount; i < endCount; i++) {
+
+        var strains = $('#column'+columnNum);
+        var card= '<div class="card hoverable small">'
+        card += '<div class="card-image waves-effect waves-block waves-light">'
+        card += '<img class="activator" src="assets/images/janelogo.png"></div>'
+        card += '<div class="card-content">'
+        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
+        card += '<p><a href="#" id="clickStrain">View Strain</a></p></div>'
+        card += '<div class="card-reveal">'
+        card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
+        card += '<h7>Race: '+ res[i].Value_race+'</h7>'
+        card += '</div></div>'
+        $(card).appendTo(strains);
+    }
 }
 
 });
