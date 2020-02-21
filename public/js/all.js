@@ -86,251 +86,35 @@ function addCard(res,startCount,endCount,columnNum){
 }
 $(document).on("click","div.card-action",function(event) {
   var test = $(event.target).attr('data-id');
-    console.log(test);
+    $.get('/api/strain/'+test,function(response){
+        console.log(response);
+
+    });
   });
 
+  function makeHeader(){
+  
+      var headerInfo = '<div class="mainInfo">'
+      info += '<span id="titleStrain" style="text-align: center;"></span>'
+      info += '<div class = " row ">'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<h3>Positive Effects:</h3>'
+      info += 'p id="positiveStrain"></p></div></div>'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<h3>Negative Effects:</h3>'
+      info += 'p id="negativeStrain"></p></div></div>'
+      info += '<div class = " row ">'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
+      info += '<div id="modal9" class="modal">'
+      info += '<div class="modal-content"><h4>Medical Effects</h4><p id="medicalStrain"></p></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_florist</i></button>'
+      info += '<div id="modal9" class="modal">'
+      info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
+      $(info).appendTo(headerInfo);
+  
+  }
 });
-/*
-////////////////////////////// PAGE 1 //////////////////////////////
-$("#page1").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    
-    addCard(response,0,50,1);
-    addCard(response,51,100,2);
-    addCard(response,101,150,3);
-    addCard(response,151,200,4);
-    addCard(response,201,250,5);
-    addCard(response,251,300,6);
-
-});
-});
-
-
-////////////////////////////// PAGE 2 //////////////////////////////
-$("#page2").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    addCard(response,301,350,1);
-    addCard(response,351,400,2);
-    addCard(response,401,450,3);
-    addCard(response,451,500,4);
-    addCard(response,501,550,5);
-    addCard(response,551,600,6);
-
-
-});
-});
-
-
-////////////////////////////// PAGE 3 //////////////////////////////
-$("#page3").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 701; i < 750; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 751; i < 800; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 801; i < 850; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 851; i < 900; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 901; i < 950; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 951; i < 1000; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 4 //////////////////////////////
-$("#page4").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 1001; i < 1050; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 1051; i < 1100; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 1101; i < 1150; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 1151; i < 1200; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 1201; i < 1250; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 1251; i < 1300; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 5 //////////////////////////////
-$("#page5").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 1301; i < 1350; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 1351; i < 1400; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 1401; i < 1450; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 1451; i < 1500; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 1501; i < 1550; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 1551; i < 1600; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 6 //////////////////////////////
-$("#page6").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    
-    addCard(response,1601,1665,1);
-    addCard(response,1667,1732,2);
-    addCard(response,1733,1798,3);
-    addCard(response,1799,1864,4);
-    addCard(response,1865,1930,5);
-    addCard(response,1931,1970,6);
-
-    
-});
-});
-*/

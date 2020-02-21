@@ -43,11 +43,21 @@ module.exports = function(app) {
 		where: { 			
 			Value_race: 'hybrid' 
 			}
- 	}).then(function(resopnse){
- 		res.json(resopnse);
+ 	}).then(function(response){
+ 		res.json(response);
  	});
 	  
 });
+
+app.get("/api/strain/:id",function(req,res){
+	db.jane.findOne({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(response){
+		res.json(response);
+	})
+})
 //==================================
 
 //turn this code into code that sequelize can use
