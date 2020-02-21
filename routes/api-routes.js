@@ -67,7 +67,7 @@ app.post('/auth', function(request, response) {
 	}
 });
 
-app.post('/api/Users', function(req, res){
+app.post('/api/login', function(req, res){
 	db.Users.create({
 		username: req.body.text,
 		password: req.body.text
@@ -76,7 +76,7 @@ app.post('/api/Users', function(req, res){
 	});
 });
 
-app.delete("/api/Users/:id",function(req, res){
+app.delete("/api/login/:id",function(req, res){
 	db.Users.delete({
 		where: {
 			id: req.params.id
@@ -86,7 +86,7 @@ app.delete("/api/Users/:id",function(req, res){
 	});
 });;
 
-app.put("api/Users", function(req, res){
+app.put("api/login", function(req, res){
 	db.Users.update({
 		username: req.body.text,
 		password: req.body.text,
