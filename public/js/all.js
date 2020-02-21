@@ -87,7 +87,7 @@ function addCard(res,startCount,endCount,columnNum){
 
 function makeHeader(){
 
-        var headerInfo = '<div class="mainInfo">'
+        var headerInfo = '<div class="mainInfo" style="width: 50%;">'
         info += '<span id="titleStrain" style="text-align: center;"></span>'
         info += '<div class = " row ">'
         info += '<div class = "col s12 m6 center-align">'
