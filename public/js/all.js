@@ -72,12 +72,12 @@ function addCard(res,startCount,endCount,columnNum){
 
         var strains = $('#column'+columnNum);
         var card= '<div id= "card" data-id='+res[i].id+' class="card hoverable small">'
-        card += '<div class="card-image waves-effect waves-block waves-light">'
-        card += '<img class="activator" src="assets/images/janelogo.png"></div>'
-        card += '<div class="card-content">'
+        card += '<div data-id='+res[i].id+' class="card-image waves-effect waves-block waves-light">'
+        card += '<img data-id='+res[i].id+' class="activator" src="assets/images/janelogo.png"></div>'
+        card += '<div data-id='+res[i].id+' class="card-content">'
         card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name
         card += '</div>'
-        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Strain!</a></div>'
+        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Click For More!</a></div>'
         card += '<div class="card-reveal">'
         card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
         card += '<h7>Race: '+ res[i].Value_race+'</h7>'
@@ -85,19 +85,34 @@ function addCard(res,startCount,endCount,columnNum){
         $(card).appendTo(strains);
     }
 }
-$(document).on("click","div.card-action",function(event) {
+$(document).on("click","div.card",function(event) {
   var test = $(event.target).attr('data-id');
+  console.log(event.target);
+  if(test==undefined){
+    return;
+  }else{
     $.get('/api/strain/'+test,function(response){
-        console.log(response);
         makeHeader(response);
+        $("html, body").animate({scrollTop: 0}, 800);
 
     });
+  }
   });
+  function strings(str){
+ 
+    var newstr= str.replace(/,/g, ' ');
 
-  function makeHeader(res){
+  return newstr;
+};
 
+  function makeHeader(res,){
     var headerID = $('#headerInfo');
-    headerID.empty();
+    headerID.empty(); 
+    var positive = strings(res.Value_effects_positive);
+    var negative = strings(res.Value_effects_negative);
+    var medical = strings(res.Value_effects_medical);
+    var flavors = strings(res.Value_flavors);
+    // create our card for the specific strain chosen
       var info = '<div class=" row ">'
       info += '<div class="col s12 m1"></div>'
       info += '<div class="col s12 m10">'
@@ -105,22 +120,22 @@ $(document).on("click","div.card-action",function(event) {
       info += '<div class="mainInfo">'
       info += '<h3>'+res.name+'</h3>'
       info += '<div class = " row ">'
-      info += '<div class = "col s12 m6>'
+      info += '<div class = "col s12 m6">'
       info += '<h3>Positive Effects:</h3>'
-      info += '<p><h6>'+res.Value_effects_positive+'</h6></p></div>'
+      info += '<h6>'+positive+'</h6></p></div>'
       info += '<div class = "col s12 m6">'
       info += '<h3>Negative Effects:</h3>'
-      info += '<h6>'+res.Value_effects_negative+'</h6></div></div>'
+      info += '<h6>'+negative+'</h6></div></div>'
       info += '<div class = " row ">'
       info += '<div class = "col s12 m6 center-align">'
       info += '<button data-target="modal1" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
       info += '<div id="modal1" class="modal">'
-      info += '<div class="modal-content"><h4>Medical Effects</h4><h6>'+res.Value_effects_medical+'</h6></div>'
+      info += '<div class="modal-content"><h4>Medical Effects</h4><h6>'+medical+'</h6></div>'
       info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
       info += '<div class = "col s12 m6 center-align">'
       info += '<button data-target="modal2" class="btn modal-trigger green darken-2">Strain Flavors<i class = "material-icons">local_florist</i></button>'
       info += '<div id="modal2" class="modal">'
-      info += '<div class="modal-content"><h4>Stain flavors</h4><p><h6>'+res.Value_flavors+'</h6></p></div>'
+      info += '<div class="modal-content"><h4>Stain flavors</h4><p><h6>'+flavors+'</h6></p></div>'
       info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div></div></div>'
       info += '<div class="col s12 m1"></div></div>'
       $(info).appendTo(headerID);
