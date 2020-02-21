@@ -105,7 +105,7 @@ $(document).on("click","div.card-action",function(event) {
       info += '<div class="mainInfo">'
       info += '<h3>'+res.name+'</h3>'
       info += '<div class = " row ">'
-      info += '<div class = "co≠l s12 m6 center-align">'
+      info += '<div class = "col s12 m6 center-align">'
       info += '<h3>Positive Effects:</h3>'
       info += '<p><h6>'+res.Value_effects_positive+'</h6></p></div>'
       info += '<div class = "col s12 m6 center-align">'
