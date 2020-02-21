@@ -70,7 +70,7 @@ function addCard(res,startCount,endCount,columnNum){
     for (var i = startCount; i < endCount; i++) {
 
         var strains = $('#column'+columnNum);
-        var card= '<div class="card small">'
+        var card= '<div class="card hoverable small">'
         card += '<div class="card-image waves-effect waves-block waves-light">'
         card += '<img class="activator" src="assets/images/janelogo.png"></div>'
         card += '<div class="card-content">'
