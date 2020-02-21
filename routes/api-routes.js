@@ -71,7 +71,7 @@ app.post('/auth', function(request, response) {
         response.end();
     }
         });
-
+//routes for user table
 app.post('/api/login', function(req, res){
 	db.Users.create({
 		username: req.body.text,
@@ -103,7 +103,7 @@ app.put("api/login", function(req, res){
 		res.json(dbUsers);
 	});
 });
-
+//routes for favs table
 app.post('/api/profilepage', function(req, res){
 	db.favs.create({
 		id: req.body.text
