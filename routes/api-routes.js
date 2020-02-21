@@ -43,33 +43,27 @@ module.exports = function(app) {
 		where: { 			
 			Value_race: 'hybrid' 
 			}
- 	}).then(function(resopnse){
- 		res.json(resopnse);
+ 	}).then(function(response){
+ 		res.json(response);
  	});
 	  
 });
+
+app.get("/api/strain/:id",function(req,res){
+	db.jane.findOne({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(response){
+		res.json(response);
+	})
+})
 //==================================
 
 //turn this code into code that sequelize can use
-/*app.post('/auth', function(request, response) {
-	var username = request.body.username;
-	var password = request.body.password;
-	if (username && password) {
-		connection.query('SELECT * FROM accounts WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
-			if (results.length > 0) {
-				request.session.loggedin = true;
-				request.session.username = username;
-				response.redirect('../public/profile.html');
-			} else {
-				response.send('Incorrect Username and/or Password!');
-			}			
-			response.end();
-		});
-	} else {
-		response.send('Please enter Username and Password!');
-		response.end();
-	}
-});*/
+
+		
+
 //========================================
 
 

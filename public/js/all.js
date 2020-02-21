@@ -1,7 +1,6 @@
 $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
-    $('.modal').modal();
     $('.tabs').tabs();
     // back to top button------------
     $('.fixed-action-btn').floatingActionButton();
@@ -19,7 +18,7 @@ $(document).ready(function(){
     });
     //-----------------------
 $.get("/api/all", function(response) {
-    console.log(response);
+  
     addCard(response,0,50,1);
     addCard(response,51,100,2);
     addCard(response,101,150,3);
@@ -60,271 +59,90 @@ $.get("/api/all", function(response) {
     addCard(response,1851,1900,38);
     addCard(response,1901,1950,39);
     addCard(response,1951,1970,40);
-    
+   
 
 
 });
+
+
 
 
 function addCard(res,startCount,endCount,columnNum){
     for (var i = startCount; i < endCount; i++) {
 
         var strains = $('#column'+columnNum);
-        var card= '<div class="card small">'
-        card += '<div class="card-image waves-effect waves-block waves-light">'
-        card += '<img class="activator" src="assets/images/janelogo.png"></div>'
-        card += '<div class="card-content">'
-        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
-        card += '<p><a href="#">This is a link</a></p></div>'
+        var card= '<div id= "card" data-id='+res[i].id+' class="card hoverable small">'
+        card += '<div data-id='+res[i].id+' class="card-image waves-effect waves-block waves-light">'
+        card += '<img data-id='+res[i].id+' src="assets/images/janelogo.png"></div>'
+        card += '<div data-id='+res[i].id+' class="card-content">'
+        card += '<span class="card-title grey-text text-darken-4">'+res[i].name
+        card += '</div>'
+        card += '<div data-id='+res[i].id+ ' class="card-action "><a data-id='+res[i].id+ ' class="green-text" href="#">Click For More!</a></div>'
         card += '<div class="card-reveal">'
-        card += '<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>'
-        card += '<p>Here is some more information about this product that is only revealed once clicked on.</p></div></div>'
+        card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
+        card += '<h7>Race: '+ res[i].Value_race+'</h7>'
+        card += '</div></div>'
         $(card).appendTo(strains);
     }
 }
+$(document).on("click","div.card",function(event) {
+  var test = $(event.target).attr('data-id');
+ 
+  if(test==undefined){
+    return;
+  }else{
+    $.get('/api/strain/'+test,function(response){
+        makeHeader(response);
+        $("html, body").animate({scrollTop: 0}, 800);
 
+    });
+  }
+  });
+  function strings(str){
+ 
+    var newstr= str.replace(/,/g, ' ');
+
+  return newstr;
+};
+
+  function makeHeader(res,){
+    var headerID = $('#headerInfo');
+    headerID.empty(); 
+    var positive = strings(res.Value_effects_positive);
+    var negative = strings(res.Value_effects_negative);
+    var medical = strings(res.Value_effects_medical);
+    var flavors = strings(res.Value_flavors);
+    // create our card for the specific strain chosen
+      var info = '<div class=" row ">'
+      info += '<div class="col s12 m1"></div>'
+      info += '<div class="col s12 m10">'
+      info += '<div class = "card grey lighten-2 center-align" id="mainContent" style="padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px;">'
+      info += '<div class="mainInfo">'
+      info += '<h3>'+res.name+'</h3>'
+      info += '<h6>Race: '+res.Value_race+'</ht>'
+      info += '<div class = " row ">'
+      info += '<div class = "col s12 m6">'
+      info += '<h3>Positive Effects:</h3>'
+      info += '<h6>'+positive+'</h6></p></div>'
+      info += '<div class = "col s12 m6">'
+      info += '<h3>Negative Effects:</h3>'
+      info += '<h6>'+negative+'</h6></div></div>'
+      info += '<div class = " row ">'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<button data-target="modal1" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
+      info += '<div id="modal1" class="modal">'
+      info += '<div class="modal-content"><h4>Medical Effects</h4><h6>'+medical+'</h6></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
+      info += '<div class = "col s12 m6 center-align">'
+      info += '<button data-target="modal2" class="btn modal-trigger green darken-2">Strain Flavors<i class = "material-icons">local_florist</i></button>'
+      info += '<div id="modal2" class="modal">'
+      info += '<div class="modal-content"><h4>Stain flavors</h4><p><h6>'+flavors+'</h6></p></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div></div></div>'
+      info += '<div class="col s12 m1"></div></div>'
+      $(info).appendTo(headerID);
+
+      $('.modal').modal();
+
+  
+  }
 });
-/*
-////////////////////////////// PAGE 1 //////////////////////////////
-$("#page1").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    
-    addCard(response,0,50,1);
-    addCard(response,51,100,2);
-    addCard(response,101,150,3);
-    addCard(response,151,200,4);
-    addCard(response,201,250,5);
-    addCard(response,251,300,6);
-
-});
-});
-
-
-////////////////////////////// PAGE 2 //////////////////////////////
-$("#page2").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    addCard(response,301,350,1);
-    addCard(response,351,400,2);
-    addCard(response,401,450,3);
-    addCard(response,451,500,4);
-    addCard(response,501,550,5);
-    addCard(response,551,600,6);
-
-
-});
-});
-
-
-////////////////////////////// PAGE 3 //////////////////////////////
-$("#page3").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 701; i < 750; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 751; i < 800; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 801; i < 850; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 851; i < 900; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 901; i < 950; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 951; i < 1000; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 4 //////////////////////////////
-$("#page4").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 1001; i < 1050; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 1051; i < 1100; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 1101; i < 1150; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 1151; i < 1200; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 1201; i < 1250; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 1251; i < 1300; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 5 //////////////////////////////
-$("#page5").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-
-    for (var i = 1301; i < 1350; i++) {
-
-        var strains = $("#column1");
-    $("<p>"+response[i].name+"</p>").appendTo(strains);
-
-    }
-
-    for (var i = 1351; i < 1400; i++) {
-
-        var strains2 = $('#column2');
-    $("<p>"+response[i].name+"</p>").appendTo(strains2);
-
-    }
-
-    for (var i = 1401; i < 1450; i++) {
-
-        var strains3 = $('#column3');
-    $("<p>"+response[i].name+"</p>").appendTo(strains3);
-
-    }
-
-    for (var i = 1451; i < 1500; i++) {
-
-        var strains4 = $('#column4');
-    $("<p>"+response[i].name+"</p>").appendTo(strains4);
-
-    }
-
-    for (var i = 1501; i < 1550; i++) {
-
-        var strains5 = $('#column5');
-    $("<p>"+response[i].name+"</p>").appendTo(strains5);
-
-    }
-
-    for (var i = 1551; i < 1600; i++) {
-
-        var strains6 = $('#column6');
-    $("<p>"+response[i].name+"</p>").appendTo(strains6);
-
-    }
-
-});
-});
-
-
-////////////////////////////// PAGE 6 //////////////////////////////
-$("#page6").click(function(){
-
-    $('#column1').empty();
-    $('#column2').empty();
-    $('#column3').empty();
-    $('#column4').empty();
-    $('#column5').empty();
-    $('#column6').empty();
-
-$.get("/api/all", function(response) {
-    
-    addCard(response,1601,1665,1);
-    addCard(response,1667,1732,2);
-    addCard(response,1733,1798,3);
-    addCard(response,1799,1864,4);
-    addCard(response,1865,1930,5);
-    addCard(response,1931,1970,6);
-
-    
-});
-});
-*/
