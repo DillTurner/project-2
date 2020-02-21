@@ -60,39 +60,12 @@ $.get("/api/all", function(response) {
     addCard(response,1851,1900,38);
     addCard(response,1901,1950,39);
     addCard(response,1951,1970,40);
-    
+   
 
 
 });
 
-function makeHeader(){
-    $( "#headerInfo" ).empty();
 
-        var headerDiv = $('#headerInfo');
-        var info = '<div class="mainInfo" style="width: 50%;">'
-        info += '<span id="titleStrain" style="text-align: center;"></span>'
-        info += '<div class = " row ">'
-        info += '<div class = "col s12 m6 center-align">'
-        info += '<h3>Positive Effects:</h3>'
-        info += 'p id="positiveStrain"></p></div></div>'
-        info += '<div class = "col s12 m6 center-align">'
-        info += '<h3>Negative Effects:</h3>'
-        info += 'p id="negativeStrain"></p></div></div>'
-        info += '<div class = " row ">'
-        info += '<div class = "col s12 m6 center-align">'
-        info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
-        info += '<div id="modal9" class="modal">'
-        info += '<div class="modal-content"><h4>Medical Effects</h4><p id="medicalStrain"></p></div>'
-        info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
-        info += '<div class = "col s12 m6 center-align">'
-        info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_florist</i></button>'
-        info += '<div id="modal9" class="modal">'
-        info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
-        info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
-        $(info).appendTo(headerDiv);
-
-    
-};
 
 
 function addCard(res,startCount,endCount,columnNum){
@@ -103,9 +76,9 @@ function addCard(res,startCount,endCount,columnNum){
         card += '<div class="card-image waves-effect waves-block waves-light">'
         card += '<img class="activator" src="assets/images/janelogo.png"></div>'
         card += '<div class="card-content">'
-        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name+'<i class="material-icons right">more_vert</i></span>'
-        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Check me out!</a></div>'
+        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name
         card += '</div>'
+        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Strain!</a></div>'
         card += '<div class="card-reveal">'
         card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
         card += '<h7>Race: '+ res[i].Value_race+'</h7>'
@@ -117,14 +90,18 @@ $(document).on("click","div.card-action",function(event) {
   var test = $(event.target).attr('data-id');
     $.get('/api/strain/'+test,function(response){
         console.log(response);
+        makeHeader(response);
 
     });
   });
 
-  function makeHeader(){
-  
-      var headerInfo = '<div class="mainInfo">'
-      info += '<span id="titleStrain" style="text-align: center;"></span>'
+  function makeHeader(res){
+
+    var headerID = $('#headerInfo');
+    headerID.removeClass("card-panel white");
+    headerID.empty();
+      var info = '<div class="mainInfo">'
+      info += '<span id="titleStrain" style="text-align: center;">'+res.name+'</span>'
       info += '<div class = " row ">'
       info += '<div class = "col s12 m6 center-align">'
       info += '<h3>Positive Effects:</h3>'
@@ -143,7 +120,7 @@ $(document).on("click","div.card-action",function(event) {
       info += '<div id="modal9" class="modal">'
       info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
       info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
-      $(info).appendTo(headerInfo);
+      $(info).appendTo(headerID);
   
   }
 });
