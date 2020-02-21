@@ -6,7 +6,7 @@ function initMap() {
         location.long = pos.coords.longitude;
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: location.lat, lng: location.long},
-    zoom: 13
+    zoom: 11
   });
   getDispensaries(location);
     });
@@ -15,7 +15,7 @@ function getDispensaries() {
     var riverside = new google.maps.LatLng(location.lat,location.long);
     var request = {
         location: riverside,
-        radius: '1500',
+        radius: '2000',
         query: ['marijuana']
 
     };
@@ -28,7 +28,8 @@ function callback(results, status) {
         for (var i = 0; i < results.length; i++) {
             console.log(results)
             var place = results[i];
-          let content = `<p>${place.name}</p>`
+          let content = `<b>${place.name}</b>
+          <p>${place.formatted_address}</p>`
            
 
             var marker = new google.maps.Marker({
@@ -49,7 +50,10 @@ function callback(results, status) {
 
 function bindInfoWindow(marker, map, infowindow, html) {
     marker.addListener('click', function(){
+
         infowindow.setContent(html);
         infowindow.open(map, this);
+
     });
+    
 }
