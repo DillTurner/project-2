@@ -1,7 +1,6 @@
 $(document).ready(function(){
     // activate sidenav feature
     $('.sidenav').sidenav();
-    $('.modal').modal();
     $('.tabs').tabs();
     // back to top button------------
     $('.fixed-action-btn').floatingActionButton();
@@ -100,14 +99,13 @@ $(document).on("click","div.card-action",function(event) {
     var headerID = $('#headerInfo');
     headerID.empty();
       var info = '<div class=" row ">'
-      info += '<div class="col s12 m2"></div>'
-      info += '<div class="col s12 m8">'
-      info += '<div class = "card grey medium lighten-2" id="mainContent">'
-      info += '<div class = "card-content center-align">'
+      info += '<div class="col s12 m1"></div>'
+      info += '<div class="col s12 m10">'
+      info += '<div class = "card grey lighten-2 center-align" id="mainContent" style="padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px;">'
       info += '<div class="mainInfo">'
       info += '<h3>'+res.name+'</h3>'
       info += '<div class = " row ">'
-      info += '<div class = "col s12 m6 center-align">'
+      info += '<div class = "co≠l s12 m6 center-align">'
       info += '<h3>Positive Effects:</h3>'
       info += '<p><h6>'+res.Value_effects_positive+'</h6></p></div>'
       info += '<div class = "col s12 m6 center-align">'
@@ -123,9 +121,12 @@ $(document).on("click","div.card-action",function(event) {
       info += '<button data-target="modal2" class="btn modal-trigger green darken-2">Strain Flavors<i class = "material-icons">local_florist</i></button>'
       info += '<div id="modal2" class="modal">'
       info += '<div class="modal-content"><h4>Stain flavors</h4><p><h6>'+res.Value_flavors+'</h6></p></div>'
-      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div></div></div></div>'
-      info += '<div class="col s12 m2"></div></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div></div></div>'
+      info += '<div class="col s12 m1"></div></div>'
       $(info).appendTo(headerID);
+
+      $('.modal').modal();
+
   
   }
 });
