@@ -124,7 +124,7 @@ var HybridMedical5 = $('#medicalHybrid5');
 $("<h7>"+medical5+"</h7>").appendTo(HybridMedical5);
 
 
-    console.log(response);
+
   });
 
 });

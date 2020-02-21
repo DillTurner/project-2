@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
     //-----------------------
 $.get("/api/all", function(response) {
-    console.log(response);
+  
     addCard(response,0,50,1);
     addCard(response,51,100,2);
     addCard(response,101,150,3);
@@ -73,11 +73,11 @@ function addCard(res,startCount,endCount,columnNum){
         var strains = $('#column'+columnNum);
         var card= '<div id= "card" data-id='+res[i].id+' class="card hoverable small">'
         card += '<div data-id='+res[i].id+' class="card-image waves-effect waves-block waves-light">'
-        card += '<img data-id='+res[i].id+' class="activator" src="assets/images/janelogo.png"></div>'
+        card += '<img data-id='+res[i].id+' src="assets/images/janelogo.png"></div>'
         card += '<div data-id='+res[i].id+' class="card-content">'
-        card += '<span class="card-title activator grey-text text-darken-4">'+res[i].name
+        card += '<span class="card-title grey-text text-darken-4">'+res[i].name
         card += '</div>'
-        card += '<div data-id='+res[i].id+ ' class="card-action"><a data-id='+res[i].id+ ' href="#">Click For More!</a></div>'
+        card += '<div data-id='+res[i].id+ ' class="card-action "><a data-id='+res[i].id+ ' class="green-text" href="#">Click For More!</a></div>'
         card += '<div class="card-reveal">'
         card += '<span class="card-title grey-text text-darken-4">Info<i class="material-icons right">close</i></span>'
         card += '<h7>Race: '+ res[i].Value_race+'</h7>'
@@ -87,7 +87,7 @@ function addCard(res,startCount,endCount,columnNum){
 }
 $(document).on("click","div.card",function(event) {
   var test = $(event.target).attr('data-id');
-  console.log(event.target);
+ 
   if(test==undefined){
     return;
   }else{
@@ -119,6 +119,7 @@ $(document).on("click","div.card",function(event) {
       info += '<div class = "card grey lighten-2 center-align" id="mainContent" style="padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px;">'
       info += '<div class="mainInfo">'
       info += '<h3>'+res.name+'</h3>'
+      info += '<h6>Race: '+res.Value_race+'</ht>'
       info += '<div class = " row ">'
       info += '<div class = "col s12 m6">'
       info += '<h3>Positive Effects:</h3>'

@@ -128,7 +128,7 @@ var SativaMedical5 = $('#medicalSativa5');
 $("<h7>"+medical5+"</h7>").appendTo(SativaMedical5);
 
 
-    console.log(response);
+    
   });
 
 });

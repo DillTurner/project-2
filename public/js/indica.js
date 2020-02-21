@@ -125,7 +125,7 @@ $("<h7>"+flavors5+"</h7>").appendTo(IndicaFlavors5);
 var IndicaMedical5 = $('#medicalIndica5');
 $("<h7>"+medical5+"</h7>").appendTo(IndicaMedical5);
 
-      console.log(response);
+     
 
     });
 
