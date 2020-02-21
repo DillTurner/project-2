@@ -7,6 +7,11 @@ module.exports = function(sequelize, DataTypes) {
       Value_effects_negative: DataTypes.TEXT,
       Value_effects_medical: DataTypes.TEXT,
     });
+    
+    jane.associate = function(models){
+      models.jane.belongsTo(models.fav);
+
+    };
     return jane;
   }; 
 

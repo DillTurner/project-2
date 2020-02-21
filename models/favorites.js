@@ -16,8 +16,8 @@ module.exports = function(sequelize, DataTypes) {
 
     };
 
-    /*favs.associate = function(models){
-      models.favs.hasMany(models.jane);
-    };*/
+    fav.associate = function(models){
+      models.fav.hasMany(models.jane);
+    };
     return fav;
   }; 
