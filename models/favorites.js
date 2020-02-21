@@ -7,6 +7,8 @@ module.exports = function(sequelize, DataTypes) {
       Value_effects_negative: DataTypes.TEXT,
       Value_effects_medical: DataTypes.TEXT,
     });
-    
+    favs.findAll({
+    limit: 420,
+    });
     return favs;
   }; 

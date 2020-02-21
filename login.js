@@ -23,25 +23,7 @@ app.get('/', function(request, response) {
 //=========
 
 // turn this into code sequelize can use ie. findall();
-app.post('/auth', function(request, response) {
-	var username = request.body.username;
-	var password = request.body.password;
-	if (username && password) {
-		connection.query('SELECT * FROM accounts WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
-			if (results.length > 0) {
-				request.session.loggedin = true;
-				request.session.username = username;
-				response.redirect('public./profile.html');
-			} else {
-				response.send('Incorrect Username and/or Password!');
-			}			
-			response.end();
-		});
-	} else {
-		response.send('Please enter Username and Password!');
-		response.end();
-	}
-});
+
 //I feel this belongs in the html routes page but unsure please verify team.
 app.get('/home', function(request, response) {
 	if (request.session.loggedin) {

@@ -24,7 +24,10 @@ module.exports = function(app) {
   });
 
   app.get('/login', function(request, response) {
-    response.sendFile(path.join(__dirname + '../public/login.html'));
+    response.sendFile(path.join(__dirname,  '../public/login.html'));
   });
 // need to add a profile html route.
 };
+app.get('/profilepage', function(req, res){
+  res.sendfile(path.join(__dirname, "../public/profilepage.html"))
+});

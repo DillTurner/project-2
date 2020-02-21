@@ -48,24 +48,29 @@ module.exports = function(app) {
 
 //turn this code into code that sequelize can use
 app.post('/auth', function(request, response) {
-	var username = request.body.username;
-	var password = request.body.password;
-	if (username && password) {
-		connection.query('SELECT * FROM accounts WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
-			if (results.length > 0) {
-				request.session.loggedin = true;
-				request.session.username = username;
-				response.redirect('../public/profile.html');
-			} else {
-				response.send('Incorrect Username and/or Password!');
-			}			
-			response.end();
-		});
-	} else {
-		response.send('Please enter Username and Password!');
-		response.end();
-	}
-});
+    var username1 = request.body.username;
+    var password1 = request.body.password;
+    if (username && password) {
+        db.User.findAll({
+            where: {
+                username: username1,
+                password: password1
+            }
+        }).then(function(response){
+            if (results.length > 0) {
+                request.session.loggedin = true;
+                request.session.username = username;
+                response.redirect('../public/profile.html');
+            } else {
+                response.send('Incorrect Username and/or Password!');
+            }           
+            response.end();
+        });
+    } else {
+        response.send('Please enter Username and Password!');
+        response.end();
+    }
+        });
 
 app.post('/api/login', function(req, res){
 	db.Users.create({
@@ -99,25 +104,21 @@ app.put("api/login", function(req, res){
 	});
 });
 
-var favs = Sample;
-favs.findAll({
-limit: 420,
+app.post('/api/profilepage', function(req, res){
+	db.favs.create({
+		id: req.body.text
+	});
 });
 
-//========================================
-
-
-// I feel this belongs in the html routes page but please verify team.
-app.get('/profile', function(request, response) {
-	if (request.session.loggedin) {
-		response.send('Welcome back, ' + request.session.username + '!');
-	} else {
-		response.send('Please login to view this page!');
-	}
-	response.end();
+app.delete("/api/profile/:id",function(req, res){
+	db.favs.delete({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(dbfavs){
+		res.json(dbfavs);
+	});
 });
-//===========================================
-
-}
+};
 
 
