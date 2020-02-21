@@ -98,30 +98,34 @@ $(document).on("click","div.card-action",function(event) {
   function makeHeader(res){
 
     var headerID = $('#headerInfo');
-    headerID.removeClass("card-panel white");
     headerID.empty();
-      var info = '<div class="mainInfo">'
-      info += '<span id="titleStrain" style="text-align: center;">'+res.name+'</span>'
+      var info = '<div class=" row ">'
+      info += '<div class="col s12 m2"></div>'
+      info += '<div class="col s12 m8">'
+      info += '<div class = "card grey medium lighten-2" id="mainContent">'
+      info += '<div class = "card-content center-align">'
+      info += '<div class="mainInfo">'
+      info += '<h3>'+res.name+'</h3>'
       info += '<div class = " row ">'
       info += '<div class = "col s12 m6 center-align">'
       info += '<h3>Positive Effects:</h3>'
-      info += 'p id="positiveStrain"></p></div></div>'
+      info += '<p><h6>'+res.Value_effects_positive+'</h6></p></div>'
       info += '<div class = "col s12 m6 center-align">'
       info += '<h3>Negative Effects:</h3>'
-      info += 'p id="negativeStrain"></p></div></div>'
+      info += '<p><h6>'+res.Value_effects_negative+'</h6></p></div></div>'
       info += '<div class = " row ">'
       info += '<div class = "col s12 m6 center-align">'
-      info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
-      info += '<div id="modal9" class="modal">'
-      info += '<div class="modal-content"><h4>Medical Effects</h4><p id="medicalStrain"></p></div>'
+      info += '<button data-target="modal1" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_hospital</i></button>'
+      info += '<div id="modal1" class="modal">'
+      info += '<div class="modal-content"><h4>Medical Effects</h4><p><h6>'+res.Value_effects_medical+'</h6></p></div>'
       info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div>'
       info += '<div class = "col s12 m6 center-align">'
-      info += '<button data-target="modal9" class="btn modal-trigger green darken-2">Medical Effects<i class = "material-icons">local_florist</i></button>'
-      info += '<div id="modal9" class="modal">'
-      info += '<div class="modal-content"><h4>Stain flavors</h4><p id="flavorsStrain"></p></div>'
-      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div>'
+      info += '<button data-target="modal2" class="btn modal-trigger green darken-2">Strain Flavors<i class = "material-icons">local_florist</i></button>'
+      info += '<div id="modal2" class="modal">'
+      info += '<div class="modal-content"><h4>Stain flavors</h4><p><h6>'+res.Value_flavors+'</h6></p></div>'
+      info += '<div class="modal-footer"><a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a></div></div></div></div></div></div></div>'
+      info += '<div class="col s12 m2"></div></div>'
       $(info).appendTo(headerID);
   
   }
 });
-
