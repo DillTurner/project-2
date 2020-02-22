@@ -3,15 +3,11 @@
    <head>
       <title>Jane's Essentials</title>
       <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
-      <link rel = "stylesheet"
-         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-      <link rel = "stylesheet"
-         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-      <script type = "text/javascript"
-         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
-      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
-      </script>             
-      <script src="css/index.css"></script>
+      <link rel="stylesheet" href="css/index.css"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>            
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>        
    </head>
 
    
@@ -24,7 +20,7 @@
              <li><a href="indica.html">Indica</a></li>
              <li><a href="hybrid.html">Hybrid</a></li>
              <li><a href="sativa.html">Sativa</a></li>
-             <li><a href="#">Search</a></li>
+             <li><a href="all.html">View All</a></li>
              <li><a href="#">Profile</a></li>
              <li><a href="#">Login</a></li>
            </ul>
@@ -36,158 +32,328 @@
       </div>
 
 <div class = "container" style="width: 97%;"> 
-<!-- first row -->         
-<div class = "row">
-
-   <!--1-->
-   <div class = "col s12 m6">
-      <div class = "card grey lighten-1">
+      <div class = "card grey lighten-2" id="mainContent">
          <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
+               <!-- name -->
+            <span class = "card-title" id="titleHybrid" style="text-align: center;">
+            </span>
 
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
-
-         </div>
-      </div>
-   </div>
-   <!--2-->
-   <div class = "col s12 m6">
-      <div class = "card grey lighten-1">
-         <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
-
-         </div>
-      </div>
-   </div>
-   </div>
-
-<!-- second row -->
-   <div class = "row">
-
-   <!--3-->   
-      <div class = "col s12 m6">
-         <div class = "card grey lighten-1">
-            <div class = "card-content">
-               <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-               <!-- description -->
-               <div class = "col s12 m4">
-                  <p>*strain info*</p>  
-               </div>      
-
-               <!-- positive -->
-               <div class = "col s12 m4">
-                  <p>*strain info*</p>  
+   <!-- row1 -->            
+            <div class = " row ">
+                <!-- positive -->
+               <div class = "col s12 m6 center-align">
+                  <h3>Positive Effects:</h3>
+                  <p id="positiveHybrid"></p> 
                </div>      
 
                <!-- negative -->
-               <div class = "col s12 m4">
-                  <p>*strain info*</p>  
-               </div>      
+               <div class = "col s12 m6 center-align">
+                  <h3>Negative Effects:</h3>
+                  <p id="negativeHybrid"></p> 
+               </div>    
+            </div>  
+   <!-- row2 -->
+   <div class = " row ">
+      <!-- medical -->
+      <div class = "col s12 m6 center-align">  
+      <button data-target="modal9" class="btn modal-trigger green darken-2">
+         Medical Effects
+         <i class = "material-icons">local_hospital</i></button>
+
+         <div id="modal9" class="modal">
+            <div class="modal-content">
+              <h4>Medical Effects</h4>
+              <p id="medicalHybrid"></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect green darken-2 btn">Close</a>
+            </div>
           </div>
-            
-            <div class = "card-action">
+      </div>
+
+      <div class = "col s12 m6 center-align">
+          <button data-target="modal10" class="btn modal-trigger green darken-2">
+            Strain Flavors
+            <i class = "material-icons">local_florist</i></button>
+
+            <div id="modal10" class="modal">
+               <div class="modal-content">
+                 <h4>Flavors and Tastes</h4>
+                 <p id="flavorsHybrid"></p>
+               </div>
+               <div class="modal-footer">
+                 <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+               </div>
+             </div>
+      </div>
+   </div>
+
+               <!-- view in main card -->
+               <!-- <button class = "btn waves-effect waves-light green darken-2" id="viewall">
+               VIEW ALL STRAINS</button> -->
+
+         </div>
+      </div>
+</div>
+
+
+
+<div class = "container" style="width: 97%;"> 
+   <!-- first row -->         
+   <div class = "row">
+   
+<!--------------------------- CARD 2 --------------------------->
+      <div class = "col s12 m6">
+         <div class = "card grey lighten-2">
+            <div class = "card-content">
+              <!-- name -->
+              <span class = "card-title" id="titleHybrid2" style="text-align: center;">
+            </span>
+
+   <!-- row1 -->            
+            <div class = " row ">
+                <!-- positive -->
+               <div class = "col s12 m6 center-align">
+                  <h5>Positive Effects:</h5>
+                  <p id="positiveHybrid2"></p> 
+               </div>      
+
+               <!-- negative -->
+               <div class = "col s12 m6 center-align">
+                  <h5>Negative Effects:</h5>
+                  <p id="negativeHybrid2"></p> 
+               </div>    
+            </div>  
+   <!-- row2 -->
+            <div class = " row ">
                <!-- medical -->
-               <button class = "btn waves-effect waves-light green darken-2">
+               <div class = "col s12 m6 center-align">  
+               <button data-target="modal1" class="btn modal-trigger green darken-2">
                   Medical Effects
                   <i class = "material-icons">local_hospital</i></button>
-               
-               <!-- view in main card -->
-               <button class = "btn waves-effect waves-light green darken-2">
-                  <i class = "material-icons">forward</i></button>
+   
+                  <div id="modal1" class="modal">
+                     <div class="modal-content">
+                       <h4>Medical Effects</h4>
+                       <p id="medicalHybrid2"></p>
+                     </div>
+                     <div class="modal-footer">
+                       <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                     </div>
+                   </div>
+               </div>
 
+               <div class = "col s12 m6 center-align">
+                   <button data-target="modal2" class="btn modal-trigger green darken-2">
+                     Strain Flavors
+                     <i class = "material-icons">local_florist</i></button>
+      
+                     <div id="modal2" class="modal">
+                        <div class="modal-content">
+                          <h4>Flavors and Tastes</h4>
+                          <p id="flavorsHybrid2"></p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                        </div>
+                      </div>
+               </div>
             </div>
          </div>
       </div>
+      </div>
 
 
-   <!--4-->
-   <div class = "col s12 m6">
-      <div class = "card grey lighten-1">
-         <div class = "card-content">
-            <span class = "card-title" style="text-align: center;"><h3>*strain name*</h3></span>
-            <!-- description -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
+<!--------------------------- CARD 3 --------------------------->
+      <div class = "col s12 m6">
+         <div class = "card grey lighten-2">
+            <div class = "card-content">
+            <!-- name -->
+            <span class = "card-title" id="titleHybrid3" style="text-align: center;">
+            </span>
 
-            <!-- positive -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
+      <!-- row1 -->            
+            <div class = " row ">
+               <!-- positive -->
+               <div class = "col s12 m6 center-align">
+                  <h5>Positive Effects:</h5>
+                  <p id="positiveHybrid3"></p> 
+               </div>      
 
-            <!-- negative -->
-            <div class = "col s12 m4">
-               <p>*strain info*</p>  
-            </div>      
-       </div>
-         
-         <div class = "card-action">
-            <!-- medical -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               Medical Effects
-               <i class = "material-icons">local_hospital</i></button>
-            
-            <!-- view in main card -->
-            <button class = "btn waves-effect waves-light green darken-2">
-               <i class = "material-icons">forward</i></button>
+               <!-- negative -->
+               <div class = "col s12 m6 center-align">
+                  <h5>Negative Effects:</h5>
+                  <p id="negativeHybrid3"></p> 
+               </div>    
+            </div>  
+      <!-- row2 -->
+            <div class = " row ">
+               <!-- medical -->
+               <div class = "col s12 m6 center-align">  
+               <button data-target="modal3" class="btn modal-trigger green darken-2">
+                  Medical Effects
+                  <i class = "material-icons">local_hospital</i></button>
 
+                  <div id="modal3" class="modal">
+                     <div class="modal-content">
+                     <h4>Medical Effects</h4>
+                     <p id="medicalHybrid3"></p>
+                     </div>
+                     <div class="modal-footer">
+                     <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class = "col s12 m6 center-align">
+                  <button data-target="modal4" class="btn modal-trigger green darken-2">
+                     Strain Flavors
+                     <i class = "material-icons">local_florist</i></button>
+
+                     <div id="modal4" class="modal">
+                        <div class="modal-content">
+                        <h4>Flavors and Tastes</h4>
+                        <p id="flavorsHybrid3"></p>
+                        </div>
+                        <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                        </div>
+                     </div>
+               </div>
+            </div>
          </div>
       </div>
-   </div>
-   </div>
-         </div>
+      </div>
+</div>
+   
+<!-- second row -->         
+   <div class = "row">
+<!--------------------------- CARD 4 --------------------------->
+            <div class = "col s12 m6">
+               <div class = "card grey lighten-2">
+                  <div class = "card-content">
+                    <!-- name -->
+                    <span class = "card-title" id="titleHybrid4" style="text-align: center;">
+                  </span>
+      
+         <!-- row1 -->            
+                  <div class = " row ">
+                      <!-- positive -->
+                     <div class = "col s12 m6 center-align">
+                        <h5>Positive Effects:</h5>
+                        <p id="positiveHybrid4"></p> 
+                     </div>      
+      
+                     <!-- negative -->
+                     <div class = "col s12 m6 center-align">
+                        <h5>Negative Effects:</h5>
+                        <p id="negativeHybrid4"></p> 
+                     </div>    
+                  </div>  
+         <!-- row2 -->
+                  <div class = " row ">
+                     <!-- medical -->
+                     <div class = "col s12 m6 center-align">  
+                     <button data-target="modal5" class="btn modal-trigger green darken-2">
+                        Medical Effects
+                        <i class = "material-icons">local_hospital</i></button>
          
+                        <div id="modal5" class="modal">
+                           <div class="modal-content">
+                             <h4>Medical Effects</h4>
+                             <p id="medicalHybrid4"></p>
+                           </div>
+                           <div class="modal-footer">
+                             <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                           </div>
+                         </div>
+                     </div>
+      
+                     <div class = "col s12 m6 center-align">
+                         <button data-target="modal6" class="btn modal-trigger green darken-2">
+                           Strain Flavors
+                           <i class = "material-icons">local_florist</i></button>
+            
+                           <div id="modal6" class="modal">
+                              <div class="modal-content">
+                                <h4>Flavors and Tastes</h4>
+                                <p id="flavorsHybrid4"></p>
+                              </div>
+                              <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                              </div>
+                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+      
+      
+      <!--------------------------- CARD 5 --------------------------->
+            <div class = "col s12 m6 ">
+               <div class = "card grey lighten-2">
+                  <div class = "card-content">
+                  <!-- name -->
+                  <span class = "card-title" id="titleHybrid5" style="text-align: center;">
+                  </span>
+      
+            <!-- row1 -->            
+                  <div class = " row ">
+                     <!-- positive -->
+                     <div class = "col s12 m6 center-align">
+                        <h5>Positive Effects:</h5>
+                        <p id="positiveHybrid5"></p> 
+                     </div>      
+      
+                     <!-- negative -->
+                     <div class = "col s12 m6 center-align">
+                        <h5>Negative Effects:</h5>
+                        <p id="negativeHybrid5"></p> 
+                     </div>    
+                  </div>  
+            <!-- row2 -->
+                  <div class = " row ">
+                     <!-- medical -->
+                     <div class = "col s12 m6 center-align">  
+                     <button data-target="modal7" class="btn modal-trigger green darken-2">
+                        Medical Effects
+                        <i class = "material-icons">local_hospital</i></button>
+      
+                        <div id="modal7" class="modal">
+                           <div class="modal-content">
+                           <h4>Medical Effects</h4>
+                           <p id="medicalHybrid5"></p>
+                           </div>
+                           <div class="modal-footer">
+                           <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                           </div>
+                        </div>
+                     </div>
+      
+                     <div class = "col s12 m6 center-align">
+                        <button data-target="modal8" class="btn modal-trigger green darken-2">
+                           Strain Flavors
+                           <i class = "material-icons">local_florist</i></button>
+      
+                           <div id="modal8" class="modal">
+                              <div class="modal-content">
+                              <h4>Flavors and Tastes</h4>
+                              <p id="flavorsHybrid5"></p>
+                              </div>
+                              <div class="modal-footer">
+                              <a href="#!" class="modal-close waves-effect green darken-2 btn-flat">Close</a>
+                              </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+      </div>
+            </div>
 
-
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <script src="js/hybrid.js"></script>
    </body>
 

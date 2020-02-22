@@ -10,14 +10,16 @@ module.exports = function(app) {
 // servers all our json files
 //===========================
   app.get("/api/all", function(req, res) {
-      res.json(jsonAll);
+      db.jane.findAll().then(function(response){
+		  res.json(response);
+	  })
     
   });
 
   app.get("/api/indica",function(req,res){
 	db.jane.findAll({
 		where: {
-			Value_race: 'sativa'
+			Value_race: 'indica'
 		}
 	}).then(function(resopnse){
 		res.json(resopnse);
@@ -32,16 +34,18 @@ module.exports = function(app) {
 		res.json(resopnse);
 	});
 
+
     });
-    
-  app.get("/api/hybrid",function(req,res){
+	
+	app.get("/api/hybrid",function(req,res){
+
 	db.jane.findAll({
-		where: {
-			Value_race: 'hybrid'
-		}
-	}).then(function(resopnse){
-		res.json(resopnse);
-	});
+		where: { 			
+			Value_race: 'hybrid' 
+			}
+ 	}).then(function(resopnse){
+ 		res.json(resopnse);
+ 	});
 	  
 });
 //==================================
