@@ -16,12 +16,3 @@ module.exports = function(sequelize, DataTypes) {
   }; 
 
 
-
-/*Name text 
-Value.name text 
-Value.id int 
-Value.race text 
-Value.flavors text 
-Value.effects.positive text 
-Value.effects.negative text 
-Value.effects.medical text*/
