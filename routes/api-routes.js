@@ -108,7 +108,7 @@ app.put("api/login", function(req, res){
 	});
 });
 //routes for favs table
-app.post('/api/profilepage', function(req, res){
+app.post('/api/profile', function(req, res){
 	db.fav.create({
 		id: req.body.text
 	});
