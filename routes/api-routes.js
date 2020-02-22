@@ -61,37 +61,76 @@ app.get("/api/strain/:id",function(req,res){
 //==================================
 
 //turn this code into code that sequelize can use
-		
+app.post('/auth', function(request, response) {
+    var username1 = request.body.username;
+    var password1 = request.body.password;
+    if (username && password) {
+        db.user.findAll({
+            where: {
+                username: username1,
+                password: password1
+            }
+        }).then(function(response){
+            if (results.length > 0) {
+                request.session.loggedin = true;
+                request.session.username = username;
+                response.redirect('../public/profile.html');
+            } else {
+                response.send('Incorrect Username and/or Password!');
+            }           
+            response.end();
+        });
+    } else {
+        response.send('Please enter Username and Password!');
+        response.end();
+    }
+        });
+//routes for user table
+app.post('/api/login', function(req, res){
+	db.user.create({
+		username: req.body.text,
+		password: req.body.text
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});
 
-//========================================
-
+app.delete("/api/login/:id",function(req, res){
+	db.user.delete({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});;
 
 app.put("api/login", function(req, res){
-	db.Users.update({
+	db.user.update({
 		username: req.body.text,
 		password: req.body.text,
 	},{
 		where: {
 			id: req.body.id
 		}
-	}).then(function(dbUsers){
-		res.json(dbUsers);
+	}).then(function(dbuser){
+		res.json(dbuser);
 	});
 });
 //routes for favs table
-app.post('/api/profilepage', function(req, res){
-	db.favs.create({
+app.post('/api/profile', function(req, res){
+	db.fav.create({
 		id: req.body.text
 	});
 });
 
 app.delete("/api/profile/:id",function(req, res){
-	db.favs.delete({
+	db.fav.delete({
 		where: {
 			id: req.params.id
 		}
-	}).then(function(dbfavs){
-		res.json(dbfavs);
+	}).then(function(dbfav){
+		res.json(dbfav);
 	});
 });
 };

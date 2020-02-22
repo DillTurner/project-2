@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var favs = sequelize.define("favs", {
+    var fav = sequelize.define("fav", {
       name: DataTypes.TEXT,
       Value_race: DataTypes.TEXT,
       Value_flavors: DataTypes.TEXT,
@@ -7,8 +7,17 @@ module.exports = function(sequelize, DataTypes) {
       Value_effects_negative: DataTypes.TEXT,
       Value_effects_medical: DataTypes.TEXT,
     });
-    favs.findAll({
+    fav.findAll({
     limit: 420,
     });
-    return favs;
+    
+    fav.associate = function(models){
+      models.fav.belongsTo(models.user);
+
+    };
+
+    fav.associate = function(models){
+      models.fav.hasMany(models.jane);
+    };
+    return fav;
   }; 

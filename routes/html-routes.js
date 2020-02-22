@@ -21,13 +21,16 @@ module.exports = function(app) {
   app.get("/hybrid", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/hybrid.html"));
   });
-
+  app.get("/profile", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/profile.html"));
+  });
+  
   app.get("/login", function(request, response) {
     response.sendFile(path.join(__dirname, "../public/login.html"));
   });
  
 // need to add a profile html route.
 };
-app.get('/profilepage', function(req, res){
+/*app.get('/profilepage', function(req, res){
   res.sendfile(path.join(__dirname, "../public/profilepage.html"))
-});
+});*/
