@@ -34,4 +34,13 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+//relationships
+  User.hasMany(favorites, {foreignKey:'user_id'});
+
+  favorites.belongsTo(User, {foreignKey:'user_id'});
+
+  favorites.hasMany(strainName, {foreignKey:'user_id'});
+  
+  strainName.belongsTo(favorites, {foreignKey:'user_id'});
+
 module.exports = db;

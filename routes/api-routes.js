@@ -61,14 +61,39 @@ app.get("/api/strain/:id",function(req,res){
 //==================================
 
 //turn this code into code that sequelize can use
-
 		
 
 //========================================
 
 
-// I feel this belongs in the html routes page but please verify team.
-//===========================================
+app.put("api/login", function(req, res){
+	db.Users.update({
+		username: req.body.text,
+		password: req.body.text,
+	},{
+		where: {
+			id: req.body.id
+		}
+	}).then(function(dbUsers){
+		res.json(dbUsers);
+	});
+});
+//routes for favs table
+app.post('/api/profilepage', function(req, res){
+	db.favs.create({
+		id: req.body.text
+	});
+});
 
-}
+app.delete("/api/profile/:id",function(req, res){
+	db.favs.delete({
+		where: {
+			id: req.params.id
+		}
+	}).then(function(dbfavs){
+		res.json(dbfavs);
+	});
+});
+};
+
 
