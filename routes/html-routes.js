@@ -28,6 +28,9 @@ module.exports = function(app) {
   app.get("/login", function(request, response) {
     response.sendFile(path.join(__dirname, "../public/login.html"));
   });
+  app.get("/Signup", function(request, response) {
+    response.sendFile(path.join(__dirname, "../public/signup.html"));
+  });
  
 // need to add a profile html route.
 };

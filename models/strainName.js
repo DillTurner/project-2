@@ -8,20 +8,11 @@ module.exports = function(sequelize, DataTypes) {
       Value_effects_medical: DataTypes.TEXT,
     });
     
-   /* jane.associate = function(models){
+    jane.associate = function(models){
       models.jane.belongsTo(models.fav);
 
-    };*/
+    };
     return jane;
   }; 
 
 
-
-/*Name text 
-Value.name text 
-Value.id int 
-Value.race text 
-Value.flavors text 
-Value.effects.positive text 
-Value.effects.negative text 
-Value.effects.medical text*/
