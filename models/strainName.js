@@ -8,10 +8,10 @@ module.exports = function(sequelize, DataTypes) {
       Value_effects_medical: DataTypes.TEXT,
     });
     
-    jane.associate = function(models){
+   /* jane.associate = function(models){
       models.jane.belongsTo(models.fav);
 
-    };
+    };*/
     return jane;
   }; 
 
