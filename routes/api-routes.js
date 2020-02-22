@@ -62,12 +62,13 @@ app.get("/api/strain/:id",function(req,res){
 
 //turn this code into code that sequelize can use
 app.post('/auth', function(request, response) {
-    var username1 = request.body.username;
-    var password1 = request.body.password;
+	console.log(request.body);
+    var user1 = request.body.user;
+    var password1 = request.body.pass;
     if (username && password) {
         db.user.findAll({
             where: {
-                username: username1,
+                username: user1,
                 password: password1
             }
         }).then(function(response){

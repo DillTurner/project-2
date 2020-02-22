@@ -1,4 +1,6 @@
-$(document).ready(function(){
+
+
+/*$(document).ready(function(){
 
 	var lv = new LoginValidator();
     var lc = new LoginController();
@@ -34,4 +36,22 @@ $(document).ready(function(){
 		error : function(e){
 			lv.showLoginError('Login Failure', 'Please check your username and/or password');
 		}
-	});});
+	});});*/
+	$(document).ready(function(){
+		$("#submitInfo").on("click",function(event){
+			alert( "Handler for .submit() called." );
+			event.preventDefault();
+			var login = {
+			user : $("#username").val().trim(),
+			pass: $("pass").val()
+			}
+			$.post("/auth/",login).then(function(response){
+				console.log(response);
+			})
+		})
+		//$.post("/api/auth",user,pass).then(function(){
+			//console.log(res);
+		//})
+
+		
+	})
