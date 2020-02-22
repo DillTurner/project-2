@@ -43,57 +43,28 @@ module.exports = function(app) {
 		where: { 			
 			Value_race: 'hybrid' 
 			}
- 	}).then(function(resopnse){
- 		res.json(resopnse);
+ 	}).then(function(response){
+ 		res.json(response);
  	});
 	  
 });
-//==================================
 
-//turn this code into code that sequelize can use
-app.post('/auth', function(request, response) {
-    var username1 = request.body.username;
-    var password1 = request.body.password;
-    if (username && password) {
-        db.User.findAll({
-            where: {
-                username: username1,
-                password: password1
-            }
-        }).then(function(response){
-            if (results.length > 0) {
-                request.session.loggedin = true;
-                request.session.username = username;
-                response.redirect('../public/profile.html');
-            } else {
-                response.send('Incorrect Username and/or Password!');
-            }           
-            response.end();
-        });
-    } else {
-        response.send('Please enter Username and Password!');
-        response.end();
-    }
-        });
-//routes for user table
-app.post('/api/login', function(req, res){
-	db.Users.create({
-		username: req.body.text,
-		password: req.body.text
-	}).then(function(dbUsers){
-		res.json(dbUsers);
-	});
-});
-
-app.delete("/api/login/:id",function(req, res){
-	db.Users.delete({
+app.get("/api/strain/:id",function(req,res){
+	db.jane.findOne({
 		where: {
 			id: req.params.id
 		}
-	}).then(function(dbUsers){
-		res.json(dbUsers);
-	});
-});;
+	}).then(function(response){
+		res.json(response);
+	})
+})
+//==================================
+
+//turn this code into code that sequelize can use
+		
+
+//========================================
+
 
 app.put("api/login", function(req, res){
 	db.Users.update({
