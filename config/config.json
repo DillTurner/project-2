@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "v5048kr0yjujiw15",
-    "password": "ih5p6ituvpd26w0a",
-    "database": "fayiu3xjof3y2zv3",
+    "username": "",
+    "password": "",
+    "database": "",
     "host": "edo4plet5mhv93s3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "define": {
