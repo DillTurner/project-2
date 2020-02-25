@@ -1,28 +1,19 @@
 {
   "development": {
-    "username": "root",
-    "password": "kokiller1",
-    "database": "cannabis_db",
-    "host": "127.0.0.1",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "edo4plet5mhv93s3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "define": {
       "timestamps": false
     }
   },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "define": {
+      "timestamps": false
+    }
   }
 }
