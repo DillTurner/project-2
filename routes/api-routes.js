@@ -61,12 +61,14 @@ app.get("/api/strain/:id",function(req,res){
 //==================================
 
 //turn this code into code that sequelize can use
+
 		
 
 //========================================
 
 
+// I feel this belongs in the html routes page but please verify team.
+//===========================================
 
-};
-
+}
 
