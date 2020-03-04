@@ -105,7 +105,7 @@ $(document).on("click","div.card",function(event) {
   return newstr;
 };
 
-  function makeHeader(res,){
+  function makeHeader(res){
     var headerID = $('#headerInfo');
     headerID.empty(); 
     var positive = strings(res.Value_effects_positive);
